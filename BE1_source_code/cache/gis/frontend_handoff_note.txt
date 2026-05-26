@@ -1,0 +1,14 @@
+프론트 전달용 GIS 지도 파일 안내
+
+1. 생성 파일
+- cache/gis/korea-sido.geojson
+
+2. 프론트 프로젝트에 넣을 위치
+- public/data/korea-sido.geojson
+
+3. 프론트에서 불러오는 경로
+- fetch("/data/korea-sido.geojson")
+
+4. 설명
+- 브이월드 WFS API의 광역시도 경계 레이어 lt_c_adsido_info를 사용해 생성한 시도 단위 GeoJSON 파일입니다.
+- 프론트에서는 이 GeoJSON과 백엔드2의 GET /dashboard/map-data 지역별 민원 수를 결합해 GIS 기반 지역별 민원 분포 지도를 구현하면 됩니다.

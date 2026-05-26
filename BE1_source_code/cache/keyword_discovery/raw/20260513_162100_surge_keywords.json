@@ -1,0 +1,204 @@
+{
+  "returnObject": [
+    {
+      "date": "20260513",
+      "keyword": "데이터센터_건립",
+      "df": 112,
+      "rank": 1,
+      "prevRatio": "166.67",
+      "prevDf": 42
+    },
+    {
+      "date": "20260513",
+      "keyword": "강제_집행",
+      "df": 56,
+      "rank": 2,
+      "prevRatio": "1766.67",
+      "prevDf": 3
+    },
+    {
+      "date": "20260513",
+      "keyword": "감금_수감",
+      "df": 55,
+      "rank": 3,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "경기도_북부경찰청",
+      "df": 55,
+      "rank": 4,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "공범_추가",
+      "df": 55,
+      "rank": 5,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "공중_목욕탕",
+      "df": 55,
+      "rank": 6,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "국가유공자_차량",
+      "df": 55,
+      "rank": 7,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "내란죄우두머리수괴_종물",
+      "df": 55,
+      "rank": 8,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "노래방_무단투기",
+      "df": 55,
+      "rank": 9,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "노래장_집단",
+      "df": 55,
+      "rank": 10,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "농협은행_통장",
+      "df": 55,
+      "rank": 11,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "몰수추징_명령",
+      "df": 55,
+      "rank": 12,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "몰수추징명령_기소전",
+      "df": 55,
+      "rank": 13,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "몰수추징청구_기소전",
+      "df": 55,
+      "rank": 14,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "배송_도착",
+      "df": 55,
+      "rank": 15,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "번호판_절도도둑질",
+      "df": 55,
+      "rank": 16,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "살인사주_내란죄",
+      "df": 55,
+      "rank": 17,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "신청_기소전",
+      "df": 55,
+      "rank": 18,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "압류_압수",
+      "df": 55,
+      "rank": 19,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "압수처리_자동차",
+      "df": 55,
+      "rank": 20,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "절도_서울특별시경찰청",
+      "df": 55,
+      "rank": 21,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "청정원_마요네즈",
+      "df": 55,
+      "rank": 22,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "체포_강제수갑",
+      "df": 55,
+      "rank": 23,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "퇴거명령_유치장",
+      "df": 55,
+      "rank": 24,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "현장신고거부_고양경찰서",
+      "df": 55,
+      "rank": 25,
+      "prevRatio": "5500.00",
+      "prevDf": 0
+    }
+  ]
+}

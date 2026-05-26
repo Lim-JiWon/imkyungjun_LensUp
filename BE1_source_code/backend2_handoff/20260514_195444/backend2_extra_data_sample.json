@@ -1,0 +1,459 @@
+{
+  "purpose": "백엔드1에서 추가 수집한 민원 지역/기관/연령 데이터 백엔드2 연동용 샘플",
+  "recommended_backend2_endpoint": "GET /dashboard/map-data",
+  "recommended_admin_endpoint": "POST /admin/pipeline/map-data",
+  "meta": {
+    "batch_id": "dashboard-batch-20260513162720",
+    "generated_at": "2026-05-13T16:27:20.627750",
+    "source": "complaint_dashboard_sync_pipeline",
+    "target": "pttn",
+    "date_from": "20260428",
+    "date_to": "20260513",
+    "extra_data_period": {
+      "date_from": "20260328",
+      "date_to": "20260513",
+      "target": "pttn"
+    },
+    "issue_count": 20,
+    "region_count": 17,
+    "organization_count": 10,
+    "recategorized_at": "2026-05-14T18:21:40.044043",
+    "category_changed_count": 17,
+    "finalized": true,
+    "final_category_override_count": 1
+  },
+  "data_shape": {
+    "top_level_fields": [
+      "meta",
+      "region_summary",
+      "organization_summary",
+      "region_rank",
+      "organization_rank",
+      "category_stats",
+      "issues"
+    ],
+    "issue_extra_fields": [
+      "age_searchword",
+      "known_age_distribution",
+      "age_summary",
+      "age_analysis_message"
+    ]
+  },
+  "region_rank_sample": [
+    {
+      "rank": 1,
+      "region": "경기도",
+      "value": 557104
+    },
+    {
+      "rank": 2,
+      "region": "서울특별시",
+      "value": 277670
+    },
+    {
+      "rank": 3,
+      "region": "인천광역시",
+      "value": 126959
+    },
+    {
+      "rank": 4,
+      "region": "부산광역시",
+      "value": 104378
+    },
+    {
+      "rank": 5,
+      "region": "경상남도",
+      "value": 90391
+    }
+  ],
+  "organization_rank_sample": [
+    {
+      "rank": 1,
+      "organization": "경기도 수원시",
+      "value": 49689
+    },
+    {
+      "rank": 2,
+      "organization": "경기도 성남시",
+      "value": 44970
+    },
+    {
+      "rank": 3,
+      "organization": "경기도 화성시",
+      "value": 35018
+    },
+    {
+      "rank": 4,
+      "organization": "경기도 용인시",
+      "value": 28472
+    },
+    {
+      "rank": 5,
+      "organization": "경기도 고양시",
+      "value": 27051
+    }
+  ],
+  "category_stats_sample": [
+    {
+      "category": "도시/시설",
+      "issue_count": 2,
+      "total_complaint_count": 640,
+      "critical_count": 1,
+      "warning_count": 1,
+      "growing_count": 0,
+      "watch_count": 0,
+      "stable_count": 0,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-데이터센터_건립-90ef866814f5",
+          "title": "데이터센터 건립 관련 민원 이슈 - 주거환경 중심 [강한 징후]",
+          "status": "critical",
+          "risk_level": "critical",
+          "score": 89.0,
+          "complaint_count": 578,
+          "top_keyword": "데이터센터 건립",
+          "dominant_age_group": "30대",
+          "dominant_age_value": 144,
+          "unknown_age_ratio": 76.24
+        },
+        {
+          "issue_key": "dashboard-공중_목욕탕-042c3946fc45",
+          "title": "공중 목욕탕 관련 민원 이슈 - 고소고발112신고사 중심 [주의 징후]",
+          "status": "warning",
+          "risk_level": "high",
+          "score": 73.0,
+          "complaint_count": 62,
+          "top_keyword": "공중 목욕탕",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 72,
+          "unknown_age_ratio": 27.33
+        }
+      ]
+    },
+    {
+      "category": "행정/민원처리",
+      "issue_count": 12,
+      "total_complaint_count": 5470,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 2,
+      "watch_count": 7,
+      "stable_count": 3,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-강제_집행-03826a8a521f",
+          "title": "강제 집행 관련 민원 이슈 - 구산동 중심 [증가 징후]",
+          "status": "growing",
+          "risk_level": "medium",
+          "score": 58.0,
+          "complaint_count": 1723,
+          "top_keyword": "강제 집행",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1901,
+          "unknown_age_ratio": 43.66
+        },
+        {
+          "issue_key": "dashboard-신청_기소전-d98ec1fc62be",
+          "title": "신청 기소전 관련 민원 이슈 - 청구취지 추가 중심 [증가 징후]",
+          "status": "growing",
+          "risk_level": "medium",
+          "score": 58.0,
+          "complaint_count": 80,
+          "top_keyword": "신청 기소전",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 88,
+          "unknown_age_ratio": 0.89
+        },
+        {
+          "issue_key": "dashboard-감금_수감-c2783a4d5991",
+          "title": "감금 수감 관련 민원 이슈 - 교도소 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "medium",
+          "score": 53.0,
+          "complaint_count": 897,
+          "top_keyword": "감금 수감",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 824,
+          "unknown_age_ratio": 0.43
+        },
+        {
+          "issue_key": "dashboard-공범_추가-b5cc8d1f6da1",
+          "title": "공범 추가 관련 민원 이슈 - 재물손괴 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "medium",
+          "score": 50.0,
+          "complaint_count": 1359,
+          "top_keyword": "공범 추가",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1674,
+          "unknown_age_ratio": 7.54
+        },
+        {
+          "issue_key": "dashboard-살인사주_내란죄-a9bc563e56e0",
+          "title": "살인사주 내란죄 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 35.0,
+          "complaint_count": 856,
+          "top_keyword": "살인사주 내란죄",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1546,
+          "unknown_age_ratio": 0.04
+        }
+      ]
+    },
+    {
+      "category": "금융/소비자",
+      "issue_count": 2,
+      "total_complaint_count": 1118,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 1,
+      "watch_count": 0,
+      "stable_count": 1,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-배송_도착-ff64437295c6",
+          "title": "배송 도착 관련 민원 이슈 - 청구취지 추가 중심 [증가 징후]",
+          "status": "growing",
+          "risk_level": "medium",
+          "score": 50.0,
+          "complaint_count": 931,
+          "top_keyword": "배송 도착",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1073,
+          "unknown_age_ratio": 6.12
+        },
+        {
+          "issue_key": "dashboard-농협은행_통장-f158cb2d9794",
+          "title": "농협은행 통장 관련 민원 이슈 - 구산동 중심 [안정 관찰]",
+          "status": "stable",
+          "risk_level": "low",
+          "score": 30.0,
+          "complaint_count": 187,
+          "top_keyword": "농협은행 통장",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1215,
+          "unknown_age_ratio": 0.86
+        }
+      ]
+    },
+    {
+      "category": "교통/자동차",
+      "issue_count": 3,
+      "total_complaint_count": 1118,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 0,
+      "watch_count": 3,
+      "stable_count": 0,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-압수처리_자동차-29cb15b4d4bd",
+          "title": "압수처리 자동차 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 45.0,
+          "complaint_count": 200,
+          "top_keyword": "압수처리 자동차",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1256,
+          "unknown_age_ratio": 0.0
+        },
+        {
+          "issue_key": "dashboard-번호판_절도도둑질-1b9cb56b76eb",
+          "title": "번호판 절도도둑질 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 45.0,
+          "complaint_count": 170,
+          "top_keyword": "번호판 절도도둑질",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 793,
+          "unknown_age_ratio": 0.0
+        },
+        {
+          "issue_key": "dashboard-국가유공자_차량-76a0165b5cfa",
+          "title": "국가유공자 차량 관련 민원 이슈 - 관용차 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 35.0,
+          "complaint_count": 748,
+          "top_keyword": "국가유공자 차량",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1235,
+          "unknown_age_ratio": 13.0
+        }
+      ]
+    },
+    {
+      "category": "환경/에너지",
+      "issue_count": 1,
+      "total_complaint_count": 56,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 0,
+      "watch_count": 1,
+      "stable_count": 0,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-노래방_무단투기-71e4989961b2",
+          "title": "노래방 무단투기 관련 민원 이슈 - 고소고발112신고사 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 48.0,
+          "complaint_count": 56,
+          "top_keyword": "노래방 무단투기",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 69,
+          "unknown_age_ratio": 1.14
+        }
+      ]
+    }
+  ],
+  "issue_sample": {
+    "issue_key": "dashboard-데이터센터_건립-90ef866814f5",
+    "title": "데이터센터 건립 관련 민원 이슈 - 주거환경 중심 [강한 징후]",
+    "summary": "데이터센터 건립 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 578건이고 징후 점수는 89.0점입니다. 주요 연관어는 주거환경, 국토교통부, 과천시입니다. 기간 내 추이 값은 49 → 113이며, 기간 전체 변화율은 130.61%입니다. 전날 대비 변화율은 50.67%, 최근 2일 평균 변화율은 237.44%입니다.",
+    "forecast": "데이터센터 건립 이슈는 민원 건수가 일정 수준 이상으로 인해 확산 가능성이 높은 편입니다. 단기적으로 관련 민원 변화를 우선 모니터링할 필요가 있습니다.",
+    "category": "도시/시설",
+    "category_tags": [
+      "데이터센터",
+      "건립",
+      "주거환경",
+      "전자파",
+      "과천시",
+      "주거"
+    ],
+    "cluster_keywords": [
+      "데이터센터 건립",
+      "주거환경",
+      "국토교통부",
+      "과천시",
+      "전자파",
+      "주식회사 과천주암대토개발",
+      "교통"
+    ],
+    "status": "critical",
+    "risk_level": "critical",
+    "score": 89.0,
+    "complaint_count": 578,
+    "top_keyword": "데이터센터 건립",
+    "related_keywords": [
+      "주거환경",
+      "국토교통부",
+      "과천시",
+      "전자파",
+      "주식회사 과천주암대토개발"
+    ],
+    "keyword_trends": [
+      {
+        "date": "20260428",
+        "value": 49
+      },
+      {
+        "date": "20260429",
+        "value": 48
+      },
+      {
+        "date": "20260430",
+        "value": 33
+      },
+      {
+        "date": "20260501",
+        "value": 32
+      },
+      {
+        "date": "20260502",
+        "value": 12
+      },
+      {
+        "date": "20260503",
+        "value": 15
+      },
+      {
+        "date": "20260504",
+        "value": 20
+      },
+      {
+        "date": "20260505",
+        "value": 14
+      },
+      {
+        "date": "20260506",
+        "value": 21
+      },
+      {
+        "date": "20260507",
+        "value": 32
+      },
+      {
+        "date": "20260508",
+        "value": 34
+      },
+      {
+        "date": "20260509",
+        "value": 19
+      },
+      {
+        "date": "20260510",
+        "value": 26
+      },
+      {
+        "date": "20260511",
+        "value": 35
+      },
+      {
+        "date": "20260512",
+        "value": 75
+      },
+      {
+        "date": "20260513",
+        "value": 113
+      }
+    ],
+    "age_searchword": "데이터센터 건립",
+    "known_age_distribution": [
+      {
+        "age_group": "30대",
+        "value": 144
+      },
+      {
+        "age_group": "40대",
+        "value": 135
+      },
+      {
+        "age_group": "60대",
+        "value": 33
+      },
+      {
+        "age_group": "50대",
+        "value": 29
+      },
+      {
+        "age_group": "20대",
+        "value": 3
+      },
+      {
+        "age_group": "80대",
+        "value": 2
+      }
+    ],
+    "age_summary": {
+      "dominant_age_group": "30대",
+      "dominant_value": 144,
+      "dominant_ratio_in_known": 41.62,
+      "unknown_ratio": 76.24,
+      "known_total": 346,
+      "total": 1456
+    },
+    "age_analysis_message": "연령 정보가 확인된 민원 기준으로 30대 비중이 가장 높습니다. 30대 민원은 144건이며, 확인된 연령대 중 41.62%를 차지합니다. 연령 미상 비율은 전체의 76.24%입니다.",
+    "original_category": "교통/자동차"
+  },
+  "original_batch_id": "dashboard-batch-20260513162720",
+  "original_generated_at": "2026-05-13T16:27:20.627750",
+  "original_date_from": "20260428",
+  "original_date_to": "20260513",
+  "original_target": "pttn",
+  "original_source": "complaint_dashboard_sync_pipeline"
+}

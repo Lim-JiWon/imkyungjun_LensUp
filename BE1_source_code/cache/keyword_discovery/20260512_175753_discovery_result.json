@@ -1,0 +1,553 @@
+{
+  "date_from": "20260428",
+  "date_to": "20260511",
+  "final_keywords": [
+    "한국교통안전공단_자동차",
+    "한국도로공사_안전순찰원",
+    "재발_방지",
+    "공원_조성",
+    "조사_요청"
+  ],
+  "merged_candidates": [
+    {
+      "label": "한국교통안전공단_자동차",
+      "total_score": 7.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 1,
+      "max_value": 129,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "한국교통안전공단_자동차",
+          "value": 129,
+          "rank": 1,
+          "raw": {
+            "date": "20260511",
+            "keyword": "한국교통안전공단_자동차",
+            "df": 129,
+            "rank": 1,
+            "prevRatio": "1512.50",
+            "prevDf": 8
+          },
+          "date": "20260511",
+          "change_rate": "1512.50",
+          "score": 7.4
+        }
+      ]
+    },
+    {
+      "label": "한국도로공사_안전순찰원",
+      "total_score": 7.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 2,
+      "max_value": 129,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "한국도로공사_안전순찰원",
+          "value": 129,
+          "rank": 2,
+          "raw": {
+            "date": "20260511",
+            "keyword": "한국도로공사_안전순찰원",
+            "df": 129,
+            "rank": 2,
+            "prevRatio": "1512.50",
+            "prevDf": 8
+          },
+          "date": "20260511",
+          "change_rate": "1512.50",
+          "score": 7.3
+        }
+      ]
+    },
+    {
+      "label": "재발_방지",
+      "total_score": 7.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 3,
+      "max_value": 269,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "재발_방지",
+          "value": 269,
+          "rank": 3,
+          "raw": {
+            "date": "20260511",
+            "keyword": "재발_방지",
+            "df": 269,
+            "rank": 3,
+            "prevRatio": "313.85",
+            "prevDf": 65
+          },
+          "date": "20260511",
+          "change_rate": "313.85",
+          "score": 7.2
+        }
+      ]
+    },
+    {
+      "label": "공원_조성",
+      "total_score": 7.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 4,
+      "max_value": 107,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "공원_조성",
+          "value": 107,
+          "rank": 4,
+          "raw": {
+            "date": "20260511",
+            "keyword": "공원_조성",
+            "df": 107,
+            "rank": 4,
+            "prevRatio": "3466.67",
+            "prevDf": 3
+          },
+          "date": "20260511",
+          "change_rate": "3466.67",
+          "score": 7.1
+        }
+      ]
+    },
+    {
+      "label": "조사_요청",
+      "total_score": 7.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 5,
+      "max_value": 196,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "조사_요청",
+          "value": 196,
+          "rank": 5,
+          "raw": {
+            "date": "20260511",
+            "keyword": "조사_요청",
+            "df": 196,
+            "rank": 5,
+            "prevRatio": "226.67",
+            "prevDf": 60
+          },
+          "date": "20260511",
+          "change_rate": "226.67",
+          "score": 7.0
+        }
+      ]
+    },
+    {
+      "label": "자동차_안전기준",
+      "total_score": 6.5,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 10,
+      "max_value": 133,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "자동차_안전기준",
+          "value": 133,
+          "rank": 10,
+          "raw": {
+            "date": "20260511",
+            "keyword": "자동차_안전기준",
+            "df": 133,
+            "rank": 10,
+            "prevRatio": "565.00",
+            "prevDf": 20
+          },
+          "date": "20260511",
+          "change_rate": "565.00",
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "label": "인접_부지",
+      "total_score": 6.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 6,
+      "max_value": 98,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "인접_부지",
+          "value": 98,
+          "rank": 6,
+          "raw": {
+            "date": "20260511",
+            "keyword": "인접_부지",
+            "df": 98,
+            "rank": 6,
+            "prevRatio": "9800.00",
+            "prevDf": 0
+          },
+          "date": "20260511",
+          "change_rate": "9800.00",
+          "score": 6.4
+        }
+      ]
+    },
+    {
+      "label": "시민공원_조성",
+      "total_score": 6.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 7,
+      "max_value": 97,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "시민공원_조성",
+          "value": 97,
+          "rank": 7,
+          "raw": {
+            "date": "20260511",
+            "keyword": "시민공원_조성",
+            "df": 97,
+            "rank": 7,
+            "prevRatio": "9700.00",
+            "prevDf": 0
+          },
+          "date": "20260511",
+          "change_rate": "9700.00",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "label": "이행_요청",
+      "total_score": 6.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 8,
+      "max_value": 96,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "이행_요청",
+          "value": 96,
+          "rank": 8,
+          "raw": {
+            "date": "20260511",
+            "keyword": "이행_요청",
+            "df": 96,
+            "rank": 8,
+            "prevRatio": "3100.00",
+            "prevDf": 3
+          },
+          "date": "20260511",
+          "change_rate": "3100.00",
+          "score": 6.2
+        }
+      ]
+    },
+    {
+      "label": "폐석회_매립지",
+      "total_score": 6.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 9,
+      "max_value": 96,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "폐석회_매립지",
+          "value": 96,
+          "rank": 9,
+          "raw": {
+            "date": "20260511",
+            "keyword": "폐석회_매립지",
+            "df": 96,
+            "rank": 9,
+            "prevRatio": "9600.00",
+            "prevDf": 0
+          },
+          "date": "20260511",
+          "change_rate": "9600.00",
+          "score": 6.1
+        }
+      ]
+    },
+    {
+      "label": "주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1254.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차",
+          "value": "1254.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차",
+            "value": "1254.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 766.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차",
+          "value": "766.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차",
+            "value": "766.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 702.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차 신고",
+          "value": "702.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차 신고",
+            "value": "702.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 438.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차 신고",
+          "value": "438.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차 신고",
+            "value": "438.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "과태료",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 242.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "과태료",
+          "value": "242.0",
+          "rank": null,
+          "raw": {
+            "label": "과태료",
+            "value": "242.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 194.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차",
+          "value": "194.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차",
+            "value": "194.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인천",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 194.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인천",
+          "value": "194.0",
+          "rank": null,
+          "raw": {
+            "label": "인천",
+            "value": "194.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 194.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도",
+          "value": "194.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도",
+            "value": "194.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "변전소",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 188.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "변전소",
+          "value": "188.0",
+          "rank": null,
+          "raw": {
+            "label": "변전소",
+            "value": "188.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 154.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도 불법 주정차 신고",
+          "value": "154.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도 불법 주정차 신고",
+            "value": "154.0"
+          },
+          "score": 4.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "name": "민원 발생 지역 순위",
+  "ok": true,
+  "status_code": 200,
+  "url": "https://apis.data.go.kr/1140100/minAnalsInfoView5/minMrfacetInfo5",
+  "final_url": "https://apis.data.go.kr/1140100/minAnalsInfoView5/minMrfacetInfo5?serviceKey=2c250****213df&topN=17&sortBy=VALUE&sortOrder=false&dateFrom=20260328&dateTo=20260513&target=pttn&dataType=json",
+  "params": {
+    "serviceKey": "2c250****213df",
+    "topN": 17,
+    "sortBy": "VALUE",
+    "sortOrder": "false",
+    "dateFrom": "20260328",
+    "dateTo": "20260513",
+    "target": "pttn",
+    "dataType": "json"
+  },
+  "content_type": "text/plain;charset=utf-8",
+  "raw_text_preview": "[{\"hits\":557104,\"label\":\"경기도\"},{\"hits\":277670,\"label\":\"서울특별시\"},{\"hits\":126959,\"label\":\"인천광역시\"},{\"hits\":104378,\"label\":\"부산광역시\"},{\"hits\":90391,\"label\":\"경상남도\"},{\"hits\":86581,\"label\":\"대구광역시\"},{\"hits\":83180,\"label\":\"광주광역시\"},{\"hits\":75523,\"label\":\"충청남도\"},{\"hits\":72990,\"label\":\"대전광역시\"},{\"hits\":71103,\"label\":\"경상북도\"},{\"hits\":63970,\"label\":\"충청북도\"},{\"hits\":54199,\"label\":\"울산광역시\"},{\"hits\":52352,\"label\":\"전북특별자치도\"},{\"hits\":51060,\"label\":\"전라남도\"},{\"hits\":38562,\"label\":\"강원특별자치도\"},{\"hits\":17343,\"label\":\"제주특별자치도\"},{\"hits\":11739,\"label\":\"세종특별자치시\"}]",
+  "json": [
+    {
+      "hits": 557104,
+      "label": "경기도"
+    },
+    {
+      "hits": 277670,
+      "label": "서울특별시"
+    },
+    {
+      "hits": 126959,
+      "label": "인천광역시"
+    },
+    {
+      "hits": 104378,
+      "label": "부산광역시"
+    },
+    {
+      "hits": 90391,
+      "label": "경상남도"
+    },
+    {
+      "hits": 86581,
+      "label": "대구광역시"
+    },
+    {
+      "hits": 83180,
+      "label": "광주광역시"
+    },
+    {
+      "hits": 75523,
+      "label": "충청남도"
+    },
+    {
+      "hits": 72990,
+      "label": "대전광역시"
+    },
+    {
+      "hits": 71103,
+      "label": "경상북도"
+    },
+    {
+      "hits": 63970,
+      "label": "충청북도"
+    },
+    {
+      "hits": 54199,
+      "label": "울산광역시"
+    },
+    {
+      "hits": 52352,
+      "label": "전북특별자치도"
+    },
+    {
+      "hits": 51060,
+      "label": "전라남도"
+    },
+    {
+      "hits": 38562,
+      "label": "강원특별자치도"
+    },
+    {
+      "hits": 17343,
+      "label": "제주특별자치도"
+    },
+    {
+      "hits": 11739,
+      "label": "세종특별자치시"
+    }
+  ],
+  "items_count": 17,
+  "items_preview": [
+    {
+      "hits": 557104,
+      "label": "경기도"
+    },
+    {
+      "hits": 277670,
+      "label": "서울특별시"
+    },
+    {
+      "hits": 126959,
+      "label": "인천광역시"
+    },
+    {
+      "hits": 104378,
+      "label": "부산광역시"
+    },
+    {
+      "hits": 90391,
+      "label": "경상남도"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "returnObject": [
+    {
+      "date": "20250305",
+      "keyword": "불법_주정차",
+      "df": 11914,
+      "rank": 1,
+      "prevRatio": "60.83",
+      "prevDf": 7408
+    },
+    {
+      "date": "20250305",
+      "keyword": "주정차_신고",
+      "df": 9374,
+      "rank": 2,
+      "prevRatio": "59.86",
+      "prevDf": 5864
+    },
+    {
+      "date": "20250305",
+      "keyword": "친환경차_충전구역",
+      "df": 16940,
+      "rank": 3,
+      "prevRatio": "1814.12",
+      "prevDf": 885
+    },
+    {
+      "date": "20250305",
+      "keyword": "국토교통부_자동차운영보험",
+      "df": 16804,
+      "rank": 4,
+      "prevRatio": "1680400.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20250305",
+      "keyword": "보건복지부_장애인권익지원",
+      "df": 16804,
+      "rank": 5,
+      "prevRatio": "1680400.00",
+      "prevDf": 0
+    }
+  ]
+}

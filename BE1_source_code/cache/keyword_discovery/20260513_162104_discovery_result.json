@@ -1,0 +1,1378 @@
+{
+  "date_from": "20260428",
+  "date_to": "20260513",
+  "final_keywords": [
+    "데이터센터_건립",
+    "강제_집행",
+    "감금_수감",
+    "경기도_북부경찰청",
+    "공범_추가",
+    "공중_목욕탕",
+    "국가유공자_차량",
+    "내란죄우두머리수괴_종물",
+    "노래방_무단투기",
+    "노래장_집단",
+    "농협은행_통장",
+    "몰수추징_명령",
+    "몰수추징명령_기소전",
+    "몰수추징청구_기소전",
+    "배송_도착",
+    "번호판_절도도둑질",
+    "살인사주_내란죄",
+    "신청_기소전",
+    "압류_압수",
+    "압수처리_자동차"
+  ],
+  "merged_candidates": [
+    {
+      "label": "데이터센터_건립",
+      "total_score": 7.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 1,
+      "max_value": 112,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "데이터센터_건립",
+          "value": 112,
+          "rank": 1,
+          "raw": {
+            "date": "20260513",
+            "keyword": "데이터센터_건립",
+            "df": 112,
+            "rank": 1,
+            "prevRatio": "166.67",
+            "prevDf": 42
+          },
+          "date": "20260513",
+          "change_rate": "166.67",
+          "score": 7.4
+        }
+      ]
+    },
+    {
+      "label": "강제_집행",
+      "total_score": 6.8,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 2,
+      "max_value": 56,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "강제_집행",
+          "value": 56,
+          "rank": 2,
+          "raw": {
+            "date": "20260513",
+            "keyword": "강제_집행",
+            "df": 56,
+            "rank": 2,
+            "prevRatio": "1766.67",
+            "prevDf": 3
+          },
+          "date": "20260513",
+          "change_rate": "1766.67",
+          "score": 6.8
+        }
+      ]
+    },
+    {
+      "label": "감금_수감",
+      "total_score": 6.7,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 3,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "감금_수감",
+          "value": 55,
+          "rank": 3,
+          "raw": {
+            "date": "20260513",
+            "keyword": "감금_수감",
+            "df": 55,
+            "rank": 3,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.7
+        }
+      ]
+    },
+    {
+      "label": "경기도_북부경찰청",
+      "total_score": 6.6,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 4,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "경기도_북부경찰청",
+          "value": 55,
+          "rank": 4,
+          "raw": {
+            "date": "20260513",
+            "keyword": "경기도_북부경찰청",
+            "df": 55,
+            "rank": 4,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.6
+        }
+      ]
+    },
+    {
+      "label": "공범_추가",
+      "total_score": 6.5,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 5,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "공범_추가",
+          "value": 55,
+          "rank": 5,
+          "raw": {
+            "date": "20260513",
+            "keyword": "공범_추가",
+            "df": 55,
+            "rank": 5,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "label": "공중_목욕탕",
+      "total_score": 6.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 6,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "공중_목욕탕",
+          "value": 55,
+          "rank": 6,
+          "raw": {
+            "date": "20260513",
+            "keyword": "공중_목욕탕",
+            "df": 55,
+            "rank": 6,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.4
+        }
+      ]
+    },
+    {
+      "label": "국가유공자_차량",
+      "total_score": 6.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 7,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "국가유공자_차량",
+          "value": 55,
+          "rank": 7,
+          "raw": {
+            "date": "20260513",
+            "keyword": "국가유공자_차량",
+            "df": 55,
+            "rank": 7,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "label": "내란죄우두머리수괴_종물",
+      "total_score": 6.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 8,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "내란죄우두머리수괴_종물",
+          "value": 55,
+          "rank": 8,
+          "raw": {
+            "date": "20260513",
+            "keyword": "내란죄우두머리수괴_종물",
+            "df": 55,
+            "rank": 8,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.2
+        }
+      ]
+    },
+    {
+      "label": "노래방_무단투기",
+      "total_score": 6.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 9,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "노래방_무단투기",
+          "value": 55,
+          "rank": 9,
+          "raw": {
+            "date": "20260513",
+            "keyword": "노래방_무단투기",
+            "df": 55,
+            "rank": 9,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.1
+        }
+      ]
+    },
+    {
+      "label": "노래장_집단",
+      "total_score": 6.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 10,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "노래장_집단",
+          "value": 55,
+          "rank": 10,
+          "raw": {
+            "date": "20260513",
+            "keyword": "노래장_집단",
+            "df": 55,
+            "rank": 10,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 6.0
+        }
+      ]
+    },
+    {
+      "label": "농협은행_통장",
+      "total_score": 5.9,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 11,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "농협은행_통장",
+          "value": 55,
+          "rank": 11,
+          "raw": {
+            "date": "20260513",
+            "keyword": "농협은행_통장",
+            "df": 55,
+            "rank": 11,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.9
+        }
+      ]
+    },
+    {
+      "label": "몰수추징_명령",
+      "total_score": 5.8,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 12,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "몰수추징_명령",
+          "value": 55,
+          "rank": 12,
+          "raw": {
+            "date": "20260513",
+            "keyword": "몰수추징_명령",
+            "df": 55,
+            "rank": 12,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.8
+        }
+      ]
+    },
+    {
+      "label": "몰수추징명령_기소전",
+      "total_score": 5.7,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 13,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "몰수추징명령_기소전",
+          "value": 55,
+          "rank": 13,
+          "raw": {
+            "date": "20260513",
+            "keyword": "몰수추징명령_기소전",
+            "df": 55,
+            "rank": 13,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.7
+        }
+      ]
+    },
+    {
+      "label": "몰수추징청구_기소전",
+      "total_score": 5.6,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 14,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "몰수추징청구_기소전",
+          "value": 55,
+          "rank": 14,
+          "raw": {
+            "date": "20260513",
+            "keyword": "몰수추징청구_기소전",
+            "df": 55,
+            "rank": 14,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.6
+        }
+      ]
+    },
+    {
+      "label": "배송_도착",
+      "total_score": 5.5,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 15,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "배송_도착",
+          "value": 55,
+          "rank": 15,
+          "raw": {
+            "date": "20260513",
+            "keyword": "배송_도착",
+            "df": 55,
+            "rank": 15,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.5
+        }
+      ]
+    },
+    {
+      "label": "번호판_절도도둑질",
+      "total_score": 5.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 16,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "번호판_절도도둑질",
+          "value": 55,
+          "rank": 16,
+          "raw": {
+            "date": "20260513",
+            "keyword": "번호판_절도도둑질",
+            "df": 55,
+            "rank": 16,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.4
+        }
+      ]
+    },
+    {
+      "label": "살인사주_내란죄",
+      "total_score": 5.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 17,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "살인사주_내란죄",
+          "value": 55,
+          "rank": 17,
+          "raw": {
+            "date": "20260513",
+            "keyword": "살인사주_내란죄",
+            "df": 55,
+            "rank": 17,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.3
+        }
+      ]
+    },
+    {
+      "label": "신청_기소전",
+      "total_score": 5.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 18,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "신청_기소전",
+          "value": 55,
+          "rank": 18,
+          "raw": {
+            "date": "20260513",
+            "keyword": "신청_기소전",
+            "df": 55,
+            "rank": 18,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.2
+        }
+      ]
+    },
+    {
+      "label": "압류_압수",
+      "total_score": 5.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 19,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "압류_압수",
+          "value": 55,
+          "rank": 19,
+          "raw": {
+            "date": "20260513",
+            "keyword": "압류_압수",
+            "df": 55,
+            "rank": 19,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.1
+        }
+      ]
+    },
+    {
+      "label": "압수처리_자동차",
+      "total_score": 5.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 20,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "압수처리_자동차",
+          "value": 55,
+          "rank": 20,
+          "raw": {
+            "date": "20260513",
+            "keyword": "압수처리_자동차",
+            "df": 55,
+            "rank": 20,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "label": "절도_서울특별시경찰청",
+      "total_score": 5.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 21,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "절도_서울특별시경찰청",
+          "value": 55,
+          "rank": 21,
+          "raw": {
+            "date": "20260513",
+            "keyword": "절도_서울특별시경찰청",
+            "df": 55,
+            "rank": 21,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "label": "청정원_마요네즈",
+      "total_score": 5.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 22,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "청정원_마요네즈",
+          "value": 55,
+          "rank": 22,
+          "raw": {
+            "date": "20260513",
+            "keyword": "청정원_마요네즈",
+            "df": 55,
+            "rank": 22,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "label": "체포_강제수갑",
+      "total_score": 5.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 23,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "체포_강제수갑",
+          "value": 55,
+          "rank": 23,
+          "raw": {
+            "date": "20260513",
+            "keyword": "체포_강제수갑",
+            "df": 55,
+            "rank": 23,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "label": "퇴거명령_유치장",
+      "total_score": 5.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 24,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "퇴거명령_유치장",
+          "value": 55,
+          "rank": 24,
+          "raw": {
+            "date": "20260513",
+            "keyword": "퇴거명령_유치장",
+            "df": 55,
+            "rank": 24,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "label": "현장신고거부_고양경찰서",
+      "total_score": 5.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 25,
+      "max_value": 55,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "현장신고거부_고양경찰서",
+          "value": 55,
+          "rank": 25,
+          "raw": {
+            "date": "20260513",
+            "keyword": "현장신고거부_고양경찰서",
+            "df": 55,
+            "rank": 25,
+            "prevRatio": "5500.00",
+            "prevDf": 0
+          },
+          "date": "20260513",
+          "change_rate": "5500.00",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "label": "주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1214.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차",
+          "value": "1214.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차",
+            "value": "1214.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 740.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차",
+          "value": "740.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차",
+            "value": "740.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 680.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차 신고",
+          "value": "680.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차 신고",
+            "value": "680.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "선생님",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 434.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "선생님",
+          "value": "434.0",
+          "rank": null,
+          "raw": {
+            "label": "선생님",
+            "value": "434.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 426.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차 신고",
+          "value": "426.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차 신고",
+            "value": "426.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "과태료",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 242.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "과태료",
+          "value": "242.0",
+          "rank": null,
+          "raw": {
+            "label": "과태료",
+            "value": "242.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 216.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차",
+          "value": "216.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차",
+            "value": "216.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인천",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 196.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인천",
+          "value": "196.0",
+          "rank": null,
+          "raw": {
+            "label": "인천",
+            "value": "196.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "변전소",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 190.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "변전소",
+          "value": "190.0",
+          "rank": null,
+          "raw": {
+            "label": "변전소",
+            "value": "190.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 180.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도",
+          "value": "180.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도",
+            "value": "180.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "개인정보",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 174.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "개인정보",
+          "value": "174.0",
+          "rank": null,
+          "raw": {
+            "label": "개인정보",
+            "value": "174.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "서울",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 150.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "서울",
+          "value": "150.0",
+          "rank": null,
+          "raw": {
+            "label": "서울",
+            "value": "150.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "장애인",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 148.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "장애인",
+          "value": "148.0",
+          "rank": null,
+          "raw": {
+            "label": "장애인",
+            "value": "148.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "위원회",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 144.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "위원회",
+          "value": "144.0",
+          "rank": null,
+          "raw": {
+            "label": "위원회",
+            "value": "144.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "강제체포 강제수사",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 140.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "강제체포 강제수사",
+          "value": "140.0",
+          "rank": null,
+          "raw": {
+            "label": "강제체포 강제수사",
+            "value": "140.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 140.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도 불법 주정차 신고",
+          "value": "140.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도 불법 주정차 신고",
+            "value": "140.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "건축물",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 128.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "건축물",
+          "value": "128.0",
+          "rank": null,
+          "raw": {
+            "label": "건축물",
+            "value": "128.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인도 불법",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 124.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인도 불법",
+          "value": "124.0",
+          "rank": null,
+          "raw": {
+            "label": "인도 불법",
+            "value": "124.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인도 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 124.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인도 불법 주정차 신고",
+          "value": "124.0",
+          "rank": null,
+          "raw": {
+            "label": "인도 불법 주정차 신고",
+            "value": "124.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "경찰서",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 120.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "경찰서",
+          "value": "120.0",
+          "rank": null,
+          "raw": {
+            "label": "경찰서",
+            "value": "120.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "번호판",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 114.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "번호판",
+          "value": "114.0",
+          "rank": null,
+          "raw": {
+            "label": "번호판",
+            "value": "114.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "고양",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 110.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "고양",
+          "value": "110.0",
+          "rank": null,
+          "raw": {
+            "label": "고양",
+            "value": "110.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "소비자",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 108.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "소비자",
+          "value": "108.0",
+          "rank": null,
+          "raw": {
+            "label": "소비자",
+            "value": "108.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "대법원",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 106.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "대법원",
+          "value": "106.0",
+          "rank": null,
+          "raw": {
+            "label": "대법원",
+            "value": "106.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "소화전",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 100.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "소화전",
+          "value": "100.0",
+          "rank": null,
+          "raw": {
+            "label": "소화전",
+            "value": "100.0"
+          },
+          "score": 4.5
+        }
+      ]
+    }
+  ]
+}

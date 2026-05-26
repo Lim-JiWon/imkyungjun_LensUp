@@ -1,0 +1,3256 @@
+{
+  "synced_at": "2026-05-12T17:59:36.954282",
+  "date_from": "20260428",
+  "date_to": "20260511",
+  "today_issue": {
+    "raw_count": 8,
+    "normalized_count": 8,
+    "items": [
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "과태료 사전통지 이의제기 운전자 요청",
+        "value": 901,
+        "rank": 1,
+        "raw": {
+          "topic": "과태료 사전통지 이의제기 운전자 요청",
+          "rank": 1,
+          "count": 901
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "교통 고양은평선일산 식사 연장",
+        "value": 28,
+        "rank": 2,
+        "raw": {
+          "topic": "교통 고양은평선일산 식사 연장",
+          "rank": 2,
+          "count": 28
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "해외 가맹점 다크 패턴 결제",
+        "value": 5,
+        "rank": 3,
+        "raw": {
+          "topic": "해외 가맹점 다크 패턴 결제",
+          "rank": 3,
+          "count": 5
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "낙석 사고 현장 투입 위험",
+        "value": 4,
+        "rank": 4,
+        "raw": {
+          "topic": "낙석 사고 현장 투입 위험",
+          "rank": 4,
+          "count": 4
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "충무공님 탄신일 참석 연설",
+        "value": 4,
+        "rank": 5,
+        "raw": {
+          "topic": "충무공님 탄신일 참석 연설",
+          "rank": 5,
+          "count": 4
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "피해자 의견 수사 촉구",
+        "value": 3,
+        "rank": 6,
+        "raw": {
+          "topic": "피해자 의견 수사 촉구",
+          "rank": 6,
+          "count": 3
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "피고소인 모욕죄 형법 협박죄 수사 처벌",
+        "value": 2,
+        "rank": 7,
+        "raw": {
+          "topic": "피고소인 모욕죄 형법 협박죄 수사 처벌",
+          "rank": 7,
+          "count": 2
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "간병인 간병인협회 태도 대응과정",
+        "value": 2,
+        "rank": 8,
+        "raw": {
+          "topic": "간병인 간병인협회 태도 대응과정",
+          "rank": 8,
+          "count": 2
+        }
+      }
+    ]
+  },
+  "discovered_keywords": [
+    "한국교통안전공단_자동차",
+    "한국도로공사_안전순찰원",
+    "재발_방지",
+    "공원_조성",
+    "조사_요청"
+  ],
+  "merged_keyword_candidates": [
+    {
+      "label": "한국교통안전공단_자동차",
+      "total_score": 7.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 1,
+      "max_value": 129,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "한국교통안전공단_자동차",
+          "value": 129,
+          "rank": 1,
+          "raw": {
+            "date": "20260511",
+            "keyword": "한국교통안전공단_자동차",
+            "df": 129,
+            "rank": 1,
+            "prevRatio": "1512.50",
+            "prevDf": 8
+          },
+          "date": "20260511",
+          "change_rate": "1512.50",
+          "score": 7.4
+        }
+      ]
+    },
+    {
+      "label": "한국도로공사_안전순찰원",
+      "total_score": 7.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 2,
+      "max_value": 129,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "한국도로공사_안전순찰원",
+          "value": 129,
+          "rank": 2,
+          "raw": {
+            "date": "20260511",
+            "keyword": "한국도로공사_안전순찰원",
+            "df": 129,
+            "rank": 2,
+            "prevRatio": "1512.50",
+            "prevDf": 8
+          },
+          "date": "20260511",
+          "change_rate": "1512.50",
+          "score": 7.3
+        }
+      ]
+    },
+    {
+      "label": "재발_방지",
+      "total_score": 7.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 3,
+      "max_value": 269,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "재발_방지",
+          "value": 269,
+          "rank": 3,
+          "raw": {
+            "date": "20260511",
+            "keyword": "재발_방지",
+            "df": 269,
+            "rank": 3,
+            "prevRatio": "313.85",
+            "prevDf": 65
+          },
+          "date": "20260511",
+          "change_rate": "313.85",
+          "score": 7.2
+        }
+      ]
+    },
+    {
+      "label": "공원_조성",
+      "total_score": 7.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 4,
+      "max_value": 107,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "공원_조성",
+          "value": 107,
+          "rank": 4,
+          "raw": {
+            "date": "20260511",
+            "keyword": "공원_조성",
+            "df": 107,
+            "rank": 4,
+            "prevRatio": "3466.67",
+            "prevDf": 3
+          },
+          "date": "20260511",
+          "change_rate": "3466.67",
+          "score": 7.1
+        }
+      ]
+    },
+    {
+      "label": "조사_요청",
+      "total_score": 7.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 5,
+      "max_value": 196,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "조사_요청",
+          "value": 196,
+          "rank": 5,
+          "raw": {
+            "date": "20260511",
+            "keyword": "조사_요청",
+            "df": 196,
+            "rank": 5,
+            "prevRatio": "226.67",
+            "prevDf": 60
+          },
+          "date": "20260511",
+          "change_rate": "226.67",
+          "score": 7.0
+        }
+      ]
+    },
+    {
+      "label": "자동차_안전기준",
+      "total_score": 6.5,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 10,
+      "max_value": 133,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "자동차_안전기준",
+          "value": 133,
+          "rank": 10,
+          "raw": {
+            "date": "20260511",
+            "keyword": "자동차_안전기준",
+            "df": 133,
+            "rank": 10,
+            "prevRatio": "565.00",
+            "prevDf": 20
+          },
+          "date": "20260511",
+          "change_rate": "565.00",
+          "score": 6.5
+        }
+      ]
+    },
+    {
+      "label": "인접_부지",
+      "total_score": 6.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 6,
+      "max_value": 98,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "인접_부지",
+          "value": 98,
+          "rank": 6,
+          "raw": {
+            "date": "20260511",
+            "keyword": "인접_부지",
+            "df": 98,
+            "rank": 6,
+            "prevRatio": "9800.00",
+            "prevDf": 0
+          },
+          "date": "20260511",
+          "change_rate": "9800.00",
+          "score": 6.4
+        }
+      ]
+    },
+    {
+      "label": "시민공원_조성",
+      "total_score": 6.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 7,
+      "max_value": 97,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "시민공원_조성",
+          "value": 97,
+          "rank": 7,
+          "raw": {
+            "date": "20260511",
+            "keyword": "시민공원_조성",
+            "df": 97,
+            "rank": 7,
+            "prevRatio": "9700.00",
+            "prevDf": 0
+          },
+          "date": "20260511",
+          "change_rate": "9700.00",
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "label": "이행_요청",
+      "total_score": 6.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 8,
+      "max_value": 96,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "이행_요청",
+          "value": 96,
+          "rank": 8,
+          "raw": {
+            "date": "20260511",
+            "keyword": "이행_요청",
+            "df": 96,
+            "rank": 8,
+            "prevRatio": "3100.00",
+            "prevDf": 3
+          },
+          "date": "20260511",
+          "change_rate": "3100.00",
+          "score": 6.2
+        }
+      ]
+    },
+    {
+      "label": "폐석회_매립지",
+      "total_score": 6.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 9,
+      "max_value": 96,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "폐석회_매립지",
+          "value": 96,
+          "rank": 9,
+          "raw": {
+            "date": "20260511",
+            "keyword": "폐석회_매립지",
+            "df": 96,
+            "rank": 9,
+            "prevRatio": "9600.00",
+            "prevDf": 0
+          },
+          "date": "20260511",
+          "change_rate": "9600.00",
+          "score": 6.1
+        }
+      ]
+    },
+    {
+      "label": "주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1254.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차",
+          "value": "1254.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차",
+            "value": "1254.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 766.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차",
+          "value": "766.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차",
+            "value": "766.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 702.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차 신고",
+          "value": "702.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차 신고",
+            "value": "702.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 438.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차 신고",
+          "value": "438.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차 신고",
+            "value": "438.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "과태료",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 242.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "과태료",
+          "value": "242.0",
+          "rank": null,
+          "raw": {
+            "label": "과태료",
+            "value": "242.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 194.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차",
+          "value": "194.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차",
+            "value": "194.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인천",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 194.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인천",
+          "value": "194.0",
+          "rank": null,
+          "raw": {
+            "label": "인천",
+            "value": "194.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 194.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도",
+          "value": "194.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도",
+            "value": "194.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "변전소",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 188.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "변전소",
+          "value": "188.0",
+          "rank": null,
+          "raw": {
+            "label": "변전소",
+            "value": "188.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 154.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도 불법 주정차 신고",
+          "value": "154.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도 불법 주정차 신고",
+            "value": "154.0"
+          },
+          "score": 4.5
+        }
+      ]
+    }
+  ],
+  "keyword_details": [
+    {
+      "keyword": "한국교통안전공단_자동차",
+      "search_keyword": "한국교통안전공단 자동차",
+      "trend": {
+        "raw_count": 14,
+        "normalized_count": 14,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260428",
+            "value": 288,
+            "rank": null,
+            "date": "20260428",
+            "change_rate": "9.5",
+            "raw": {
+              "hits": 288,
+              "label": "20260428",
+              "termQuery": "20260428d",
+              "prebRatio": "9.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260429",
+            "value": 289,
+            "rank": null,
+            "date": "20260429",
+            "change_rate": "0.3",
+            "raw": {
+              "hits": 289,
+              "label": "20260429",
+              "termQuery": "20260429d",
+              "prebRatio": "0.3"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260430",
+            "value": 228,
+            "rank": null,
+            "date": "20260430",
+            "change_rate": "-21.1",
+            "raw": {
+              "hits": 228,
+              "label": "20260430",
+              "termQuery": "20260430d",
+              "prebRatio": "-21.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260501",
+            "value": 57,
+            "rank": null,
+            "date": "20260501",
+            "change_rate": "-75.0",
+            "raw": {
+              "hits": 57,
+              "label": "20260501",
+              "termQuery": "20260501d",
+              "prebRatio": "-75.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260502",
+            "value": 21,
+            "rank": null,
+            "date": "20260502",
+            "change_rate": "-63.2",
+            "raw": {
+              "hits": 21,
+              "label": "20260502",
+              "termQuery": "20260502d",
+              "prebRatio": "-63.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260503",
+            "value": 15,
+            "rank": null,
+            "date": "20260503",
+            "change_rate": "-28.6",
+            "raw": {
+              "hits": 15,
+              "label": "20260503",
+              "termQuery": "20260503d",
+              "prebRatio": "-28.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260504",
+            "value": 65,
+            "rank": null,
+            "date": "20260504",
+            "change_rate": "333.3",
+            "raw": {
+              "hits": 65,
+              "label": "20260504",
+              "termQuery": "20260504d",
+              "prebRatio": "333.3"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260505",
+            "value": 57,
+            "rank": null,
+            "date": "20260505",
+            "change_rate": "-12.3",
+            "raw": {
+              "hits": 57,
+              "label": "20260505",
+              "termQuery": "20260505d",
+              "prebRatio": "-12.3"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260506",
+            "value": 179,
+            "rank": null,
+            "date": "20260506",
+            "change_rate": "214.0",
+            "raw": {
+              "hits": 179,
+              "label": "20260506",
+              "termQuery": "20260506d",
+              "prebRatio": "214.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260507",
+            "value": 279,
+            "rank": null,
+            "date": "20260507",
+            "change_rate": "55.9",
+            "raw": {
+              "hits": 279,
+              "label": "20260507",
+              "termQuery": "20260507d",
+              "prebRatio": "55.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260508",
+            "value": 199,
+            "rank": null,
+            "date": "20260508",
+            "change_rate": "-28.7",
+            "raw": {
+              "hits": 199,
+              "label": "20260508",
+              "termQuery": "20260508d",
+              "prebRatio": "-28.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260509",
+            "value": 52,
+            "rank": null,
+            "date": "20260509",
+            "change_rate": "-73.9",
+            "raw": {
+              "hits": 52,
+              "label": "20260509",
+              "termQuery": "20260509d",
+              "prebRatio": "-73.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260510",
+            "value": 27,
+            "rank": null,
+            "date": "20260510",
+            "change_rate": "-48.1",
+            "raw": {
+              "hits": 27,
+              "label": "20260510",
+              "termQuery": "20260510d",
+              "prebRatio": "-48.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260511",
+            "value": 202,
+            "rank": null,
+            "date": "20260511",
+            "change_rate": "648.1",
+            "raw": {
+              "hits": 202,
+              "label": "20260511",
+              "termQuery": "20260511d",
+              "prebRatio": "648.1"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "위반사항",
+            "related_label": "",
+            "value": 589.98303,
+            "rank": null,
+            "raw": {
+              "label": "위반사항",
+              "value": 589.98303
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경찰청",
+            "related_label": "",
+            "value": 571.4422,
+            "rank": null,
+            "raw": {
+              "label": "경찰청",
+              "value": 571.4422
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "신고자",
+            "related_label": "",
+            "value": 530.4,
+            "rank": null,
+            "raw": {
+              "label": "신고자",
+              "value": 530.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지방정부",
+            "related_label": "",
+            "value": 530.4,
+            "rank": null,
+            "raw": {
+              "label": "지방정부",
+              "value": 530.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지자체",
+            "related_label": "",
+            "value": 485.8821,
+            "rank": null,
+            "raw": {
+              "label": "지자체",
+              "value": 485.8821
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "제동등 미점등",
+            "related_label": "",
+            "value": 84.92674,
+            "rank": null,
+            "raw": {
+              "label": "제동등 미점등",
+              "value": 84.92674
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "제동등 점등불량",
+            "related_label": "",
+            "value": 60.13986,
+            "rank": null,
+            "raw": {
+              "label": "제동등 점등불량",
+              "value": 60.13986
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "안전기준 위반",
+            "related_label": "",
+            "value": 56.498993,
+            "rank": null,
+            "raw": {
+              "label": "안전기준 위반",
+              "value": 56.498993
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "자관법",
+            "related_label": "",
+            "value": 50.10989,
+            "rank": null,
+            "raw": {
+              "label": "자관법",
+              "value": 50.10989
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후부반사지",
+            "related_label": "",
+            "value": 40.727272,
+            "rank": null,
+            "raw": {
+              "label": "후부반사지",
+              "value": 40.727272
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "제동등",
+            "related_label": "",
+            "value": 31.321321,
+            "rank": null,
+            "raw": {
+              "label": "제동등",
+              "value": 31.321321
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "서귀포시청",
+            "related_label": "",
+            "value": 29.186813,
+            "rank": null,
+            "raw": {
+              "label": "서귀포시청",
+              "value": 29.186813
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "어린이통학버스 합동점검 차량",
+            "related_label": "",
+            "value": 27.272728,
+            "rank": null,
+            "raw": {
+              "label": "어린이통학버스 합동점검 차량",
+              "value": 27.272728
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "물품적재장치",
+            "related_label": "",
+            "value": 20.487804,
+            "rank": null,
+            "raw": {
+              "label": "물품적재장치",
+              "value": 20.487804
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "우측 제동등 점등불",
+            "related_label": "",
+            "value": 20.43956,
+            "rank": null,
+            "raw": {
+              "label": "우측 제동등 점등불",
+              "value": 20.43956
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "제주특별자치도 서귀포시 월드컵",
+            "related_label": "",
+            "value": 17.6,
+            "rank": null,
+            "raw": {
+              "label": "제주특별자치도 서귀포시 월드컵",
+              "value": 17.6
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "가시광선투과율",
+            "related_label": "",
+            "value": 15.254237,
+            "rank": null,
+            "raw": {
+              "label": "가시광선투과율",
+              "value": 15.254237
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "강원특별자치도 강릉시",
+            "related_label": "",
+            "value": 11.617022,
+            "rank": null,
+            "raw": {
+              "label": "강원특별자치도 강릉시",
+              "value": 11.617022
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "중부 교육지원청",
+            "related_label": "",
+            "value": 11.076923,
+            "rank": null,
+            "raw": {
+              "label": "중부 교육지원청",
+              "value": 11.076923
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경상북도 구미시 고아읍 괴평리",
+            "related_label": "",
+            "value": 10.963856,
+            "rank": null,
+            "raw": {
+              "label": "경상북도 구미시 고아읍 괴평리",
+              "value": 10.963856
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 4,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "한국도로공사_안전순찰원",
+      "search_keyword": "한국도로공사 안전순찰원",
+      "trend": {
+        "raw_count": 14,
+        "normalized_count": 14,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260428",
+            "value": 285,
+            "rank": null,
+            "date": "20260428",
+            "change_rate": "9.2",
+            "raw": {
+              "hits": 285,
+              "label": "20260428",
+              "termQuery": "20260428d",
+              "prebRatio": "9.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260429",
+            "value": 285,
+            "rank": null,
+            "date": "20260429",
+            "change_rate": "0.0",
+            "raw": {
+              "hits": 285,
+              "label": "20260429",
+              "termQuery": "20260429d",
+              "prebRatio": "0.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260430",
+            "value": 226,
+            "rank": null,
+            "date": "20260430",
+            "change_rate": "-20.7",
+            "raw": {
+              "hits": 226,
+              "label": "20260430",
+              "termQuery": "20260430d",
+              "prebRatio": "-20.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260501",
+            "value": 55,
+            "rank": null,
+            "date": "20260501",
+            "change_rate": "-75.7",
+            "raw": {
+              "hits": 55,
+              "label": "20260501",
+              "termQuery": "20260501d",
+              "prebRatio": "-75.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260502",
+            "value": 19,
+            "rank": null,
+            "date": "20260502",
+            "change_rate": "-65.5",
+            "raw": {
+              "hits": 19,
+              "label": "20260502",
+              "termQuery": "20260502d",
+              "prebRatio": "-65.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260503",
+            "value": 15,
+            "rank": null,
+            "date": "20260503",
+            "change_rate": "-21.1",
+            "raw": {
+              "hits": 15,
+              "label": "20260503",
+              "termQuery": "20260503d",
+              "prebRatio": "-21.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260504",
+            "value": 63,
+            "rank": null,
+            "date": "20260504",
+            "change_rate": "320.0",
+            "raw": {
+              "hits": 63,
+              "label": "20260504",
+              "termQuery": "20260504d",
+              "prebRatio": "320.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260505",
+            "value": 56,
+            "rank": null,
+            "date": "20260505",
+            "change_rate": "-11.1",
+            "raw": {
+              "hits": 56,
+              "label": "20260505",
+              "termQuery": "20260505d",
+              "prebRatio": "-11.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260506",
+            "value": 178,
+            "rank": null,
+            "date": "20260506",
+            "change_rate": "217.9",
+            "raw": {
+              "hits": 178,
+              "label": "20260506",
+              "termQuery": "20260506d",
+              "prebRatio": "217.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260507",
+            "value": 279,
+            "rank": null,
+            "date": "20260507",
+            "change_rate": "56.7",
+            "raw": {
+              "hits": 279,
+              "label": "20260507",
+              "termQuery": "20260507d",
+              "prebRatio": "56.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260508",
+            "value": 197,
+            "rank": null,
+            "date": "20260508",
+            "change_rate": "-29.4",
+            "raw": {
+              "hits": 197,
+              "label": "20260508",
+              "termQuery": "20260508d",
+              "prebRatio": "-29.4"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260509",
+            "value": 52,
+            "rank": null,
+            "date": "20260509",
+            "change_rate": "-73.6",
+            "raw": {
+              "hits": 52,
+              "label": "20260509",
+              "termQuery": "20260509d",
+              "prebRatio": "-73.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260510",
+            "value": 22,
+            "rank": null,
+            "date": "20260510",
+            "change_rate": "-57.7",
+            "raw": {
+              "hits": 22,
+              "label": "20260510",
+              "termQuery": "20260510d",
+              "prebRatio": "-57.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260511",
+            "value": 199,
+            "rank": null,
+            "date": "20260511",
+            "change_rate": "804.5",
+            "raw": {
+              "hits": 199,
+              "label": "20260511",
+              "termQuery": "20260511d",
+              "prebRatio": "804.5"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경찰청",
+            "related_label": "",
+            "value": 637.6,
+            "rank": null,
+            "raw": {
+              "label": "경찰청",
+              "value": 637.6
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "위반사항",
+            "related_label": "",
+            "value": 535.51764,
+            "rank": null,
+            "raw": {
+              "label": "위반사항",
+              "value": 535.51764
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "신고자",
+            "related_label": "",
+            "value": 531.3333,
+            "rank": null,
+            "raw": {
+              "label": "신고자",
+              "value": 531.3333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "자동차 안전기준 위반 사항",
+            "related_label": "",
+            "value": 531.3333,
+            "rank": null,
+            "raw": {
+              "label": "자동차 안전기준 위반 사항",
+              "value": 531.3333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지방정부",
+            "related_label": "",
+            "value": 531.3333,
+            "rank": null,
+            "raw": {
+              "label": "지방정부",
+              "value": 531.3333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후미등불량",
+            "related_label": "",
+            "value": 88.62191,
+            "rank": null,
+            "raw": {
+              "label": "후미등불량",
+              "value": 88.62191
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "반사지",
+            "related_label": "",
+            "value": 65.19403,
+            "rank": null,
+            "raw": {
+              "label": "반사지",
+              "value": 65.19403
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후부반사지 불량 신고",
+            "related_label": "",
+            "value": 46.183784,
+            "rank": null,
+            "raw": {
+              "label": "후부반사지 불량 신고",
+              "value": 46.183784
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "충청북도 청주시",
+            "related_label": "",
+            "value": 35.975758,
+            "rank": null,
+            "raw": {
+              "label": "충청북도 청주시",
+              "value": 35.975758
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "중부선 하남방향 음성휴게소",
+            "related_label": "",
+            "value": 30.208956,
+            "rank": null,
+            "raw": {
+              "label": "중부선 하남방향 음성휴게소",
+              "value": 30.208956
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후부반사지 혼용설치",
+            "related_label": "",
+            "value": 29.552795,
+            "rank": null,
+            "raw": {
+              "label": "후부반사지 혼용설치",
+              "value": 29.552795
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "자동차관리법",
+            "related_label": "",
+            "value": 26.25,
+            "rank": null,
+            "raw": {
+              "label": "자동차관리법",
+              "value": 26.25
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경상북도 성주군",
+            "related_label": "",
+            "value": 22.0,
+            "rank": null,
+            "raw": {
+              "label": "경상북도 성주군",
+              "value": 22.0
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "충청북도 음성군 삼성면 중부고속도로",
+            "related_label": "",
+            "value": 21.290323,
+            "rank": null,
+            "raw": {
+              "label": "충청북도 음성군 삼성면 중부고속도로",
+              "value": 21.290323
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "화물차용",
+            "related_label": "",
+            "value": 19.278688,
+            "rank": null,
+            "raw": {
+              "label": "화물차용",
+              "value": 19.278688
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "제동등 미점등",
+            "related_label": "",
+            "value": 18.186666,
+            "rank": null,
+            "raw": {
+              "label": "제동등 미점등",
+              "value": 18.186666
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "중부내륙선 양평방향 성주휴게소",
+            "related_label": "",
+            "value": 16.851065,
+            "rank": null,
+            "raw": {
+              "label": "중부내륙선 양평방향 성주휴게소",
+              "value": 16.851065
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경부고속도로",
+            "related_label": "",
+            "value": 16.8,
+            "rank": null,
+            "raw": {
+              "label": "경부고속도로",
+              "value": 16.8
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "중부내륙선 창원방향 성주휴게소내",
+            "related_label": "",
+            "value": 16.8,
+            "rank": null,
+            "raw": {
+              "label": "중부내륙선 창원방향 성주휴게소내",
+              "value": 16.8
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "덮개 미설치",
+            "related_label": "",
+            "value": 12.6,
+            "rank": null,
+            "raw": {
+              "label": "덮개 미설치",
+              "value": 12.6
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 752,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "752"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "재발_방지",
+      "search_keyword": "재발 방지",
+      "trend": {
+        "raw_count": 14,
+        "normalized_count": 14,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260428",
+            "value": 534,
+            "rank": null,
+            "date": "20260428",
+            "change_rate": "-28.4",
+            "raw": {
+              "hits": 534,
+              "label": "20260428",
+              "termQuery": "20260428d",
+              "prebRatio": "-28.4"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260429",
+            "value": 565,
+            "rank": null,
+            "date": "20260429",
+            "change_rate": "5.8",
+            "raw": {
+              "hits": 565,
+              "label": "20260429",
+              "termQuery": "20260429d",
+              "prebRatio": "5.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260430",
+            "value": 655,
+            "rank": null,
+            "date": "20260430",
+            "change_rate": "15.9",
+            "raw": {
+              "hits": 655,
+              "label": "20260430",
+              "termQuery": "20260430d",
+              "prebRatio": "15.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260501",
+            "value": 262,
+            "rank": null,
+            "date": "20260501",
+            "change_rate": "-60.0",
+            "raw": {
+              "hits": 262,
+              "label": "20260501",
+              "termQuery": "20260501d",
+              "prebRatio": "-60.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260502",
+            "value": 317,
+            "rank": null,
+            "date": "20260502",
+            "change_rate": "21.0",
+            "raw": {
+              "hits": 317,
+              "label": "20260502",
+              "termQuery": "20260502d",
+              "prebRatio": "21.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260503",
+            "value": 273,
+            "rank": null,
+            "date": "20260503",
+            "change_rate": "-13.9",
+            "raw": {
+              "hits": 273,
+              "label": "20260503",
+              "termQuery": "20260503d",
+              "prebRatio": "-13.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260504",
+            "value": 476,
+            "rank": null,
+            "date": "20260504",
+            "change_rate": "74.4",
+            "raw": {
+              "hits": 476,
+              "label": "20260504",
+              "termQuery": "20260504d",
+              "prebRatio": "74.4"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260505",
+            "value": 302,
+            "rank": null,
+            "date": "20260505",
+            "change_rate": "-36.6",
+            "raw": {
+              "hits": 302,
+              "label": "20260505",
+              "termQuery": "20260505d",
+              "prebRatio": "-36.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260506",
+            "value": 493,
+            "rank": null,
+            "date": "20260506",
+            "change_rate": "63.2",
+            "raw": {
+              "hits": 493,
+              "label": "20260506",
+              "termQuery": "20260506d",
+              "prebRatio": "63.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260507",
+            "value": 545,
+            "rank": null,
+            "date": "20260507",
+            "change_rate": "10.5",
+            "raw": {
+              "hits": 545,
+              "label": "20260507",
+              "termQuery": "20260507d",
+              "prebRatio": "10.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260508",
+            "value": 490,
+            "rank": null,
+            "date": "20260508",
+            "change_rate": "-10.1",
+            "raw": {
+              "hits": 490,
+              "label": "20260508",
+              "termQuery": "20260508d",
+              "prebRatio": "-10.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260509",
+            "value": 208,
+            "rank": null,
+            "date": "20260509",
+            "change_rate": "-57.6",
+            "raw": {
+              "hits": 208,
+              "label": "20260509",
+              "termQuery": "20260509d",
+              "prebRatio": "-57.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260510",
+            "value": 229,
+            "rank": null,
+            "date": "20260510",
+            "change_rate": "10.1",
+            "raw": {
+              "hits": 229,
+              "label": "20260510",
+              "termQuery": "20260510d",
+              "prebRatio": "10.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260511",
+            "value": 476,
+            "rank": null,
+            "date": "20260511",
+            "change_rate": "107.9",
+            "raw": {
+              "hits": 476,
+              "label": "20260511",
+              "termQuery": "20260511d",
+              "prebRatio": "107.9"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "과태료",
+            "related_label": "",
+            "value": 74.25989,
+            "rank": null,
+            "raw": {
+              "label": "과태료",
+              "value": 74.25989
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "행정처분",
+            "related_label": "",
+            "value": 47.92381,
+            "rank": null,
+            "raw": {
+              "label": "행정처분",
+              "value": 47.92381
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "행정조치",
+            "related_label": "",
+            "value": 32.57143,
+            "rank": null,
+            "raw": {
+              "label": "행정조치",
+              "value": 32.57143
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "실효성",
+            "related_label": "",
+            "value": 27.382353,
+            "rank": null,
+            "raw": {
+              "label": "실효성",
+              "value": 27.382353
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "횡단보도 불법 주정차 신고",
+            "related_label": "",
+            "value": 26.862385,
+            "rank": null,
+            "raw": {
+              "label": "횡단보도 불법 주정차 신고",
+              "value": 26.862385
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "보행자",
+            "related_label": "",
+            "value": 24.615385,
+            "rank": null,
+            "raw": {
+              "label": "보행자",
+              "value": 24.615385
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "행정지도",
+            "related_label": "",
+            "value": 24.020203,
+            "rank": null,
+            "raw": {
+              "label": "행정지도",
+              "value": 24.020203
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "적치물",
+            "related_label": "",
+            "value": 20.195122,
+            "rank": null,
+            "raw": {
+              "label": "적치물",
+              "value": 20.195122
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "사실관계",
+            "related_label": "",
+            "value": 19.285715,
+            "rank": null,
+            "raw": {
+              "label": "사실관계",
+              "value": 19.285715
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "현장 점검",
+            "related_label": "",
+            "value": 18.989012,
+            "rank": null,
+            "raw": {
+              "label": "현장 점검",
+              "value": 18.989012
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "운전자",
+            "related_label": "",
+            "value": 18.318182,
+            "rank": null,
+            "raw": {
+              "label": "운전자",
+              "value": 18.318182
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "횡단보도",
+            "related_label": "",
+            "value": 17.142857,
+            "rank": null,
+            "raw": {
+              "label": "횡단보도",
+              "value": 17.142857
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "안전사고",
+            "related_label": "",
+            "value": 15.333333,
+            "rank": null,
+            "raw": {
+              "label": "안전사고",
+              "value": 15.333333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "현수막",
+            "related_label": "",
+            "value": 15.277778,
+            "rank": null,
+            "raw": {
+              "label": "현수막",
+              "value": 15.277778
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "개선 조치",
+            "related_label": "",
+            "value": 14.117647,
+            "rank": null,
+            "raw": {
+              "label": "개선 조치",
+              "value": 14.117647
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "개인정보",
+            "related_label": "",
+            "value": 13.333333,
+            "rank": null,
+            "raw": {
+              "label": "개인정보",
+              "value": 13.333333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "관리 강화",
+            "related_label": "",
+            "value": 12.413794,
+            "rank": null,
+            "raw": {
+              "label": "관리 강화",
+              "value": 12.413794
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "광고물",
+            "related_label": "",
+            "value": 11.478261,
+            "rank": null,
+            "raw": {
+              "label": "광고물",
+              "value": 11.478261
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "양혜진씨",
+            "related_label": "",
+            "value": 10.909091,
+            "rank": null,
+            "raw": {
+              "label": "양혜진씨",
+              "value": 10.909091
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "정류장",
+            "related_label": "",
+            "value": 10.754717,
+            "rank": null,
+            "raw": {
+              "label": "정류장",
+              "value": 10.754717
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 5275,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "5275"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "공원_조성",
+      "search_keyword": "공원 조성",
+      "trend": {
+        "raw_count": 14,
+        "normalized_count": 14,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260428",
+            "value": 120,
+            "rank": null,
+            "date": "20260428",
+            "change_rate": "55.8",
+            "raw": {
+              "hits": 120,
+              "label": "20260428",
+              "termQuery": "20260428d",
+              "prebRatio": "55.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260429",
+            "value": 76,
+            "rank": null,
+            "date": "20260429",
+            "change_rate": "-36.7",
+            "raw": {
+              "hits": 76,
+              "label": "20260429",
+              "termQuery": "20260429d",
+              "prebRatio": "-36.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260430",
+            "value": 41,
+            "rank": null,
+            "date": "20260430",
+            "change_rate": "-46.1",
+            "raw": {
+              "hits": 41,
+              "label": "20260430",
+              "termQuery": "20260430d",
+              "prebRatio": "-46.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260501",
+            "value": 21,
+            "rank": null,
+            "date": "20260501",
+            "change_rate": "-48.8",
+            "raw": {
+              "hits": 21,
+              "label": "20260501",
+              "termQuery": "20260501d",
+              "prebRatio": "-48.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260502",
+            "value": 17,
+            "rank": null,
+            "date": "20260502",
+            "change_rate": "-19.0",
+            "raw": {
+              "hits": 17,
+              "label": "20260502",
+              "termQuery": "20260502d",
+              "prebRatio": "-19.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260503",
+            "value": 22,
+            "rank": null,
+            "date": "20260503",
+            "change_rate": "29.4",
+            "raw": {
+              "hits": 22,
+              "label": "20260503",
+              "termQuery": "20260503d",
+              "prebRatio": "29.4"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260504",
+            "value": 29,
+            "rank": null,
+            "date": "20260504",
+            "change_rate": "31.8",
+            "raw": {
+              "hits": 29,
+              "label": "20260504",
+              "termQuery": "20260504d",
+              "prebRatio": "31.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260505",
+            "value": 35,
+            "rank": null,
+            "date": "20260505",
+            "change_rate": "20.7",
+            "raw": {
+              "hits": 35,
+              "label": "20260505",
+              "termQuery": "20260505d",
+              "prebRatio": "20.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260506",
+            "value": 38,
+            "rank": null,
+            "date": "20260506",
+            "change_rate": "8.6",
+            "raw": {
+              "hits": 38,
+              "label": "20260506",
+              "termQuery": "20260506d",
+              "prebRatio": "8.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260507",
+            "value": 58,
+            "rank": null,
+            "date": "20260507",
+            "change_rate": "52.6",
+            "raw": {
+              "hits": 58,
+              "label": "20260507",
+              "termQuery": "20260507d",
+              "prebRatio": "52.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260508",
+            "value": 139,
+            "rank": null,
+            "date": "20260508",
+            "change_rate": "139.7",
+            "raw": {
+              "hits": 139,
+              "label": "20260508",
+              "termQuery": "20260508d",
+              "prebRatio": "139.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260509",
+            "value": 64,
+            "rank": null,
+            "date": "20260509",
+            "change_rate": "-54.0",
+            "raw": {
+              "hits": 64,
+              "label": "20260509",
+              "termQuery": "20260509d",
+              "prebRatio": "-54.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260510",
+            "value": 56,
+            "rank": null,
+            "date": "20260510",
+            "change_rate": "-12.5",
+            "raw": {
+              "hits": 56,
+              "label": "20260510",
+              "termQuery": "20260510d",
+              "prebRatio": "-12.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260511",
+            "value": 158,
+            "rank": null,
+            "date": "20260511",
+            "change_rate": "182.1",
+            "raw": {
+              "hits": 158,
+              "label": "20260511",
+              "termQuery": "20260511d",
+              "prebRatio": "182.1"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후보지",
+            "related_label": "",
+            "value": 113.60162,
+            "rank": null,
+            "raw": {
+              "label": "후보지",
+              "value": 113.60162
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "매립지",
+            "related_label": "",
+            "value": 86.06822,
+            "rank": null,
+            "raw": {
+              "label": "매립지",
+              "value": 86.06822
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "폐석회 매립지",
+            "related_label": "",
+            "value": 80.55889,
+            "rank": null,
+            "raw": {
+              "label": "폐석회 매립지",
+              "value": 80.55889
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "가좌송도선",
+            "related_label": "",
+            "value": 77.41936,
+            "rank": null,
+            "raw": {
+              "label": "가좌송도선",
+              "value": 77.41936
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "인접 부지",
+            "related_label": "",
+            "value": 74.31966,
+            "rank": null,
+            "raw": {
+              "label": "인접 부지",
+              "value": 74.31966
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "매립층 굴착",
+            "related_label": "",
+            "value": 74.0991,
+            "rank": null,
+            "raw": {
+              "label": "매립층 굴착",
+              "value": 74.0991
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지하 차량기지",
+            "related_label": "",
+            "value": 74.057144,
+            "rank": null,
+            "raw": {
+              "label": "지하 차량기지",
+              "value": 74.057144
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "태안3지구",
+            "related_label": "",
+            "value": 73.52195,
+            "rank": null,
+            "raw": {
+              "label": "태안3지구",
+              "value": 73.52195
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "분양자",
+            "related_label": "",
+            "value": 69.612305,
+            "rank": null,
+            "raw": {
+              "label": "분양자",
+              "value": 69.612305
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "학익동",
+            "related_label": "",
+            "value": 67.897896,
+            "rank": null,
+            "raw": {
+              "label": "학익동",
+              "value": 67.897896
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "공식 확약",
+            "related_label": "",
+            "value": 66.15648,
+            "rank": null,
+            "raw": {
+              "label": "공식 확약",
+              "value": 66.15648
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "인천시",
+            "related_label": "",
+            "value": 63.739727,
+            "rank": null,
+            "raw": {
+              "label": "인천시",
+              "value": 63.739727
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "미추홀구",
+            "related_label": "",
+            "value": 63.319443,
+            "rank": null,
+            "raw": {
+              "label": "미추홀구",
+              "value": 63.319443
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "신설역 설치",
+            "related_label": "",
+            "value": 63.119595,
+            "rank": null,
+            "raw": {
+              "label": "신설역 설치",
+              "value": 63.119595
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "학익1블록",
+            "related_label": "",
+            "value": 62.887325,
+            "rank": null,
+            "raw": {
+              "label": "학익1블록",
+              "value": 62.887325
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "용현",
+            "related_label": "",
+            "value": 61.333332,
+            "rank": null,
+            "raw": {
+              "label": "용현",
+              "value": 61.333332
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "이행 요청",
+            "related_label": "",
+            "value": 61.333332,
+            "rank": null,
+            "raw": {
+              "label": "이행 요청",
+              "value": 61.333332
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "유수지",
+            "related_label": "",
+            "value": 61.104694,
+            "rank": null,
+            "raw": {
+              "label": "유수지",
+              "value": 61.104694
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "입주민",
+            "related_label": "",
+            "value": 60.75235,
+            "rank": null,
+            "raw": {
+              "label": "입주민",
+              "value": 60.75235
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "도시철도망구축계획",
+            "related_label": "",
+            "value": 58.677166,
+            "rank": null,
+            "raw": {
+              "label": "도시철도망구축계획",
+              "value": 58.677166
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 751,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "751"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "조사_요청",
+      "search_keyword": "조사 요청",
+      "trend": {
+        "raw_count": 14,
+        "normalized_count": 14,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260428",
+            "value": 22925,
+            "rank": null,
+            "date": "20260428",
+            "change_rate": "10.8",
+            "raw": {
+              "hits": 22925,
+              "label": "20260428",
+              "termQuery": "20260428d",
+              "prebRatio": "10.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260429",
+            "value": 23444,
+            "rank": null,
+            "date": "20260429",
+            "change_rate": "2.3",
+            "raw": {
+              "hits": 23444,
+              "label": "20260429",
+              "termQuery": "20260429d",
+              "prebRatio": "2.3"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260430",
+            "value": 23555,
+            "rank": null,
+            "date": "20260430",
+            "change_rate": "0.5",
+            "raw": {
+              "hits": 23555,
+              "label": "20260430",
+              "termQuery": "20260430d",
+              "prebRatio": "0.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260501",
+            "value": 21803,
+            "rank": null,
+            "date": "20260501",
+            "change_rate": "-7.4",
+            "raw": {
+              "hits": 21803,
+              "label": "20260501",
+              "termQuery": "20260501d",
+              "prebRatio": "-7.4"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260502",
+            "value": 22934,
+            "rank": null,
+            "date": "20260502",
+            "change_rate": "5.2",
+            "raw": {
+              "hits": 22934,
+              "label": "20260502",
+              "termQuery": "20260502d",
+              "prebRatio": "5.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260503",
+            "value": 18764,
+            "rank": null,
+            "date": "20260503",
+            "change_rate": "-18.2",
+            "raw": {
+              "hits": 18764,
+              "label": "20260503",
+              "termQuery": "20260503d",
+              "prebRatio": "-18.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260504",
+            "value": 21979,
+            "rank": null,
+            "date": "20260504",
+            "change_rate": "17.1",
+            "raw": {
+              "hits": 21979,
+              "label": "20260504",
+              "termQuery": "20260504d",
+              "prebRatio": "17.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260505",
+            "value": 21199,
+            "rank": null,
+            "date": "20260505",
+            "change_rate": "-3.5",
+            "raw": {
+              "hits": 21199,
+              "label": "20260505",
+              "termQuery": "20260505d",
+              "prebRatio": "-3.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260506",
+            "value": 21618,
+            "rank": null,
+            "date": "20260506",
+            "change_rate": "2.0",
+            "raw": {
+              "hits": 21618,
+              "label": "20260506",
+              "termQuery": "20260506d",
+              "prebRatio": "2.0"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260507",
+            "value": 21348,
+            "rank": null,
+            "date": "20260507",
+            "change_rate": "-1.2",
+            "raw": {
+              "hits": 21348,
+              "label": "20260507",
+              "termQuery": "20260507d",
+              "prebRatio": "-1.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260508",
+            "value": 23894,
+            "rank": null,
+            "date": "20260508",
+            "change_rate": "11.9",
+            "raw": {
+              "hits": 23894,
+              "label": "20260508",
+              "termQuery": "20260508d",
+              "prebRatio": "11.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260509",
+            "value": 25407,
+            "rank": null,
+            "date": "20260509",
+            "change_rate": "6.4",
+            "raw": {
+              "hits": 25407,
+              "label": "20260509",
+              "termQuery": "20260509d",
+              "prebRatio": "6.4"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260510",
+            "value": 23883,
+            "rank": null,
+            "date": "20260510",
+            "change_rate": "-6.1",
+            "raw": {
+              "hits": 23883,
+              "label": "20260510",
+              "termQuery": "20260510d",
+              "prebRatio": "-6.1"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20260511",
+            "value": 21271,
+            "rank": null,
+            "date": "20260511",
+            "change_rate": "-10.9",
+            "raw": {
+              "hits": 21271,
+              "label": "20260511",
+              "termQuery": "20260511d",
+              "prebRatio": "-10.9"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "KC미인증 불법 어린이 제품",
+            "related_label": "",
+            "value": 70.5,
+            "rank": null,
+            "raw": {
+              "label": "KC미인증 불법 어린이 제품",
+              "value": 70.5
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "사실관계",
+            "related_label": "",
+            "value": 70.24476,
+            "rank": null,
+            "raw": {
+              "label": "사실관계",
+              "value": 70.24476
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "행정 조치",
+            "related_label": "",
+            "value": 57.72,
+            "rank": null,
+            "raw": {
+              "label": "행정 조치",
+              "value": 57.72
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "소비자",
+            "related_label": "",
+            "value": 52.03846,
+            "rank": null,
+            "raw": {
+              "label": "소비자",
+              "value": 52.03846
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "피해자",
+            "related_label": "",
+            "value": 50.284405,
+            "rank": null,
+            "raw": {
+              "label": "피해자",
+              "value": 50.284405
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "곰팡이",
+            "related_label": "",
+            "value": 43.95181,
+            "rank": null,
+            "raw": {
+              "label": "곰팡이",
+              "value": 43.95181
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "소극행정",
+            "related_label": "",
+            "value": 42.545456,
+            "rank": null,
+            "raw": {
+              "label": "소극행정",
+              "value": 42.545456
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "KC인증",
+            "related_label": "",
+            "value": 41.87471,
+            "rank": null,
+            "raw": {
+              "label": "KC인증",
+              "value": 41.87471
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "제품명",
+            "related_label": "",
+            "value": 41.4375,
+            "rank": null,
+            "raw": {
+              "label": "제품명",
+              "value": 41.4375
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "하자 보수 권리",
+            "related_label": "",
+            "value": 40.5,
+            "rank": null,
+            "raw": {
+              "label": "하자 보수 권리",
+              "value": 40.5
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "시공사",
+            "related_label": "",
+            "value": 39.35928,
+            "rank": null,
+            "raw": {
+              "label": "시공사",
+              "value": 39.35928
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "판매사이트",
+            "related_label": "",
+            "value": 39.2,
+            "rank": null,
+            "raw": {
+              "label": "판매사이트",
+              "value": 39.2
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "HYBE",
+            "related_label": "",
+            "value": 38.23077,
+            "rank": null,
+            "raw": {
+              "label": "HYBE",
+              "value": 38.23077
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "Belift",
+            "related_label": "",
+            "value": 37.357895,
+            "rank": null,
+            "raw": {
+              "label": "Belift",
+              "value": 37.357895
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "Lab",
+            "related_label": "",
+            "value": 37.357895,
+            "rank": null,
+            "raw": {
+              "label": "Lab",
+              "value": 37.357895
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "감독관",
+            "related_label": "",
+            "value": 36.469,
+            "rank": null,
+            "raw": {
+              "label": "감독관",
+              "value": 36.469
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경영 관행",
+            "related_label": "",
+            "value": 35.958904,
+            "rank": null,
+            "raw": {
+              "label": "경영 관행",
+              "value": 35.958904
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "자회사",
+            "related_label": "",
+            "value": 35.958904,
+            "rank": null,
+            "raw": {
+              "label": "자회사",
+              "value": 35.958904
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "공식 감사",
+            "related_label": "",
+            "value": 35.83217,
+            "rank": null,
+            "raw": {
+              "label": "공식 감사",
+              "value": 35.83217
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "국민연금",
+            "related_label": "",
+            "value": 33.833332,
+            "rank": null,
+            "raw": {
+              "label": "국민연금",
+              "value": 33.833332
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 1304,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "1304"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

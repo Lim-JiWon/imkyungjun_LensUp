@@ -1,0 +1,20 @@
+[백엔드2 연동 규격 메모]
+
+1. 적재 API 주소
+- POST /admin/pipeline/ingest
+
+2. 최종 전송 URL
+- 예: http://127.0.0.1:8000/admin/pipeline/ingest
+- 또는 실제 서버 주소
+
+3. 인증 방식
+- Header에 X-API-KEY 사용
+
+4. 백엔드2에 확인할 것
+- 정확한 URL
+- POST 방식인지
+- X-API-KEY 값
+- body JSON 필수 필드
+- batch_id, issue_key를 백엔드1이 생성하는지
+- 성공 응답 형식
+- 같은 batch_id가 오면 중복 처리 어떻게 하는지

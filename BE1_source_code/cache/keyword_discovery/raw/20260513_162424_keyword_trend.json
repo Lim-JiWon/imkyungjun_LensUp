@@ -1,0 +1,98 @@
+[
+  {
+    "hits": 87,
+    "label": "20260428",
+    "termQuery": "20260428d",
+    "prebRatio": "335.0"
+  },
+  {
+    "hits": 35,
+    "label": "20260429",
+    "termQuery": "20260429d",
+    "prebRatio": "-59.8"
+  },
+  {
+    "hits": 27,
+    "label": "20260430",
+    "termQuery": "20260430d",
+    "prebRatio": "-22.9"
+  },
+  {
+    "hits": 83,
+    "label": "20260501",
+    "termQuery": "20260501d",
+    "prebRatio": "207.4"
+  },
+  {
+    "hits": 126,
+    "label": "20260502",
+    "termQuery": "20260502d",
+    "prebRatio": "51.8"
+  },
+  {
+    "hits": 141,
+    "label": "20260503",
+    "termQuery": "20260503d",
+    "prebRatio": "11.9"
+  },
+  {
+    "hits": 113,
+    "label": "20260504",
+    "termQuery": "20260504d",
+    "prebRatio": "-19.9"
+  },
+  {
+    "hits": 65,
+    "label": "20260505",
+    "termQuery": "20260505d",
+    "prebRatio": "-42.5"
+  },
+  {
+    "hits": 80,
+    "label": "20260506",
+    "termQuery": "20260506d",
+    "prebRatio": "23.1"
+  },
+  {
+    "hits": 60,
+    "label": "20260507",
+    "termQuery": "20260507d",
+    "prebRatio": "-25.0"
+  },
+  {
+    "hits": 75,
+    "label": "20260508",
+    "termQuery": "20260508d",
+    "prebRatio": "25.0"
+  },
+  {
+    "hits": 20,
+    "label": "20260509",
+    "termQuery": "20260509d",
+    "prebRatio": "-73.3"
+  },
+  {
+    "hits": 117,
+    "label": "20260510",
+    "termQuery": "20260510d",
+    "prebRatio": "485.0"
+  },
+  {
+    "hits": 34,
+    "label": "20260511",
+    "termQuery": "20260511d",
+    "prebRatio": "-70.9"
+  },
+  {
+    "hits": 88,
+    "label": "20260512",
+    "termQuery": "20260512d",
+    "prebRatio": "158.8"
+  },
+  {
+    "hits": 56,
+    "label": "20260513",
+    "termQuery": "20260513d",
+    "prebRatio": "-36.4"
+  }
+]

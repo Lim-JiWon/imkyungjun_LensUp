@@ -1,0 +1,114 @@
+[
+  {
+    "keyword": "재발 방지",
+    "score": 440,
+    "count": 4,
+    "sources": [
+      "keywords",
+      "top_keyword"
+    ],
+    "issue_titles": [
+      "재발 방지 관련 민원 이슈 - 과태료 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "공원 조성",
+    "score": 440,
+    "count": 4,
+    "sources": [
+      "keywords",
+      "top_keyword"
+    ],
+    "issue_titles": [
+      "공원 조성 관련 민원 이슈 - 후보지 중심 [강한 징후]"
+    ]
+  },
+  {
+    "keyword": "조사 요청",
+    "score": 440,
+    "count": 4,
+    "sources": [
+      "keywords",
+      "top_keyword"
+    ],
+    "issue_titles": [
+      "조사 요청 관련 민원 이슈 - KC미인증 불법 어린이 제품 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "한국교통안전공단 자동차",
+    "score": 440,
+    "count": 4,
+    "sources": [
+      "keywords",
+      "top_keyword"
+    ],
+    "issue_titles": [
+      "한국교통안전공단 자동차 관련 민원 이슈 - 위반사항 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "한국도로공사 안전순찰원",
+    "score": 440,
+    "count": 4,
+    "sources": [
+      "keywords",
+      "top_keyword"
+    ],
+    "issue_titles": [
+      "한국도로공사 안전순찰원 관련 민원 이슈 - 경찰청 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "자동차",
+    "score": 360,
+    "count": 5,
+    "sources": [
+      "keywords",
+      "related_keywords_token",
+      "search_aliases",
+      "top_keyword"
+    ],
+    "issue_titles": [
+      "한국교통안전공단 자동차 관련 민원 이슈 - 위반사항 중심 [관찰 필요]",
+      "한국도로공사 안전순찰원 관련 민원 이슈 - 경찰청 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "과태료",
+    "score": 150,
+    "count": 3,
+    "sources": [
+      "related_keywords",
+      "related_keywords_token",
+      "search_aliases"
+    ],
+    "issue_titles": [
+      "재발 방지 관련 민원 이슈 - 과태료 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "주정차",
+    "score": 90,
+    "count": 2,
+    "sources": [
+      "related_keywords_token",
+      "search_aliases"
+    ],
+    "issue_titles": [
+      "재발 방지 관련 민원 이슈 - 과태료 중심 [관찰 필요]"
+    ]
+  },
+  {
+    "keyword": "횡단보도",
+    "score": 90,
+    "count": 2,
+    "sources": [
+      "related_keywords_token",
+      "search_aliases"
+    ],
+    "issue_titles": [
+      "재발 방지 관련 민원 이슈 - 과태료 중심 [관찰 필요]"
+    ]
+  }
+]

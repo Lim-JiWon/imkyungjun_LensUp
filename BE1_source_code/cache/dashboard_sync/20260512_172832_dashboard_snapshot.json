@@ -1,0 +1,2084 @@
+{
+  "synced_at": "2026-05-12T17:28:32.232029",
+  "date_from": "20250301",
+  "date_to": "20250305",
+  "today_issue": {
+    "raw_count": 10,
+    "normalized_count": 10,
+    "items": [
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "구간 산업 안전 관리 처리 여부",
+        "value": 873,
+        "rank": 1,
+        "raw": {
+          "topic": "구간 산업 안전 관리 처리 여부",
+          "rank": 1,
+          "count": 873
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "기획재정부 위례신사선 책임 생략 촉구",
+        "value": 30,
+        "rank": 2,
+        "raw": {
+          "topic": "기획재정부 위례신사선 책임 생략 촉구",
+          "rank": 2,
+          "count": 30
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "학군 변경 원인 원상복귀 공존",
+        "value": 23,
+        "rank": 3,
+        "raw": {
+          "topic": "학군 변경 원인 원상복귀 공존",
+          "rank": 3,
+          "count": 23
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "김천문화예술회관 리모델링 무대기계 입찰 불공정성 제보",
+        "value": 3,
+        "rank": 4,
+        "raw": {
+          "topic": "김천문화예술회관 리모델링 무대기계 입찰 불공정성 제보",
+          "rank": 4,
+          "count": 3
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "가압류 말소 임대 입주자 모집",
+        "value": 3,
+        "rank": 5,
+        "raw": {
+          "topic": "가압류 말소 임대 입주자 모집",
+          "rank": 5,
+          "count": 3
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "sk브로드밴드 인터넷 이중가입 사기",
+        "value": 3,
+        "rank": 6,
+        "raw": {
+          "topic": "sk브로드밴드 인터넷 이중가입 사기",
+          "rank": 6,
+          "count": 3
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "성락교회 교회개혁협의회 임원 3인 조세범처벌법 위반",
+        "value": 3,
+        "rank": 7,
+        "raw": {
+          "topic": "성락교회 교회개혁협의회 임원 3인 조세범처벌법 위반",
+          "rank": 7,
+          "count": 3
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "허위 고객 모집 추가",
+        "value": 2,
+        "rank": 8,
+        "raw": {
+          "topic": "허위 고객 모집 추가",
+          "rank": 8,
+          "count": 2
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "사전청약 분양가 상승 민간 사전청약자 조치",
+        "value": 2,
+        "rank": 9,
+        "raw": {
+          "topic": "사전청약 분양가 상승 민간 사전청약자 조치",
+          "rank": 9,
+          "count": 2
+        }
+      },
+      {
+        "dataset_type": "today_issue",
+        "dataset_label": "오늘의 민원 이슈",
+        "entity_type": "issue",
+        "label": "지성한방병원 운영 홍보 블로그 부당광고 점검",
+        "value": 2,
+        "rank": 10,
+        "raw": {
+          "topic": "지성한방병원 운영 홍보 블로그 부당광고 점검",
+          "rank": 10,
+          "count": 2
+        }
+      }
+    ]
+  },
+  "discovered_keywords": [
+    "불법_주정차",
+    "주정차_신고",
+    "친환경차_충전구역",
+    "국토교통부_자동차운영보험",
+    "보건복지부_장애인권익지원"
+  ],
+  "merged_keyword_candidates": [
+    {
+      "label": "불법_주정차",
+      "total_score": 7.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 1,
+      "max_value": 11914,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "불법_주정차",
+          "value": 11914,
+          "rank": 1,
+          "raw": {
+            "date": "20250305",
+            "keyword": "불법_주정차",
+            "df": 11914,
+            "rank": 1,
+            "prevRatio": "118.53",
+            "prevDf": 5452
+          },
+          "date": "20250305",
+          "change_rate": "118.53",
+          "score": 7.4
+        }
+      ]
+    },
+    {
+      "label": "주정차_신고",
+      "total_score": 7.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 2,
+      "max_value": 9374,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "주정차_신고",
+          "value": 9374,
+          "rank": 2,
+          "raw": {
+            "date": "20250305",
+            "keyword": "주정차_신고",
+            "df": 9374,
+            "rank": 2,
+            "prevRatio": "116.49",
+            "prevDf": 4330
+          },
+          "date": "20250305",
+          "change_rate": "116.49",
+          "score": 7.3
+        }
+      ]
+    },
+    {
+      "label": "친환경차_충전구역",
+      "total_score": 7.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 3,
+      "max_value": 16940,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "친환경차_충전구역",
+          "value": 16940,
+          "rank": 3,
+          "raw": {
+            "date": "20250305",
+            "keyword": "친환경차_충전구역",
+            "df": 16940,
+            "rank": 3,
+            "prevRatio": "2131.88",
+            "prevDf": 759
+          },
+          "date": "20250305",
+          "change_rate": "2131.88",
+          "score": 7.2
+        }
+      ]
+    },
+    {
+      "label": "국토교통부_자동차운영보험",
+      "total_score": 7.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 4,
+      "max_value": 16804,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "국토교통부_자동차운영보험",
+          "value": 16804,
+          "rank": 4,
+          "raw": {
+            "date": "20250305",
+            "keyword": "국토교통부_자동차운영보험",
+            "df": 16804,
+            "rank": 4,
+            "prevRatio": "1680400.00",
+            "prevDf": 0
+          },
+          "date": "20250305",
+          "change_rate": "1680400.00",
+          "score": 7.1
+        }
+      ]
+    },
+    {
+      "label": "보건복지부_장애인권익지원",
+      "total_score": 7.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 5,
+      "max_value": 16804,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "보건복지부_장애인권익지원",
+          "value": 16804,
+          "rank": 5,
+          "raw": {
+            "date": "20250305",
+            "keyword": "보건복지부_장애인권익지원",
+            "df": 16804,
+            "rank": 5,
+            "prevRatio": "1680400.00",
+            "prevDf": 0
+          },
+          "date": "20250305",
+          "change_rate": "1680400.00",
+          "score": 7.0
+        }
+      ]
+    },
+    {
+      "label": "송도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1854.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "송도",
+          "value": "1854.0",
+          "rank": null,
+          "raw": {
+            "label": "송도",
+            "value": "1854.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "발전소",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1674.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "발전소",
+          "value": "1674.0",
+          "rank": null,
+          "raw": {
+            "label": "발전소",
+            "value": "1674.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "장애인",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1184.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "장애인",
+          "value": "1184.0",
+          "rank": null,
+          "raw": {
+            "label": "장애인",
+            "value": "1184.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1020.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차",
+          "value": "1020.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차",
+            "value": "1020.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인천도시공사",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 920.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인천도시공사",
+          "value": "920.0",
+          "rank": null,
+          "raw": {
+            "label": "인천도시공사",
+            "value": "920.0"
+          },
+          "score": 4.5
+        }
+      ]
+    }
+  ],
+  "keyword_details": [
+    {
+      "keyword": "불법_주정차",
+      "search_keyword": "불법 주정차",
+      "trend": {
+        "raw_count": 5,
+        "normalized_count": 5,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250301",
+            "value": 18429,
+            "rank": null,
+            "date": "20250301",
+            "change_rate": "-3.6",
+            "raw": {
+              "hits": 18429,
+              "label": "20250301",
+              "termQuery": "20250301d",
+              "prebRatio": "-3.6"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250302",
+            "value": 16598,
+            "rank": null,
+            "date": "20250302",
+            "change_rate": "-9.9",
+            "raw": {
+              "hits": 16598,
+              "label": "20250302",
+              "termQuery": "20250302d",
+              "prebRatio": "-9.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250303",
+            "value": 15974,
+            "rank": null,
+            "date": "20250303",
+            "change_rate": "-3.8",
+            "raw": {
+              "hits": 15974,
+              "label": "20250303",
+              "termQuery": "20250303d",
+              "prebRatio": "-3.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250304",
+            "value": 14576,
+            "rank": null,
+            "date": "20250304",
+            "change_rate": "-8.8",
+            "raw": {
+              "hits": 14576,
+              "label": "20250304",
+              "termQuery": "20250304d",
+              "prebRatio": "-8.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250305",
+            "value": 17837,
+            "rank": null,
+            "date": "20250305",
+            "change_rate": "22.4",
+            "raw": {
+              "hits": 17837,
+              "label": "20250305",
+              "termQuery": "20250305d",
+              "prebRatio": "22.4"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "전대구내",
+            "related_label": "",
+            "value": 69.64706,
+            "rank": null,
+            "raw": {
+              "label": "전대구내",
+              "value": 69.64706
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "차량 교차",
+            "related_label": "",
+            "value": 38.59487,
+            "rank": null,
+            "raw": {
+              "label": "차량 교차",
+              "value": 38.59487
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "백운로",
+            "related_label": "",
+            "value": 34.622753,
+            "rank": null,
+            "raw": {
+              "label": "백운로",
+              "value": 34.622753
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "횡단보도",
+            "related_label": "",
+            "value": 30.413794,
+            "rank": null,
+            "raw": {
+              "label": "횡단보도",
+              "value": 30.413794
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "안전지대",
+            "related_label": "",
+            "value": 26.20598,
+            "rank": null,
+            "raw": {
+              "label": "안전지대",
+              "value": 26.20598
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "과태료",
+            "related_label": "",
+            "value": 25.649403,
+            "rank": null,
+            "raw": {
+              "label": "과태료",
+              "value": 25.649403
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "소화전",
+            "related_label": "",
+            "value": 15.780822,
+            "rank": null,
+            "raw": {
+              "label": "소화전",
+              "value": 15.780822
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "버스정류소",
+            "related_label": "",
+            "value": 15.652174,
+            "rank": null,
+            "raw": {
+              "label": "버스정류소",
+              "value": 15.652174
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "우회전",
+            "related_label": "",
+            "value": 14.299066,
+            "rank": null,
+            "raw": {
+              "label": "우회전",
+              "value": 14.299066
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "황색실선",
+            "related_label": "",
+            "value": 12.857142,
+            "rank": null,
+            "raw": {
+              "label": "황색실선",
+              "value": 12.857142
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "비상등",
+            "related_label": "",
+            "value": 9.230769,
+            "rank": null,
+            "raw": {
+              "label": "비상등",
+              "value": 9.230769
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "과태료 부과 대상",
+            "related_label": "",
+            "value": 9.090909,
+            "rank": null,
+            "raw": {
+              "label": "과태료 부과 대상",
+              "value": 9.090909
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "인도 침범 여부",
+            "related_label": "",
+            "value": 8.888889,
+            "rank": null,
+            "raw": {
+              "label": "인도 침범 여부",
+              "value": 8.888889
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "행정안전부 지침 보도시점",
+            "related_label": "",
+            "value": 8.888889,
+            "rank": null,
+            "raw": {
+              "label": "행정안전부 지침 보도시점",
+              "value": 8.888889
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "교통사고",
+            "related_label": "",
+            "value": 8.8,
+            "rank": null,
+            "raw": {
+              "label": "교통사고",
+              "value": 8.8
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "침범시 과태료 대상",
+            "related_label": "",
+            "value": 8.571428,
+            "rank": null,
+            "raw": {
+              "label": "침범시 과태료 대상",
+              "value": 8.571428
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "번호판",
+            "related_label": "",
+            "value": 8.333333,
+            "rank": null,
+            "raw": {
+              "label": "번호판",
+              "value": 8.333333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "도로교통법",
+            "related_label": "",
+            "value": 8.10989,
+            "rank": null,
+            "raw": {
+              "label": "도로교통법",
+              "value": 8.10989
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "금지구역",
+            "related_label": "",
+            "value": 7.948052,
+            "rank": null,
+            "raw": {
+              "label": "금지구역",
+              "value": 7.948052
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "소방전",
+            "related_label": "",
+            "value": 7.529412,
+            "rank": null,
+            "raw": {
+              "label": "소방전",
+              "value": 7.529412
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 453,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "453"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "주정차_신고",
+      "search_keyword": "주정차 신고",
+      "trend": {
+        "raw_count": 5,
+        "normalized_count": 5,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250301",
+            "value": 18420,
+            "rank": null,
+            "date": "20250301",
+            "change_rate": "-3.5",
+            "raw": {
+              "hits": 18420,
+              "label": "20250301",
+              "termQuery": "20250301d",
+              "prebRatio": "-3.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250302",
+            "value": 16592,
+            "rank": null,
+            "date": "20250302",
+            "change_rate": "-9.9",
+            "raw": {
+              "hits": 16592,
+              "label": "20250302",
+              "termQuery": "20250302d",
+              "prebRatio": "-9.9"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250303",
+            "value": 15976,
+            "rank": null,
+            "date": "20250303",
+            "change_rate": "-3.7",
+            "raw": {
+              "hits": 15976,
+              "label": "20250303",
+              "termQuery": "20250303d",
+              "prebRatio": "-3.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250304",
+            "value": 14563,
+            "rank": null,
+            "date": "20250304",
+            "change_rate": "-8.8",
+            "raw": {
+              "hits": 14563,
+              "label": "20250304",
+              "termQuery": "20250304d",
+              "prebRatio": "-8.8"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250305",
+            "value": 17821,
+            "rank": null,
+            "date": "20250305",
+            "change_rate": "22.4",
+            "raw": {
+              "hits": 17821,
+              "label": "20250305",
+              "termQuery": "20250305d",
+              "prebRatio": "22.4"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "차량 교차",
+            "related_label": "",
+            "value": 38.59487,
+            "rank": null,
+            "raw": {
+              "label": "차량 교차",
+              "value": 38.59487
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "백운로",
+            "related_label": "",
+            "value": 33.899372,
+            "rank": null,
+            "raw": {
+              "label": "백운로",
+              "value": 33.899372
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "횡단보도",
+            "related_label": "",
+            "value": 24.550264,
+            "rank": null,
+            "raw": {
+              "label": "횡단보도",
+              "value": 24.550264
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "버스정류소",
+            "related_label": "",
+            "value": 14.61157,
+            "rank": null,
+            "raw": {
+              "label": "버스정류소",
+              "value": 14.61157
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "소화전",
+            "related_label": "",
+            "value": 14.337663,
+            "rank": null,
+            "raw": {
+              "label": "소화전",
+              "value": 14.337663
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "안전지대",
+            "related_label": "",
+            "value": 13.991032,
+            "rank": null,
+            "raw": {
+              "label": "안전지대",
+              "value": 13.991032
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "과태료",
+            "related_label": "",
+            "value": 11.914893,
+            "rank": null,
+            "raw": {
+              "label": "과태료",
+              "value": 11.914893
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "우회전",
+            "related_label": "",
+            "value": 11.822222,
+            "rank": null,
+            "raw": {
+              "label": "우회전",
+              "value": 11.822222
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "장애인",
+            "related_label": "",
+            "value": 11.72093,
+            "rank": null,
+            "raw": {
+              "label": "장애인",
+              "value": 11.72093
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "황색실선",
+            "related_label": "",
+            "value": 10.285714,
+            "rank": null,
+            "raw": {
+              "label": "황색실선",
+              "value": 10.285714
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "행정안전부 지침 보도시점",
+            "related_label": "",
+            "value": 9.242424,
+            "rank": null,
+            "raw": {
+              "label": "행정안전부 지침 보도시점",
+              "value": 9.242424
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "과태료 부과 대상",
+            "related_label": "",
+            "value": 9.230769,
+            "rank": null,
+            "raw": {
+              "label": "과태료 부과 대상",
+              "value": 9.230769
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "비상등",
+            "related_label": "",
+            "value": 9.230769,
+            "rank": null,
+            "raw": {
+              "label": "비상등",
+              "value": 9.230769
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "장애인 전용구역",
+            "related_label": "",
+            "value": 9.230769,
+            "rank": null,
+            "raw": {
+              "label": "장애인 전용구역",
+              "value": 9.230769
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "인도 침범 여부",
+            "related_label": "",
+            "value": 9.090909,
+            "rank": null,
+            "raw": {
+              "label": "인도 침범 여부",
+              "value": 9.090909
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "금지구역",
+            "related_label": "",
+            "value": 9.038462,
+            "rank": null,
+            "raw": {
+              "label": "금지구역",
+              "value": 9.038462
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "침범시 과태료 대상",
+            "related_label": "",
+            "value": 8.888889,
+            "rank": null,
+            "raw": {
+              "label": "침범시 과태료 대상",
+              "value": 8.888889
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "도로교통법",
+            "related_label": "",
+            "value": 8.10989,
+            "rank": null,
+            "raw": {
+              "label": "도로교통법",
+              "value": 8.10989
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "교통사고",
+            "related_label": "",
+            "value": 8.0,
+            "rank": null,
+            "raw": {
+              "label": "교통사고",
+              "value": 8.0
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "소방전",
+            "related_label": "",
+            "value": 7.6190476,
+            "rank": null,
+            "raw": {
+              "label": "소방전",
+              "value": 7.6190476
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 431,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "431"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "친환경차_충전구역",
+      "search_keyword": "친환경차 충전구역",
+      "trend": {
+        "raw_count": 5,
+        "normalized_count": 5,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250301",
+            "value": 18293,
+            "rank": null,
+            "date": "20250301",
+            "change_rate": "-3.2",
+            "raw": {
+              "hits": 18293,
+              "label": "20250301",
+              "termQuery": "20250301d",
+              "prebRatio": "-3.2"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250302",
+            "value": 16366,
+            "rank": null,
+            "date": "20250302",
+            "change_rate": "-10.5",
+            "raw": {
+              "hits": 16366,
+              "label": "20250302",
+              "termQuery": "20250302d",
+              "prebRatio": "-10.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250303",
+            "value": 15758,
+            "rank": null,
+            "date": "20250303",
+            "change_rate": "-3.7",
+            "raw": {
+              "hits": 15758,
+              "label": "20250303",
+              "termQuery": "20250303d",
+              "prebRatio": "-3.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250304",
+            "value": 14421,
+            "rank": null,
+            "date": "20250304",
+            "change_rate": "-8.5",
+            "raw": {
+              "hits": 14421,
+              "label": "20250304",
+              "termQuery": "20250304d",
+              "prebRatio": "-8.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250305",
+            "value": 17643,
+            "rank": null,
+            "date": "20250305",
+            "change_rate": "22.3",
+            "raw": {
+              "hits": 17643,
+              "label": "20250305",
+              "termQuery": "20250305d",
+              "prebRatio": "22.3"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 10,
+        "normalized_count": 10,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "전기차",
+            "related_label": "",
+            "value": 14.72,
+            "rank": null,
+            "raw": {
+              "label": "전기차",
+              "value": 14.72
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "고덕국제신도시다해브",
+            "related_label": "",
+            "value": 4.0,
+            "rank": null,
+            "raw": {
+              "label": "고덕국제신도시다해브",
+              "value": 4.0
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "방해행위차량",
+            "related_label": "",
+            "value": 3.6363637,
+            "rank": null,
+            "raw": {
+              "label": "방해행위차량",
+              "value": 3.6363637
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "진입로이중주차",
+            "related_label": "",
+            "value": 3.6363637,
+            "rank": null,
+            "raw": {
+              "label": "진입로이중주차",
+              "value": 3.6363637
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "불법주차",
+            "related_label": "",
+            "value": 2.689655,
+            "rank": null,
+            "raw": {
+              "label": "불법주차",
+              "value": 2.689655
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "충전구역 불법주차",
+            "related_label": "",
+            "value": 0.3913846,
+            "rank": null,
+            "raw": {
+              "label": "충전구역 불법주차",
+              "value": 0.3913846
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "충전방해",
+            "related_label": "",
+            "value": 0.077910446,
+            "rank": null,
+            "raw": {
+              "label": "충전방해",
+              "value": 0.077910446
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지하1층 친환경차 충전구역 불법주차",
+            "related_label": "",
+            "value": 0.048,
+            "rank": null,
+            "raw": {
+              "label": "지하1층 친환경차 충전구역 불법주차",
+              "value": 0.048
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "전기차 충전구역 주차",
+            "related_label": "",
+            "value": 0.027692307,
+            "rank": null,
+            "raw": {
+              "label": "전기차 충전구역 주차",
+              "value": 0.027692307
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "팜파스리조트내 친환경차",
+            "related_label": "",
+            "value": 0.024,
+            "rank": null,
+            "raw": {
+              "label": "팜파스리조트내 친환경차",
+              "value": 0.024
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 6809,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "6809"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "국토교통부_자동차운영보험",
+      "search_keyword": "국토교통부 자동차운영보험",
+      "trend": {
+        "raw_count": 5,
+        "normalized_count": 5,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250301",
+            "value": 18292,
+            "rank": null,
+            "date": "20250301",
+            "change_rate": "-3.3",
+            "raw": {
+              "hits": 18292,
+              "label": "20250301",
+              "termQuery": "20250301d",
+              "prebRatio": "-3.3"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250302",
+            "value": 16367,
+            "rank": null,
+            "date": "20250302",
+            "change_rate": "-10.5",
+            "raw": {
+              "hits": 16367,
+              "label": "20250302",
+              "termQuery": "20250302d",
+              "prebRatio": "-10.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250303",
+            "value": 15758,
+            "rank": null,
+            "date": "20250303",
+            "change_rate": "-3.7",
+            "raw": {
+              "hits": 15758,
+              "label": "20250303",
+              "termQuery": "20250303d",
+              "prebRatio": "-3.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250304",
+            "value": 14421,
+            "rank": null,
+            "date": "20250304",
+            "change_rate": "-8.5",
+            "raw": {
+              "hits": 14421,
+              "label": "20250304",
+              "termQuery": "20250304d",
+              "prebRatio": "-8.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250305",
+            "value": 17642,
+            "rank": null,
+            "date": "20250305",
+            "change_rate": "22.3",
+            "raw": {
+              "hits": 17642,
+              "label": "20250305",
+              "termQuery": "20250305d",
+              "prebRatio": "22.3"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 20,
+        "normalized_count": 20,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경찰청",
+            "related_label": "",
+            "value": 60.857143,
+            "rank": null,
+            "raw": {
+              "label": "경찰청",
+              "value": 60.857143
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지자체",
+            "related_label": "",
+            "value": 59.822617,
+            "rank": null,
+            "raw": {
+              "label": "지자체",
+              "value": 59.822617
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "신고자",
+            "related_label": "",
+            "value": 56.8,
+            "rank": null,
+            "raw": {
+              "label": "신고자",
+              "value": 56.8
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "위반사항",
+            "related_label": "",
+            "value": 21.657755,
+            "rank": null,
+            "raw": {
+              "label": "위반사항",
+              "value": 21.657755
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "자관법",
+            "related_label": "",
+            "value": 10.746667,
+            "rank": null,
+            "raw": {
+              "label": "자관법",
+              "value": 10.746667
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후미등불량",
+            "related_label": "",
+            "value": 8.210526,
+            "rank": null,
+            "raw": {
+              "label": "후미등불량",
+              "value": 8.210526
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후부반사지 훼손",
+            "related_label": "",
+            "value": 7.6271186,
+            "rank": null,
+            "raw": {
+              "label": "후부반사지 훼손",
+              "value": 7.6271186
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "번호판",
+            "related_label": "",
+            "value": 7.0,
+            "rank": null,
+            "raw": {
+              "label": "번호판",
+              "value": 7.0
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경부선",
+            "related_label": "",
+            "value": 4.2,
+            "rank": null,
+            "raw": {
+              "label": "경부선",
+              "value": 4.2
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "반사지훼손",
+            "related_label": "",
+            "value": 3.3333333,
+            "rank": null,
+            "raw": {
+              "label": "반사지훼손",
+              "value": 3.3333333
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "식별 불가",
+            "related_label": "",
+            "value": 3.2,
+            "rank": null,
+            "raw": {
+              "label": "식별 불가",
+              "value": 3.2
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "신호위반",
+            "related_label": "",
+            "value": 2.857143,
+            "rank": null,
+            "raw": {
+              "label": "신호위반",
+              "value": 2.857143
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "불법행위",
+            "related_label": "",
+            "value": 2.6666667,
+            "rank": null,
+            "raw": {
+              "label": "불법행위",
+              "value": 2.6666667
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "후부반사지 설치상태",
+            "related_label": "",
+            "value": 2.64,
+            "rank": null,
+            "raw": {
+              "label": "후부반사지 설치상태",
+              "value": 2.64
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경기도 시흥시 월곶동",
+            "related_label": "",
+            "value": 2.4,
+            "rank": null,
+            "raw": {
+              "label": "경기도 시흥시 월곶동",
+              "value": 2.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "충청남도 천안시",
+            "related_label": "",
+            "value": 2.4,
+            "rank": null,
+            "raw": {
+              "label": "충청남도 천안시",
+              "value": 2.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "충청북도 옥천군 옥천읍 서대구일로",
+            "related_label": "",
+            "value": 2.4,
+            "rank": null,
+            "raw": {
+              "label": "충청북도 옥천군 옥천읍 서대구일로",
+              "value": 2.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "한국교통안전공단 자동차 안전단속원",
+            "related_label": "",
+            "value": 0.5711295,
+            "rank": null,
+            "raw": {
+              "label": "한국교통안전공단 자동차 안전단속원",
+              "value": 0.5711295
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "자동차 안전기준 위반 사항",
+            "related_label": "",
+            "value": 0.5687955,
+            "rank": null,
+            "raw": {
+              "label": "자동차 안전기준 위반 사항",
+              "value": 0.5687955
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "한국도로공사 안전순찰원",
+            "related_label": "",
+            "value": 0.5687955,
+            "rank": null,
+            "raw": {
+              "label": "한국도로공사 안전순찰원",
+              "value": 0.5687955
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 82221,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "82221"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "보건복지부_장애인권익지원",
+      "search_keyword": "보건복지부 장애인권익지원",
+      "trend": {
+        "raw_count": 5,
+        "normalized_count": 5,
+        "items": [
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250301",
+            "value": 18292,
+            "rank": null,
+            "date": "20250301",
+            "change_rate": "-3.3",
+            "raw": {
+              "hits": 18292,
+              "label": "20250301",
+              "termQuery": "20250301d",
+              "prebRatio": "-3.3"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250302",
+            "value": 16366,
+            "rank": null,
+            "date": "20250302",
+            "change_rate": "-10.5",
+            "raw": {
+              "hits": 16366,
+              "label": "20250302",
+              "termQuery": "20250302d",
+              "prebRatio": "-10.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250303",
+            "value": 15758,
+            "rank": null,
+            "date": "20250303",
+            "change_rate": "-3.7",
+            "raw": {
+              "hits": 15758,
+              "label": "20250303",
+              "termQuery": "20250303d",
+              "prebRatio": "-3.7"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250304",
+            "value": 14421,
+            "rank": null,
+            "date": "20250304",
+            "change_rate": "-8.5",
+            "raw": {
+              "hits": 14421,
+              "label": "20250304",
+              "termQuery": "20250304d",
+              "prebRatio": "-8.5"
+            }
+          },
+          {
+            "dataset_type": "keyword_trend",
+            "dataset_label": "키워드 트렌드 정보",
+            "entity_type": "trend",
+            "label": "20250305",
+            "value": 17643,
+            "rank": null,
+            "date": "20250305",
+            "change_rate": "22.3",
+            "raw": {
+              "hits": 17643,
+              "label": "20250305",
+              "termQuery": "20250305d",
+              "prebRatio": "22.3"
+            }
+          }
+        ]
+      },
+      "related_keywords": {
+        "raw_count": 14,
+        "normalized_count": 14,
+        "items": [
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "주차방해",
+            "related_label": "",
+            "value": 6.4,
+            "rank": null,
+            "raw": {
+              "label": "주차방해",
+              "value": 6.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "장애인 전용구역 불법주차 신고",
+            "related_label": "",
+            "value": 3.1168132,
+            "rank": null,
+            "raw": {
+              "label": "장애인 전용구역 불법주차 신고",
+              "value": 3.1168132
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "지자체",
+            "related_label": "",
+            "value": 3.1111112,
+            "rank": null,
+            "raw": {
+              "label": "지자체",
+              "value": 3.1111112
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "불법주차 신고",
+            "related_label": "",
+            "value": 2.6086957,
+            "rank": null,
+            "raw": {
+              "label": "불법주차 신고",
+              "value": 2.6086957
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "과태료",
+            "related_label": "",
+            "value": 2.5714285,
+            "rank": null,
+            "raw": {
+              "label": "과태료",
+              "value": 2.5714285
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "전용구역",
+            "related_label": "",
+            "value": 2.5714285,
+            "rank": null,
+            "raw": {
+              "label": "전용구역",
+              "value": 2.5714285
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "주차구역",
+            "related_label": "",
+            "value": 2.5714285,
+            "rank": null,
+            "raw": {
+              "label": "주차구역",
+              "value": 2.5714285
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "전용구역 불법주차",
+            "related_label": "",
+            "value": 2.5263157,
+            "rank": null,
+            "raw": {
+              "label": "전용구역 불법주차",
+              "value": 2.5263157
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "경상남도 창원시 의창구 용지",
+            "related_label": "",
+            "value": 2.4,
+            "rank": null,
+            "raw": {
+              "label": "경상남도 창원시 의창구 용지",
+              "value": 2.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "부산광역시 기장군 정관읍 정관1",
+            "related_label": "",
+            "value": 2.4,
+            "rank": null,
+            "raw": {
+              "label": "부산광역시 기장군 정관읍 정관1",
+              "value": 2.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "전용구역 주차방해 신고",
+            "related_label": "",
+            "value": 2.4,
+            "rank": null,
+            "raw": {
+              "label": "전용구역 주차방해 신고",
+              "value": 2.4
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "주차표지",
+            "related_label": "",
+            "value": 2.1818182,
+            "rank": null,
+            "raw": {
+              "label": "주차표지",
+              "value": 2.1818182
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "장애인 전용구역",
+            "related_label": "",
+            "value": 0.105882354,
+            "rank": null,
+            "raw": {
+              "label": "장애인 전용구역",
+              "value": 0.105882354
+            }
+          },
+          {
+            "dataset_type": "related_keywords",
+            "dataset_label": "연관어 분석 정보",
+            "entity_type": "relation",
+            "label": "장애인 주차구역 주차위반",
+            "related_label": "",
+            "value": 0.053333335,
+            "rank": null,
+            "raw": {
+              "label": "장애인 주차구역 주차위반",
+              "value": 0.053333335
+            }
+          }
+        ]
+      },
+      "complaint_count": {
+        "raw_count": 1,
+        "normalized_count": 1,
+        "items": [
+          {
+            "dataset_type": "keyword_complaint_count",
+            "dataset_label": "키워드 기반 민원 건수 정보",
+            "entity_type": "count",
+            "label": "",
+            "value": 393,
+            "rank": null,
+            "date": null,
+            "raw": {
+              "pttn": "393"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

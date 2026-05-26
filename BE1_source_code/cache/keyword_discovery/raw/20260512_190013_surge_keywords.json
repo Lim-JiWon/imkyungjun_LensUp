@@ -1,0 +1,84 @@
+{
+  "returnObject": [
+    {
+      "date": "20260511",
+      "keyword": "한국교통안전공단_자동차",
+      "df": 129,
+      "rank": 1,
+      "prevRatio": "1512.50",
+      "prevDf": 8
+    },
+    {
+      "date": "20260511",
+      "keyword": "한국도로공사_안전순찰원",
+      "df": 129,
+      "rank": 2,
+      "prevRatio": "1512.50",
+      "prevDf": 8
+    },
+    {
+      "date": "20260511",
+      "keyword": "재발_방지",
+      "df": 269,
+      "rank": 3,
+      "prevRatio": "268.49",
+      "prevDf": 73
+    },
+    {
+      "date": "20260511",
+      "keyword": "공원_조성",
+      "df": 107,
+      "rank": 4,
+      "prevRatio": "3466.67",
+      "prevDf": 3
+    },
+    {
+      "date": "20260511",
+      "keyword": "조사_요청",
+      "df": 196,
+      "rank": 5,
+      "prevRatio": "211.11",
+      "prevDf": 63
+    },
+    {
+      "date": "20260511",
+      "keyword": "인접_부지",
+      "df": 98,
+      "rank": 6,
+      "prevRatio": "9800.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260511",
+      "keyword": "시민공원_조성",
+      "df": 97,
+      "rank": 7,
+      "prevRatio": "9700.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260511",
+      "keyword": "이행_요청",
+      "df": 96,
+      "rank": 8,
+      "prevRatio": "3100.00",
+      "prevDf": 3
+    },
+    {
+      "date": "20260511",
+      "keyword": "폐석회_매립지",
+      "df": 96,
+      "rank": 9,
+      "prevRatio": "9600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260511",
+      "keyword": "자동차_안전기준",
+      "df": 133,
+      "rank": 10,
+      "prevRatio": "565.00",
+      "prevDf": 20
+    }
+  ]
+}

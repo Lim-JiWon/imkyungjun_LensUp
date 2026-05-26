@@ -1,0 +1,283 @@
+{
+  "date_from": "20250301",
+  "date_to": "20250305",
+  "final_keywords": [
+    "불법_주정차",
+    "주정차_신고",
+    "친환경차_충전구역",
+    "국토교통부_자동차운영보험",
+    "보건복지부_장애인권익지원"
+  ],
+  "merged_candidates": [
+    {
+      "label": "불법_주정차",
+      "total_score": 7.4,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 1,
+      "max_value": 11914,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "불법_주정차",
+          "value": 11914,
+          "rank": 1,
+          "raw": {
+            "date": "20250305",
+            "keyword": "불법_주정차",
+            "df": 11914,
+            "rank": 1,
+            "prevRatio": "106.70",
+            "prevDf": 5764
+          },
+          "date": "20250305",
+          "change_rate": "106.70",
+          "score": 7.4
+        }
+      ]
+    },
+    {
+      "label": "주정차_신고",
+      "total_score": 7.3,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 2,
+      "max_value": 9374,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "주정차_신고",
+          "value": 9374,
+          "rank": 2,
+          "raw": {
+            "date": "20250305",
+            "keyword": "주정차_신고",
+            "df": 9374,
+            "rank": 2,
+            "prevRatio": "104.76",
+            "prevDf": 4578
+          },
+          "date": "20250305",
+          "change_rate": "104.76",
+          "score": 7.3
+        }
+      ]
+    },
+    {
+      "label": "친환경차_충전구역",
+      "total_score": 7.2,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 3,
+      "max_value": 16940,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "친환경차_충전구역",
+          "value": 16940,
+          "rank": 3,
+          "raw": {
+            "date": "20250305",
+            "keyword": "친환경차_충전구역",
+            "df": 16940,
+            "rank": 3,
+            "prevRatio": "2080.18",
+            "prevDf": 777
+          },
+          "date": "20250305",
+          "change_rate": "2080.18",
+          "score": 7.2
+        }
+      ]
+    },
+    {
+      "label": "국토교통부_자동차운영보험",
+      "total_score": 7.1,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 4,
+      "max_value": 16804,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "국토교통부_자동차운영보험",
+          "value": 16804,
+          "rank": 4,
+          "raw": {
+            "date": "20250305",
+            "keyword": "국토교통부_자동차운영보험",
+            "df": 16804,
+            "rank": 4,
+            "prevRatio": "1680400.00",
+            "prevDf": 0
+          },
+          "date": "20250305",
+          "change_rate": "1680400.00",
+          "score": 7.1
+        }
+      ]
+    },
+    {
+      "label": "보건복지부_장애인권익지원",
+      "total_score": 7.0,
+      "sources": [
+        "surge_keywords"
+      ],
+      "best_rank": 5,
+      "max_value": 16804,
+      "raw_items": [
+        {
+          "dataset_type": "surge_keywords",
+          "dataset_label": "급등 키워드",
+          "entity_type": "keyword",
+          "label": "보건복지부_장애인권익지원",
+          "value": 16804,
+          "rank": 5,
+          "raw": {
+            "date": "20250305",
+            "keyword": "보건복지부_장애인권익지원",
+            "df": 16804,
+            "rank": 5,
+            "prevRatio": "1680400.00",
+            "prevDf": 0
+          },
+          "date": "20250305",
+          "change_rate": "1680400.00",
+          "score": 7.0
+        }
+      ]
+    },
+    {
+      "label": "송도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1854.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "송도",
+          "value": "1854.0",
+          "rank": null,
+          "raw": {
+            "label": "송도",
+            "value": "1854.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "발전소",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1674.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "발전소",
+          "value": "1674.0",
+          "rank": null,
+          "raw": {
+            "label": "발전소",
+            "value": "1674.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "장애인",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1184.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "장애인",
+          "value": "1184.0",
+          "rank": null,
+          "raw": {
+            "label": "장애인",
+            "value": "1184.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1020.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차",
+          "value": "1020.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차",
+            "value": "1020.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인천도시공사",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 920.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인천도시공사",
+          "value": "920.0",
+          "rank": null,
+          "raw": {
+            "label": "인천도시공사",
+            "value": "920.0"
+          },
+          "score": 4.5
+        }
+      ]
+    }
+  ]
+}

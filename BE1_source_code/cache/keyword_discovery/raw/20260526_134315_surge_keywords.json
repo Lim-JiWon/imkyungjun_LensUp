@@ -1,0 +1,404 @@
+{
+  "returnObject": [
+    {
+      "date": "20260513",
+      "keyword": "주정차_신고",
+      "df": 11433,
+      "rank": 1,
+      "prevRatio": "192.11",
+      "prevDf": 3914
+    },
+    {
+      "date": "20260513",
+      "keyword": "불법_주정차",
+      "df": 14781,
+      "rank": 2,
+      "prevRatio": "186.07",
+      "prevDf": 5167
+    },
+    {
+      "date": "20260513",
+      "keyword": "인도_불법",
+      "df": 2983,
+      "rank": 3,
+      "prevRatio": "227.80",
+      "prevDf": 910
+    },
+    {
+      "date": "20260513",
+      "keyword": "반론_기회",
+      "df": 99,
+      "rank": 4,
+      "prevRatio": "482.35",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "소수_의견",
+      "df": 99,
+      "rank": 5,
+      "prevRatio": "482.35",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "다수결_방식",
+      "df": 98,
+      "rank": 6,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "밀실_심의",
+      "df": 98,
+      "rank": 7,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "사업자_중심",
+      "df": 98,
+      "rank": 8,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "수치_기재",
+      "df": 98,
+      "rank": 9,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "재검증_절차",
+      "df": 98,
+      "rank": 10,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "재조사_계획",
+      "df": 98,
+      "rank": 11,
+      "prevRatio": "512.50",
+      "prevDf": 16
+    },
+    {
+      "date": "20260513",
+      "keyword": "판단_의견",
+      "df": 98,
+      "rank": 12,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "환경영향평가서_이격거리",
+      "df": 98,
+      "rank": 13,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "환경영향평가서상_이격거리",
+      "df": 98,
+      "rank": 14,
+      "prevRatio": "476.47",
+      "prevDf": 17
+    },
+    {
+      "date": "20260513",
+      "keyword": "강제_집행",
+      "df": 88,
+      "rank": 15,
+      "prevRatio": "8800.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "감금_수감",
+      "df": 86,
+      "rank": 16,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "경기도_북부경찰청",
+      "df": 86,
+      "rank": 17,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "공범_추가",
+      "df": 86,
+      "rank": 18,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "공중_목욕탕",
+      "df": 86,
+      "rank": 19,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "국가유공자_차량",
+      "df": 86,
+      "rank": 20,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "내란죄우두머리수괴_종물",
+      "df": 86,
+      "rank": 21,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "노래방_무단투기",
+      "df": 86,
+      "rank": 22,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "노래장_집단",
+      "df": 86,
+      "rank": 23,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "농협은행_통장",
+      "df": 86,
+      "rank": 24,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "몰수추징_명령",
+      "df": 86,
+      "rank": 25,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "몰수추징명령_기소전",
+      "df": 86,
+      "rank": 26,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "몰수추징청구_기소전",
+      "df": 86,
+      "rank": 27,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "배송_도착",
+      "df": 86,
+      "rank": 28,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "번호판_절도도둑질",
+      "df": 86,
+      "rank": 29,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "살인사주_내란죄",
+      "df": 86,
+      "rank": 30,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "신청_기소전",
+      "df": 86,
+      "rank": 31,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "압류_압수",
+      "df": 86,
+      "rank": 32,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "압수처리_자동차",
+      "df": 86,
+      "rank": 33,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "절도_서울특별시경찰청",
+      "df": 86,
+      "rank": 34,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "청정원_마요네즈",
+      "df": 86,
+      "rank": 35,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "체포_강제수갑",
+      "df": 86,
+      "rank": 36,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "퇴거명령_유치장",
+      "df": 86,
+      "rank": 37,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "현장신고거부_고양경찰서",
+      "df": 86,
+      "rank": 38,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "현장신고거부_기소전",
+      "df": 86,
+      "rank": 39,
+      "prevRatio": "8600.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "불법_광고물",
+      "df": 159,
+      "rank": 40,
+      "prevRatio": "622.73",
+      "prevDf": 22
+    },
+    {
+      "date": "20260513",
+      "keyword": "대통령특권불소추_법률",
+      "df": 82,
+      "rank": 41,
+      "prevRatio": "8200.00",
+      "prevDf": 0
+    },
+    {
+      "date": "20260513",
+      "keyword": "데이터센터_건립",
+      "df": 145,
+      "rank": 42,
+      "prevRatio": "314.29",
+      "prevDf": 35
+    },
+    {
+      "date": "20260513",
+      "keyword": "보호_의무",
+      "df": 71,
+      "rank": 43,
+      "prevRatio": "1320.00",
+      "prevDf": 5
+    },
+    {
+      "date": "20260513",
+      "keyword": "준공_예정",
+      "df": 69,
+      "rank": 44,
+      "prevRatio": "360.00",
+      "prevDf": 15
+    },
+    {
+      "date": "20260513",
+      "keyword": "지구단위계획_변경",
+      "df": 67,
+      "rank": 45,
+      "prevRatio": "318.75",
+      "prevDf": 16
+    },
+    {
+      "date": "20260513",
+      "keyword": "과천_주암지구",
+      "df": 65,
+      "rank": 46,
+      "prevRatio": "333.33",
+      "prevDf": 15
+    },
+    {
+      "date": "20260513",
+      "keyword": "국가정보자원관리원_화재",
+      "df": 65,
+      "rank": 47,
+      "prevRatio": "333.33",
+      "prevDf": 15
+    },
+    {
+      "date": "20260513",
+      "keyword": "긴급_대책",
+      "df": 65,
+      "rank": 48,
+      "prevRatio": "6400.00",
+      "prevDf": 1
+    },
+    {
+      "date": "20260513",
+      "keyword": "데이터센터_공단",
+      "df": 65,
+      "rank": 49,
+      "prevRatio": "333.33",
+      "prevDf": 15
+    },
+    {
+      "date": "20260513",
+      "keyword": "데이터센터_밀집",
+      "df": 65,
+      "rank": 50,
+      "prevRatio": "333.33",
+      "prevDf": 15
+    }
+  ]
+}

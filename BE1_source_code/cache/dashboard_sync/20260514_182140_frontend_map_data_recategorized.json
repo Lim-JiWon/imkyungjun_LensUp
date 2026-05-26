@@ -1,0 +1,2997 @@
+{
+  "meta": {
+    "batch_id": "dashboard-batch-20260513162720",
+    "generated_at": "2026-05-13T16:27:20.627750",
+    "source": "complaint_dashboard_sync_pipeline",
+    "target": "pttn",
+    "date_from": "20260428",
+    "date_to": "20260513",
+    "extra_data_period": {
+      "date_from": "20260328",
+      "date_to": "20260513",
+      "target": "pttn"
+    },
+    "issue_count": 20,
+    "region_count": 17,
+    "organization_count": 10,
+    "recategorized_at": "2026-05-14T18:21:40.044043",
+    "category_changed_count": 17
+  },
+  "region_summary": {
+    "top_region": "경기도",
+    "top_region_value": 557104,
+    "total_value": 1835104
+  },
+  "organization_summary": {
+    "top_organization": "경기도 수원시",
+    "top_organization_value": 49689
+  },
+  "region_rank": [
+    {
+      "rank": 1,
+      "region": "경기도",
+      "value": 557104
+    },
+    {
+      "rank": 2,
+      "region": "서울특별시",
+      "value": 277670
+    },
+    {
+      "rank": 3,
+      "region": "인천광역시",
+      "value": 126959
+    },
+    {
+      "rank": 4,
+      "region": "부산광역시",
+      "value": 104378
+    },
+    {
+      "rank": 5,
+      "region": "경상남도",
+      "value": 90391
+    },
+    {
+      "rank": 6,
+      "region": "대구광역시",
+      "value": 86581
+    },
+    {
+      "rank": 7,
+      "region": "광주광역시",
+      "value": 83180
+    },
+    {
+      "rank": 8,
+      "region": "충청남도",
+      "value": 75523
+    },
+    {
+      "rank": 9,
+      "region": "대전광역시",
+      "value": 72990
+    },
+    {
+      "rank": 10,
+      "region": "경상북도",
+      "value": 71103
+    },
+    {
+      "rank": 11,
+      "region": "충청북도",
+      "value": 63970
+    },
+    {
+      "rank": 12,
+      "region": "울산광역시",
+      "value": 54199
+    },
+    {
+      "rank": 13,
+      "region": "전북특별자치도",
+      "value": 52352
+    },
+    {
+      "rank": 14,
+      "region": "전라남도",
+      "value": 51060
+    },
+    {
+      "rank": 15,
+      "region": "강원특별자치도",
+      "value": 38562
+    },
+    {
+      "rank": 16,
+      "region": "제주특별자치도",
+      "value": 17343
+    },
+    {
+      "rank": 17,
+      "region": "세종특별자치시",
+      "value": 11739
+    }
+  ],
+  "organization_rank": [
+    {
+      "rank": 1,
+      "organization": "경기도 수원시",
+      "value": 49689
+    },
+    {
+      "rank": 2,
+      "organization": "경기도 성남시",
+      "value": 44970
+    },
+    {
+      "rank": 3,
+      "organization": "경기도 화성시",
+      "value": 35018
+    },
+    {
+      "rank": 4,
+      "organization": "경기도 용인시",
+      "value": 28472
+    },
+    {
+      "rank": 5,
+      "organization": "경기도 고양시",
+      "value": 27051
+    },
+    {
+      "rank": 6,
+      "organization": "경기도 안산시",
+      "value": 25428
+    },
+    {
+      "rank": 7,
+      "organization": "경기도 평택시",
+      "value": 24360
+    },
+    {
+      "rank": 8,
+      "organization": "경기도 부천시",
+      "value": 23258
+    },
+    {
+      "rank": 9,
+      "organization": "경기도 시흥시",
+      "value": 19979
+    },
+    {
+      "rank": 10,
+      "organization": "경기도 안양시",
+      "value": 17832
+    }
+  ],
+  "category_stats": [
+    {
+      "category": "도시/시설",
+      "issue_count": 1,
+      "total_complaint_count": 578,
+      "critical_count": 1,
+      "warning_count": 0,
+      "growing_count": 0,
+      "watch_count": 0,
+      "stable_count": 0,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-데이터센터_건립-90ef866814f5",
+          "title": "데이터센터 건립 관련 민원 이슈 - 주거환경 중심 [강한 징후]",
+          "status": "critical",
+          "risk_level": "critical",
+          "score": 89.0,
+          "complaint_count": 578,
+          "top_keyword": "데이터센터 건립",
+          "dominant_age_group": "30대",
+          "dominant_age_value": 144,
+          "unknown_age_ratio": 76.24
+        }
+      ]
+    },
+    {
+      "category": "행정/민원처리",
+      "issue_count": 13,
+      "total_complaint_count": 5532,
+      "critical_count": 0,
+      "warning_count": 1,
+      "growing_count": 2,
+      "watch_count": 7,
+      "stable_count": 3,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-공중_목욕탕-042c3946fc45",
+          "title": "공중 목욕탕 관련 민원 이슈 - 고소고발112신고사 중심 [주의 징후]",
+          "status": "warning",
+          "risk_level": "high",
+          "score": 73.0,
+          "complaint_count": 62,
+          "top_keyword": "공중 목욕탕",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 72,
+          "unknown_age_ratio": 27.33
+        },
+        {
+          "issue_key": "dashboard-강제_집행-03826a8a521f",
+          "title": "강제 집행 관련 민원 이슈 - 구산동 중심 [증가 징후]",
+          "status": "growing",
+          "risk_level": "medium",
+          "score": 58.0,
+          "complaint_count": 1723,
+          "top_keyword": "강제 집행",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1901,
+          "unknown_age_ratio": 43.66
+        },
+        {
+          "issue_key": "dashboard-신청_기소전-d98ec1fc62be",
+          "title": "신청 기소전 관련 민원 이슈 - 청구취지 추가 중심 [증가 징후]",
+          "status": "growing",
+          "risk_level": "medium",
+          "score": 58.0,
+          "complaint_count": 80,
+          "top_keyword": "신청 기소전",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 88,
+          "unknown_age_ratio": 0.89
+        },
+        {
+          "issue_key": "dashboard-감금_수감-c2783a4d5991",
+          "title": "감금 수감 관련 민원 이슈 - 교도소 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "medium",
+          "score": 53.0,
+          "complaint_count": 897,
+          "top_keyword": "감금 수감",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 824,
+          "unknown_age_ratio": 0.43
+        },
+        {
+          "issue_key": "dashboard-공범_추가-b5cc8d1f6da1",
+          "title": "공범 추가 관련 민원 이슈 - 재물손괴 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "medium",
+          "score": 50.0,
+          "complaint_count": 1359,
+          "top_keyword": "공범 추가",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1674,
+          "unknown_age_ratio": 7.54
+        }
+      ]
+    },
+    {
+      "category": "금융/소비자",
+      "issue_count": 2,
+      "total_complaint_count": 1118,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 1,
+      "watch_count": 0,
+      "stable_count": 1,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-배송_도착-ff64437295c6",
+          "title": "배송 도착 관련 민원 이슈 - 청구취지 추가 중심 [증가 징후]",
+          "status": "growing",
+          "risk_level": "medium",
+          "score": 50.0,
+          "complaint_count": 931,
+          "top_keyword": "배송 도착",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1073,
+          "unknown_age_ratio": 6.12
+        },
+        {
+          "issue_key": "dashboard-농협은행_통장-f158cb2d9794",
+          "title": "농협은행 통장 관련 민원 이슈 - 구산동 중심 [안정 관찰]",
+          "status": "stable",
+          "risk_level": "low",
+          "score": 30.0,
+          "complaint_count": 187,
+          "top_keyword": "농협은행 통장",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1215,
+          "unknown_age_ratio": 0.86
+        }
+      ]
+    },
+    {
+      "category": "교통/자동차",
+      "issue_count": 3,
+      "total_complaint_count": 1118,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 0,
+      "watch_count": 3,
+      "stable_count": 0,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-압수처리_자동차-29cb15b4d4bd",
+          "title": "압수처리 자동차 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 45.0,
+          "complaint_count": 200,
+          "top_keyword": "압수처리 자동차",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1256,
+          "unknown_age_ratio": 0.0
+        },
+        {
+          "issue_key": "dashboard-번호판_절도도둑질-1b9cb56b76eb",
+          "title": "번호판 절도도둑질 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 45.0,
+          "complaint_count": 170,
+          "top_keyword": "번호판 절도도둑질",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 793,
+          "unknown_age_ratio": 0.0
+        },
+        {
+          "issue_key": "dashboard-국가유공자_차량-76a0165b5cfa",
+          "title": "국가유공자 차량 관련 민원 이슈 - 관용차 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 35.0,
+          "complaint_count": 748,
+          "top_keyword": "국가유공자 차량",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 1235,
+          "unknown_age_ratio": 13.0
+        }
+      ]
+    },
+    {
+      "category": "환경/에너지",
+      "issue_count": 1,
+      "total_complaint_count": 56,
+      "critical_count": 0,
+      "warning_count": 0,
+      "growing_count": 0,
+      "watch_count": 1,
+      "stable_count": 0,
+      "top_issues": [
+        {
+          "issue_key": "dashboard-노래방_무단투기-71e4989961b2",
+          "title": "노래방 무단투기 관련 민원 이슈 - 고소고발112신고사 중심 [관찰 필요]",
+          "status": "watch",
+          "risk_level": "low",
+          "score": 48.0,
+          "complaint_count": 56,
+          "top_keyword": "노래방 무단투기",
+          "dominant_age_group": "60대",
+          "dominant_age_value": 69,
+          "unknown_age_ratio": 1.14
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "issue_key": "dashboard-데이터센터_건립-90ef866814f5",
+      "title": "데이터센터 건립 관련 민원 이슈 - 주거환경 중심 [강한 징후]",
+      "summary": "데이터센터 건립 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 578건이고 징후 점수는 89.0점입니다. 주요 연관어는 주거환경, 국토교통부, 과천시입니다. 기간 내 추이 값은 49 → 113이며, 기간 전체 변화율은 130.61%입니다. 전날 대비 변화율은 50.67%, 최근 2일 평균 변화율은 237.44%입니다.",
+      "forecast": "데이터센터 건립 이슈는 민원 건수가 일정 수준 이상으로 인해 확산 가능성이 높은 편입니다. 단기적으로 관련 민원 변화를 우선 모니터링할 필요가 있습니다.",
+      "category": "도시/시설",
+      "category_tags": [
+        "데이터센터",
+        "건립",
+        "주거환경",
+        "전자파",
+        "과천시",
+        "주거"
+      ],
+      "cluster_keywords": [
+        "데이터센터 건립",
+        "주거환경",
+        "국토교통부",
+        "과천시",
+        "전자파",
+        "주식회사 과천주암대토개발",
+        "교통"
+      ],
+      "status": "critical",
+      "risk_level": "critical",
+      "score": 89.0,
+      "complaint_count": 578,
+      "top_keyword": "데이터센터 건립",
+      "related_keywords": [
+        "주거환경",
+        "국토교통부",
+        "과천시",
+        "전자파",
+        "주식회사 과천주암대토개발"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 49
+        },
+        {
+          "date": "20260429",
+          "value": 48
+        },
+        {
+          "date": "20260430",
+          "value": 33
+        },
+        {
+          "date": "20260501",
+          "value": 32
+        },
+        {
+          "date": "20260502",
+          "value": 12
+        },
+        {
+          "date": "20260503",
+          "value": 15
+        },
+        {
+          "date": "20260504",
+          "value": 20
+        },
+        {
+          "date": "20260505",
+          "value": 14
+        },
+        {
+          "date": "20260506",
+          "value": 21
+        },
+        {
+          "date": "20260507",
+          "value": 32
+        },
+        {
+          "date": "20260508",
+          "value": 34
+        },
+        {
+          "date": "20260509",
+          "value": 19
+        },
+        {
+          "date": "20260510",
+          "value": 26
+        },
+        {
+          "date": "20260511",
+          "value": 35
+        },
+        {
+          "date": "20260512",
+          "value": 75
+        },
+        {
+          "date": "20260513",
+          "value": 113
+        }
+      ],
+      "age_searchword": "데이터센터 건립",
+      "known_age_distribution": [
+        {
+          "age_group": "30대",
+          "value": 144
+        },
+        {
+          "age_group": "40대",
+          "value": 135
+        },
+        {
+          "age_group": "60대",
+          "value": 33
+        },
+        {
+          "age_group": "50대",
+          "value": 29
+        },
+        {
+          "age_group": "20대",
+          "value": 3
+        },
+        {
+          "age_group": "80대",
+          "value": 2
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "30대",
+        "dominant_value": 144,
+        "dominant_ratio_in_known": 41.62,
+        "unknown_ratio": 76.24,
+        "known_total": 346,
+        "total": 1456
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 30대 비중이 가장 높습니다. 30대 민원은 144건이며, 확인된 연령대 중 41.62%를 차지합니다. 연령 미상 비율은 전체의 76.24%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-공중_목욕탕-042c3946fc45",
+      "title": "공중 목욕탕 관련 민원 이슈 - 고소고발112신고사 중심 [주의 징후]",
+      "summary": "공중 목욕탕 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 62건이고 징후 점수는 73.0점입니다. 주요 연관어는 고소고발112신고사, 노래방 무단투기, 살인사주 내란죄 공범 추가입니다. 기간 내 추이 값은 2 → 55이며, 기간 전체 변화율은 2650.0%입니다. 전날 대비 변화율은 2650.0%, 최근 2일 평균 변화율은 4887.5%입니다.",
+      "forecast": "공중 목욕탕 이슈는 기간 전체 변화율이 2650.0% 증가으로 인해 확산 가능성이 높은 편입니다. 단기적으로 관련 민원 변화를 우선 모니터링할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "고소",
+        "고발",
+        "신고",
+        "강제체포",
+        "강제수사",
+        "수사",
+        "공범"
+      ],
+      "cluster_keywords": [
+        "공중 목욕탕",
+        "고소고발112신고사",
+        "노래방 무단투기",
+        "살인사주 내란죄 공범 추가",
+        "청구취지 추가",
+        "강제체포 강제수사"
+      ],
+      "status": "warning",
+      "risk_level": "high",
+      "score": 73.0,
+      "complaint_count": 62,
+      "top_keyword": "공중 목욕탕",
+      "related_keywords": [
+        "고소고발112신고사",
+        "노래방 무단투기",
+        "살인사주 내란죄 공범 추가",
+        "청구취지 추가",
+        "강제체포 강제수사"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 2
+        },
+        {
+          "date": "20260429",
+          "value": 1
+        },
+        {
+          "date": "20260430",
+          "value": 2
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 1
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 1
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 1
+        },
+        {
+          "date": "20260512",
+          "value": 2
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "공중 목욕탕",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 72
+        },
+        {
+          "age_group": "40대",
+          "value": 21
+        },
+        {
+          "age_group": "30대",
+          "value": 9
+        },
+        {
+          "age_group": "50대",
+          "value": 4
+        },
+        {
+          "age_group": "70대",
+          "value": 2
+        },
+        {
+          "age_group": "20대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 72,
+        "dominant_ratio_in_known": 66.06,
+        "unknown_ratio": 27.33,
+        "known_total": 109,
+        "total": 150
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 72건이며, 확인된 연령대 중 66.06%를 차지합니다. 연령 미상 비율은 전체의 27.33%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-강제_집행-03826a8a521f",
+      "title": "강제 집행 관련 민원 이슈 - 구산동 중심 [증가 징후]",
+      "summary": "강제 집행 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 1723건이고 징후 점수는 58.0점입니다. 주요 연관어는 구산동, 경기도북부경찰청, 현장신고거부입니다. 기간 내 추이 값은 174 → 116이며, 기간 전체 변화율은 -33.33%입니다. 전날 대비 변화율은 -47.75%, 최근 2일 평균 변화율은 13.37%입니다.",
+      "forecast": "강제 집행 이슈는 최근 증가 징후가 확인되어 당분간 관심이 확대될 가능성이 있습니다. 추가 데이터 수집을 통해 상승 흐름 지속 여부를 확인해야 합니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "북부경찰청",
+        "고소",
+        "고발",
+        "신고",
+        "강제 집행",
+        "압수"
+      ],
+      "cluster_keywords": [
+        "강제 집행",
+        "구산동",
+        "경기도북부경찰청",
+        "현장신고거부",
+        "문승연 치매 사건조작 고소고발112신고",
+        "압수수색영장청구 압수수색영장발부",
+        "경찰청"
+      ],
+      "status": "growing",
+      "risk_level": "medium",
+      "score": 58.0,
+      "complaint_count": 1723,
+      "top_keyword": "강제 집행",
+      "related_keywords": [
+        "구산동",
+        "경기도북부경찰청",
+        "현장신고거부",
+        "문승연 치매 사건조작 고소고발112신고",
+        "압수수색영장청구 압수수색영장발부"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 174
+        },
+        {
+          "date": "20260429",
+          "value": 147
+        },
+        {
+          "date": "20260430",
+          "value": 137
+        },
+        {
+          "date": "20260501",
+          "value": 151
+        },
+        {
+          "date": "20260502",
+          "value": 167
+        },
+        {
+          "date": "20260503",
+          "value": 181
+        },
+        {
+          "date": "20260504",
+          "value": 178
+        },
+        {
+          "date": "20260505",
+          "value": 108
+        },
+        {
+          "date": "20260506",
+          "value": 169
+        },
+        {
+          "date": "20260507",
+          "value": 150
+        },
+        {
+          "date": "20260508",
+          "value": 147
+        },
+        {
+          "date": "20260509",
+          "value": 95
+        },
+        {
+          "date": "20260510",
+          "value": 161
+        },
+        {
+          "date": "20260511",
+          "value": 122
+        },
+        {
+          "date": "20260512",
+          "value": 222
+        },
+        {
+          "date": "20260513",
+          "value": 116
+        }
+      ],
+      "age_searchword": "강제 집행",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1901
+        },
+        {
+          "age_group": "40대",
+          "value": 1487
+        },
+        {
+          "age_group": "50대",
+          "value": 562
+        },
+        {
+          "age_group": "30대",
+          "value": 455
+        },
+        {
+          "age_group": "70대",
+          "value": 169
+        },
+        {
+          "age_group": "20대",
+          "value": 84
+        },
+        {
+          "age_group": "80대",
+          "value": 5
+        },
+        {
+          "age_group": "10대",
+          "value": 4
+        },
+        {
+          "age_group": "90대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1901,
+        "dominant_ratio_in_known": 40.72,
+        "unknown_ratio": 43.66,
+        "known_total": 4668,
+        "total": 8286
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1901건이며, 확인된 연령대 중 40.72%를 차지합니다. 연령 미상 비율은 전체의 43.66%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-신청_기소전-d98ec1fc62be",
+      "title": "신청 기소전 관련 민원 이슈 - 청구취지 추가 중심 [증가 징후]",
+      "summary": "신청 기소전 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 80건이고 징후 점수는 58.0점입니다. 주요 연관어는 청구취지 추가, 경기도북부경찰청, 국가유공자 차량입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 129.17%, 최근 2일 평균 변화율은 55200.0%입니다.",
+      "forecast": "신청 기소전 이슈는 최근 증가 징후가 확인되어 당분간 관심이 확대될 가능성이 있습니다. 추가 데이터 수집을 통해 상승 흐름 지속 여부를 확인해야 합니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "북부경찰청",
+        "기소"
+      ],
+      "cluster_keywords": [
+        "신청 기소전",
+        "청구취지 추가",
+        "경기도북부경찰청",
+        "국가유공자 차량",
+        "도둑질",
+        "번호판 절도도둑질",
+        "경찰청"
+      ],
+      "status": "growing",
+      "risk_level": "medium",
+      "score": 58.0,
+      "complaint_count": 80,
+      "top_keyword": "신청 기소전",
+      "related_keywords": [
+        "청구취지 추가",
+        "경기도북부경찰청",
+        "국가유공자 차량",
+        "도둑질",
+        "번호판 절도도둑질"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 1
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 0
+        },
+        {
+          "date": "20260512",
+          "value": 24
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "신청 기소전",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 88
+        },
+        {
+          "age_group": "40대",
+          "value": 22
+        },
+        {
+          "age_group": "30대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 88,
+        "dominant_ratio_in_known": 79.28,
+        "unknown_ratio": 0.89,
+        "known_total": 111,
+        "total": 112
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 88건이며, 확인된 연령대 중 79.28%를 차지합니다. 연령 미상 비율은 전체의 0.89%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-감금_수감-c2783a4d5991",
+      "title": "감금 수감 관련 민원 이슈 - 교도소 중심 [관찰 필요]",
+      "summary": "감금 수감 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 897건이고 징후 점수는 53.0점입니다. 주요 연관어는 교도소, 구치소, 휴대폰입니다. 기간 내 추이 값은 83 → 55이며, 기간 전체 변화율은 -33.73%입니다. 전날 대비 변화율은 -37.5%, 최근 2일 평균 변화율은 6.38%입니다.",
+      "forecast": "감금 수감 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "구치소",
+        "교도소",
+        "감금",
+        "수감"
+      ],
+      "cluster_keywords": [
+        "감금 수감",
+        "교도소",
+        "구치소",
+        "휴대폰",
+        "청구취지 추가",
+        "윤애경"
+      ],
+      "status": "watch",
+      "risk_level": "medium",
+      "score": 53.0,
+      "complaint_count": 897,
+      "top_keyword": "감금 수감",
+      "related_keywords": [
+        "교도소",
+        "구치소",
+        "휴대폰",
+        "청구취지 추가",
+        "윤애경"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 83
+        },
+        {
+          "date": "20260429",
+          "value": 33
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 125
+        },
+        {
+          "date": "20260503",
+          "value": 142
+        },
+        {
+          "date": "20260504",
+          "value": 111
+        },
+        {
+          "date": "20260505",
+          "value": 64
+        },
+        {
+          "date": "20260506",
+          "value": 78
+        },
+        {
+          "date": "20260507",
+          "value": 60
+        },
+        {
+          "date": "20260508",
+          "value": 75
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 116
+        },
+        {
+          "date": "20260511",
+          "value": 34
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "감금 수감",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 824
+        },
+        {
+          "age_group": "40대",
+          "value": 335
+        },
+        {
+          "age_group": "30대",
+          "value": 3
+        },
+        {
+          "age_group": "50대",
+          "value": 2
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 824,
+        "dominant_ratio_in_known": 70.79,
+        "unknown_ratio": 0.43,
+        "known_total": 1164,
+        "total": 1169
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 824건이며, 확인된 연령대 중 70.79%를 차지합니다. 연령 미상 비율은 전체의 0.43%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-공범_추가-b5cc8d1f6da1",
+      "title": "공범 추가 관련 민원 이슈 - 재물손괴 중심 [관찰 필요]",
+      "summary": "공범 추가 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 1359건이고 징후 점수는 50.0점입니다. 주요 연관어는 재물손괴, 구산동, 주거무단침입 살인사주입니다. 기간 내 추이 값은 96 → 65이며, 기간 전체 변화율은 -32.29%입니다. 전날 대비 변화율은 -35.64%, 최근 2일 평균 변화율은 -5.76%입니다.",
+      "forecast": "공범 추가 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "재물손괴",
+        "공범"
+      ],
+      "cluster_keywords": [
+        "공범 추가",
+        "재물손괴",
+        "구산동",
+        "주거무단침입 살인사주",
+        "입증자료",
+        "살인목적 재물손괴 이기봉 열쇠쟁이"
+      ],
+      "status": "watch",
+      "risk_level": "medium",
+      "score": 50.0,
+      "complaint_count": 1359,
+      "top_keyword": "공범 추가",
+      "related_keywords": [
+        "재물손괴",
+        "구산동",
+        "주거무단침입 살인사주",
+        "입증자료",
+        "살인목적 재물손괴 이기봉 열쇠쟁이"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 96
+        },
+        {
+          "date": "20260429",
+          "value": 40
+        },
+        {
+          "date": "20260430",
+          "value": 59
+        },
+        {
+          "date": "20260501",
+          "value": 88
+        },
+        {
+          "date": "20260502",
+          "value": 143
+        },
+        {
+          "date": "20260503",
+          "value": 159
+        },
+        {
+          "date": "20260504",
+          "value": 131
+        },
+        {
+          "date": "20260505",
+          "value": 71
+        },
+        {
+          "date": "20260506",
+          "value": 87
+        },
+        {
+          "date": "20260507",
+          "value": 72
+        },
+        {
+          "date": "20260508",
+          "value": 81
+        },
+        {
+          "date": "20260509",
+          "value": 24
+        },
+        {
+          "date": "20260510",
+          "value": 122
+        },
+        {
+          "date": "20260511",
+          "value": 60
+        },
+        {
+          "date": "20260512",
+          "value": 101
+        },
+        {
+          "date": "20260513",
+          "value": 65
+        }
+      ],
+      "age_searchword": "공범 추가",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1674
+        },
+        {
+          "age_group": "40대",
+          "value": 877
+        },
+        {
+          "age_group": "50대",
+          "value": 94
+        },
+        {
+          "age_group": "30대",
+          "value": 38
+        },
+        {
+          "age_group": "20대",
+          "value": 12
+        },
+        {
+          "age_group": "70대",
+          "value": 12
+        },
+        {
+          "age_group": "90대",
+          "value": 1
+        },
+        {
+          "age_group": "10대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1674,
+        "dominant_ratio_in_known": 61.79,
+        "unknown_ratio": 7.54,
+        "known_total": 2709,
+        "total": 2930
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1674건이며, 확인된 연령대 중 61.79%를 차지합니다. 연령 미상 비율은 전체의 7.54%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-배송_도착-ff64437295c6",
+      "title": "배송 도착 관련 민원 이슈 - 청구취지 추가 중심 [증가 징후]",
+      "summary": "배송 도착 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 931건이고 징후 점수는 50.0점입니다. 주요 연관어는 청구취지 추가, 세종남부경찰서 경범죄처벌법위반, Post입니다. 기간 내 추이 값은 86 → 59이며, 기간 전체 변화율은 -31.4%입니다. 전날 대비 변화율은 -34.44%, 최근 2일 평균 변화율은 15.25%입니다.",
+      "forecast": "배송 도착 이슈는 최근 증가 징후가 확인되어 당분간 관심이 확대될 가능성이 있습니다. 추가 데이터 수집을 통해 상승 흐름 지속 여부를 확인해야 합니다.",
+      "category": "금융/소비자",
+      "category_tags": [
+        "배송",
+        "도착"
+      ],
+      "cluster_keywords": [
+        "배송 도착",
+        "청구취지 추가",
+        "세종남부경찰서 경범죄처벌법위반",
+        "Post",
+        "자동 이체 떼",
+        "백지은"
+      ],
+      "status": "growing",
+      "risk_level": "medium",
+      "score": 50.0,
+      "complaint_count": 931,
+      "top_keyword": "배송 도착",
+      "related_keywords": [
+        "청구취지 추가",
+        "세종남부경찰서 경범죄처벌법위반",
+        "Post",
+        "자동 이체 떼",
+        "백지은"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 86
+        },
+        {
+          "date": "20260429",
+          "value": 37
+        },
+        {
+          "date": "20260430",
+          "value": 51
+        },
+        {
+          "date": "20260501",
+          "value": 79
+        },
+        {
+          "date": "20260502",
+          "value": 127
+        },
+        {
+          "date": "20260503",
+          "value": 147
+        },
+        {
+          "date": "20260504",
+          "value": 119
+        },
+        {
+          "date": "20260505",
+          "value": 2
+        },
+        {
+          "date": "20260506",
+          "value": 6
+        },
+        {
+          "date": "20260507",
+          "value": 11
+        },
+        {
+          "date": "20260508",
+          "value": 6
+        },
+        {
+          "date": "20260509",
+          "value": 5
+        },
+        {
+          "date": "20260510",
+          "value": 124
+        },
+        {
+          "date": "20260511",
+          "value": 105
+        },
+        {
+          "date": "20260512",
+          "value": 90
+        },
+        {
+          "date": "20260513",
+          "value": 59
+        }
+      ],
+      "age_searchword": "배송 도착",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1073
+        },
+        {
+          "age_group": "40대",
+          "value": 804
+        },
+        {
+          "age_group": "30대",
+          "value": 59
+        },
+        {
+          "age_group": "70대",
+          "value": 47
+        },
+        {
+          "age_group": "50대",
+          "value": 28
+        },
+        {
+          "age_group": "20대",
+          "value": 20
+        },
+        {
+          "age_group": "10대",
+          "value": 6
+        },
+        {
+          "age_group": "80대",
+          "value": 2
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1073,
+        "dominant_ratio_in_known": 52.62,
+        "unknown_ratio": 6.12,
+        "known_total": 2039,
+        "total": 2172
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1073건이며, 확인된 연령대 중 52.62%를 차지합니다. 연령 미상 비율은 전체의 6.12%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-노래방_무단투기-71e4989961b2",
+      "title": "노래방 무단투기 관련 민원 이슈 - 고소고발112신고사 중심 [관찰 필요]",
+      "summary": "노래방 무단투기 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 56건이고 징후 점수는 48.0점입니다. 주요 연관어는 고소고발112신고사, 목욕탕, 공중 목욕탕 쓰레기입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 0.0%, 최근 2일 평균 변화율은 38400.0%입니다.",
+      "forecast": "노래방 무단투기 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "환경/에너지",
+      "category_tags": [
+        "쓰레기",
+        "무단투기"
+      ],
+      "cluster_keywords": [
+        "노래방 무단투기",
+        "고소고발112신고사",
+        "목욕탕",
+        "공중 목욕탕 쓰레기",
+        "살인사주 내란죄 공범 추가",
+        "청구취지 추가"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 48.0,
+      "complaint_count": 56,
+      "top_keyword": "노래방 무단투기",
+      "related_keywords": [
+        "고소고발112신고사",
+        "목욕탕",
+        "공중 목욕탕 쓰레기",
+        "살인사주 내란죄 공범 추가",
+        "청구취지 추가"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 1
+        },
+        {
+          "date": "20260512",
+          "value": 0
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "노래방 무단투기",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 69
+        },
+        {
+          "age_group": "40대",
+          "value": 17
+        },
+        {
+          "age_group": "30대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 69,
+        "dominant_ratio_in_known": 79.31,
+        "unknown_ratio": 1.14,
+        "known_total": 87,
+        "total": 88
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 69건이며, 확인된 연령대 중 79.31%를 차지합니다. 연령 미상 비율은 전체의 1.14%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-압수처리_자동차-29cb15b4d4bd",
+      "title": "압수처리 자동차 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+      "summary": "압수처리 자동차 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 200건이고 징후 점수는 45.0점입니다. 주요 연관어는 구산동, 입증자료, 내란범 백지은입니다. 기간 내 추이 값은 82 → 55이며, 기간 전체 변화율은 -32.93%입니다. 전날 대비 변화율은 -37.5%, 최근 2일 평균 변화율은 22.97%입니다.",
+      "forecast": "압수처리 자동차 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "교통/자동차",
+      "category_tags": [
+        "자동차",
+        "차량",
+        "교통"
+      ],
+      "cluster_keywords": [
+        "압수처리 자동차",
+        "구산동",
+        "입증자료",
+        "내란범 백지은",
+        "세종남부경찰서 경범죄처벌법위반",
+        "회사 차량",
+        "자동차"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 45.0,
+      "complaint_count": 200,
+      "top_keyword": "압수처리 자동차",
+      "related_keywords": [
+        "구산동",
+        "입증자료",
+        "내란범 백지은",
+        "세종남부경찰서 경범죄처벌법위반",
+        "회사 차량"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 82
+        },
+        {
+          "date": "20260429",
+          "value": 33
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 141
+        },
+        {
+          "date": "20260504",
+          "value": 111
+        },
+        {
+          "date": "20260505",
+          "value": 64
+        },
+        {
+          "date": "20260506",
+          "value": 78
+        },
+        {
+          "date": "20260507",
+          "value": 60
+        },
+        {
+          "date": "20260508",
+          "value": 75
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 116
+        },
+        {
+          "date": "20260511",
+          "value": 34
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "압수처리 자동차",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1256
+        },
+        {
+          "age_group": "40대",
+          "value": 538
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1256,
+        "dominant_ratio_in_known": 70.01,
+        "unknown_ratio": 0.0,
+        "known_total": 1794,
+        "total": 1794
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1256건이며, 확인된 연령대 중 70.01%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-번호판_절도도둑질-1b9cb56b76eb",
+      "title": "번호판 절도도둑질 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+      "summary": "번호판 절도도둑질 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 170건이고 징후 점수는 45.0점입니다. 주요 연관어는 구산동, 가압류결정문정본판사, 고소고발112신고사입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 -37.5%, 최근 2일 평균 변화율은 43.2%입니다.",
+      "forecast": "번호판 절도도둑질 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "교통/자동차",
+      "category_tags": [
+        "자동차",
+        "번호판",
+        "교통"
+      ],
+      "cluster_keywords": [
+        "번호판 절도도둑질",
+        "구산동",
+        "가압류결정문정본판사",
+        "고소고발112신고사",
+        "휴대폰",
+        "경기도 북부경찰청",
+        "경찰청"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 45.0,
+      "complaint_count": 170,
+      "top_keyword": "번호판 절도도둑질",
+      "related_keywords": [
+        "구산동",
+        "가압류결정문정본판사",
+        "고소고발112신고사",
+        "휴대폰",
+        "경기도 북부경찰청"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 141
+        },
+        {
+          "date": "20260504",
+          "value": 111
+        },
+        {
+          "date": "20260505",
+          "value": 64
+        },
+        {
+          "date": "20260506",
+          "value": 78
+        },
+        {
+          "date": "20260507",
+          "value": 60
+        },
+        {
+          "date": "20260508",
+          "value": 75
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 116
+        },
+        {
+          "date": "20260511",
+          "value": 34
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "번호판 절도도둑질",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 793
+        },
+        {
+          "age_group": "40대",
+          "value": 328
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 793,
+        "dominant_ratio_in_known": 70.74,
+        "unknown_ratio": 0.0,
+        "known_total": 1121,
+        "total": 1121
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 793건이며, 확인된 연령대 중 70.74%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-살인사주_내란죄-a9bc563e56e0",
+      "title": "살인사주 내란죄 관련 민원 이슈 - 구산동 중심 [관찰 필요]",
+      "summary": "살인사주 내란죄 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 856건이고 징후 점수는 35.0점입니다. 주요 연관어는 구산동, 재물손괴, 입증자료입니다. 기간 내 추이 값은 82 → 55이며, 기간 전체 변화율은 -32.93%입니다. 전날 대비 변화율은 -37.5%, 최근 2일 평균 변화율은 -6.1%입니다.",
+      "forecast": "살인사주 내란죄 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "재물손괴"
+      ],
+      "cluster_keywords": [
+        "살인사주 내란죄",
+        "구산동",
+        "재물손괴",
+        "입증자료",
+        "세종남부경찰서 경범죄처벌법위반",
+        "내란범 백지은"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 35.0,
+      "complaint_count": 856,
+      "top_keyword": "살인사주 내란죄",
+      "related_keywords": [
+        "구산동",
+        "재물손괴",
+        "입증자료",
+        "세종남부경찰서 경범죄처벌법위반",
+        "내란범 백지은"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 82
+        },
+        {
+          "date": "20260429",
+          "value": 33
+        },
+        {
+          "date": "20260430",
+          "value": 44
+        },
+        {
+          "date": "20260501",
+          "value": 83
+        },
+        {
+          "date": "20260502",
+          "value": 125
+        },
+        {
+          "date": "20260503",
+          "value": 141
+        },
+        {
+          "date": "20260504",
+          "value": 111
+        },
+        {
+          "date": "20260505",
+          "value": 64
+        },
+        {
+          "date": "20260506",
+          "value": 78
+        },
+        {
+          "date": "20260507",
+          "value": 60
+        },
+        {
+          "date": "20260508",
+          "value": 75
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 116
+        },
+        {
+          "date": "20260511",
+          "value": 34
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "살인사주 내란죄",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1546
+        },
+        {
+          "age_group": "40대",
+          "value": 743
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1546,
+        "dominant_ratio_in_known": 67.54,
+        "unknown_ratio": 0.04,
+        "known_total": 2289,
+        "total": 2290
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1546건이며, 확인된 연령대 중 67.54%를 차지합니다. 연령 미상 비율은 전체의 0.04%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-국가유공자_차량-76a0165b5cfa",
+      "title": "국가유공자 차량 관련 민원 이슈 - 관용차 중심 [관찰 필요]",
+      "summary": "국가유공자 차량 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 748건이고 징후 점수는 35.0점입니다. 주요 연관어는 관용차, 기업은행 IT센터, 용인수 수지구입니다. 기간 내 추이 값은 91 → 61이며, 기간 전체 변화율은 -32.97%입니다. 전날 대비 변화율은 -35.79%, 최근 2일 평균 변화율은 -4.38%입니다.",
+      "forecast": "국가유공자 차량 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "교통/자동차",
+      "category_tags": [
+        "차량"
+      ],
+      "cluster_keywords": [
+        "국가유공자 차량",
+        "관용차",
+        "기업은행 IT센터",
+        "용인수 수지구",
+        "입증자료",
+        "내란범 백지은"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 35.0,
+      "complaint_count": 748,
+      "top_keyword": "국가유공자 차량",
+      "related_keywords": [
+        "관용차",
+        "기업은행 IT센터",
+        "용인수 수지구",
+        "입증자료",
+        "내란범 백지은"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 91
+        },
+        {
+          "date": "20260429",
+          "value": 41
+        },
+        {
+          "date": "20260430",
+          "value": 51
+        },
+        {
+          "date": "20260501",
+          "value": 81
+        },
+        {
+          "date": "20260502",
+          "value": 136
+        },
+        {
+          "date": "20260503",
+          "value": 152
+        },
+        {
+          "date": "20260504",
+          "value": 115
+        },
+        {
+          "date": "20260505",
+          "value": 68
+        },
+        {
+          "date": "20260506",
+          "value": 86
+        },
+        {
+          "date": "20260507",
+          "value": 64
+        },
+        {
+          "date": "20260508",
+          "value": 79
+        },
+        {
+          "date": "20260509",
+          "value": 22
+        },
+        {
+          "date": "20260510",
+          "value": 117
+        },
+        {
+          "date": "20260511",
+          "value": 39
+        },
+        {
+          "date": "20260512",
+          "value": 95
+        },
+        {
+          "date": "20260513",
+          "value": 61
+        }
+      ],
+      "age_searchword": "국가유공자 차량",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1235
+        },
+        {
+          "age_group": "40대",
+          "value": 625
+        },
+        {
+          "age_group": "50대",
+          "value": 21
+        },
+        {
+          "age_group": "30대",
+          "value": 13
+        },
+        {
+          "age_group": "20대",
+          "value": 10
+        },
+        {
+          "age_group": "70대",
+          "value": 2
+        },
+        {
+          "age_group": "80대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1235,
+        "dominant_ratio_in_known": 64.76,
+        "unknown_ratio": 13.0,
+        "known_total": 1907,
+        "total": 2192
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1235건이며, 확인된 연령대 중 64.76%를 차지합니다. 연령 미상 비율은 전체의 13.0%입니다.",
+      "original_category": "기타"
+    },
+    {
+      "issue_key": "dashboard-경기도_북부경찰청-59e03bcd7206",
+      "title": "경기도 북부경찰청 관련 민원 이슈 - 현장신고거부 중심 [관찰 필요]",
+      "summary": "경기도 북부경찰청 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 4건이고 징후 점수는 35.0점입니다. 주요 연관어는 현장신고거부, 강제체포 강제수사, 재물손괴입니다. 기간 내 추이 값은 84 → 55이며, 기간 전체 변화율은 -34.52%입니다. 전날 대비 변화율은 -37.5%, 최근 2일 평균 변화율은 -8.17%입니다.",
+      "forecast": "경기도 북부경찰청 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "북부경찰청",
+        "신고",
+        "강제체포",
+        "강제수사",
+        "수사",
+        "재물손괴",
+        "공범"
+      ],
+      "cluster_keywords": [
+        "경기도 북부경찰청",
+        "현장신고거부",
+        "강제체포 강제수사",
+        "재물손괴",
+        "현행범인체포 강제수갑",
+        "내란죄 공범 경찰",
+        "경찰청"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 35.0,
+      "complaint_count": 4,
+      "top_keyword": "경기도 북부경찰청",
+      "related_keywords": [
+        "현장신고거부",
+        "강제체포 강제수사",
+        "재물손괴",
+        "현행범인체포 강제수갑",
+        "내란죄 공범 경찰"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 84
+        },
+        {
+          "date": "20260429",
+          "value": 33
+        },
+        {
+          "date": "20260430",
+          "value": 44
+        },
+        {
+          "date": "20260501",
+          "value": 85
+        },
+        {
+          "date": "20260502",
+          "value": 128
+        },
+        {
+          "date": "20260503",
+          "value": 144
+        },
+        {
+          "date": "20260504",
+          "value": 113
+        },
+        {
+          "date": "20260505",
+          "value": 64
+        },
+        {
+          "date": "20260506",
+          "value": 80
+        },
+        {
+          "date": "20260507",
+          "value": 62
+        },
+        {
+          "date": "20260508",
+          "value": 76
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 121
+        },
+        {
+          "date": "20260511",
+          "value": 36
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "경기도 북부경찰청",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1586
+        },
+        {
+          "age_group": "40대",
+          "value": 746
+        },
+        {
+          "age_group": "50대",
+          "value": 22
+        },
+        {
+          "age_group": "30대",
+          "value": 6
+        },
+        {
+          "age_group": "90대",
+          "value": 1
+        },
+        {
+          "age_group": "20대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1586,
+        "dominant_ratio_in_known": 67.15,
+        "unknown_ratio": 2.52,
+        "known_total": 2362,
+        "total": 2423
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1586건이며, 확인된 연령대 중 67.15%를 차지합니다. 연령 미상 비율은 전체의 2.52%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-몰수추징_명령-07d3cd8300e7",
+      "title": "몰수추징 명령 관련 민원 이슈 - 경기도북부경찰청 중심 [관찰 필요]",
+      "summary": "몰수추징 명령 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 79건이고 징후 점수는 31.0점입니다. 주요 연관어는 경기도북부경찰청, 국가유공자 차량, 도둑질입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 129.17%, 최근 2일 평균 변화율은 0.0%입니다.",
+      "forecast": "몰수추징 명령 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "북부경찰청",
+        "신고",
+        "몰수",
+        "추징"
+      ],
+      "cluster_keywords": [
+        "몰수추징 명령",
+        "경기도북부경찰청",
+        "국가유공자 차량",
+        "도둑질",
+        "번호판 절도도둑질",
+        "현장신고거부",
+        "경찰청"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 31.0,
+      "complaint_count": 79,
+      "top_keyword": "몰수추징 명령",
+      "related_keywords": [
+        "경기도북부경찰청",
+        "국가유공자 차량",
+        "도둑질",
+        "번호판 절도도둑질",
+        "현장신고거부"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 0
+        },
+        {
+          "date": "20260512",
+          "value": 24
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "몰수추징 명령",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 94
+        },
+        {
+          "age_group": "40대",
+          "value": 23
+        },
+        {
+          "age_group": "30대",
+          "value": 7
+        },
+        {
+          "age_group": "50대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 94,
+        "dominant_ratio_in_known": 75.2,
+        "unknown_ratio": 0.0,
+        "known_total": 125,
+        "total": 125
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 94건이며, 확인된 연령대 중 75.2%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-몰수추징명령_기소전-560a4bb5dc41",
+      "title": "몰수추징명령 기소전 관련 민원 이슈 - 경기도북부경찰청 중심 [관찰 필요]",
+      "summary": "몰수추징명령 기소전 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 55건이고 징후 점수는 31.0점입니다. 주요 연관어는 경기도북부경찰청, 국가유공자 차량, 도둑질입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 129.17%, 최근 2일 평균 변화율은 0.0%입니다.",
+      "forecast": "몰수추징명령 기소전 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "북부경찰청",
+        "신고",
+        "몰수",
+        "추징",
+        "기소"
+      ],
+      "cluster_keywords": [
+        "몰수추징명령 기소전",
+        "경기도북부경찰청",
+        "국가유공자 차량",
+        "도둑질",
+        "번호판 절도도둑질",
+        "현장신고거부",
+        "경찰청"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 31.0,
+      "complaint_count": 55,
+      "top_keyword": "몰수추징명령 기소전",
+      "related_keywords": [
+        "경기도북부경찰청",
+        "국가유공자 차량",
+        "도둑질",
+        "번호판 절도도둑질",
+        "현장신고거부"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 0
+        },
+        {
+          "date": "20260512",
+          "value": 24
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "몰수추징명령 기소전",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 88
+        },
+        {
+          "age_group": "40대",
+          "value": 22
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 88,
+        "dominant_ratio_in_known": 80.0,
+        "unknown_ratio": 0.0,
+        "known_total": 110,
+        "total": 110
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 88건이며, 확인된 연령대 중 80.0%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-몰수추징청구_기소전-e76b83a57fdf",
+      "title": "몰수추징청구 기소전 관련 민원 이슈 - 고소고발112신고사 중심 [관찰 필요]",
+      "summary": "몰수추징청구 기소전 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 19건이고 징후 점수는 31.0점입니다. 주요 연관어는 고소고발112신고사, 목욕탕, 경기도북부경찰청입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 129.17%, 최근 2일 평균 변화율은 0.0%입니다.",
+      "forecast": "몰수추징청구 기소전 이슈는 현재 관찰이 필요한 수준입니다. 민원 건수, 전날 대비 변화율, 최근 평균 변화율을 주기적으로 확인할 필요가 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "북부경찰청",
+        "고소",
+        "고발",
+        "신고",
+        "몰수",
+        "추징",
+        "기소"
+      ],
+      "cluster_keywords": [
+        "몰수추징청구 기소전",
+        "고소고발112신고사",
+        "목욕탕",
+        "경기도북부경찰청",
+        "공중 목욕탕 쓰레기",
+        "국가유공자 차량",
+        "경찰청"
+      ],
+      "status": "watch",
+      "risk_level": "low",
+      "score": 31.0,
+      "complaint_count": 19,
+      "top_keyword": "몰수추징청구 기소전",
+      "related_keywords": [
+        "고소고발112신고사",
+        "목욕탕",
+        "경기도북부경찰청",
+        "공중 목욕탕 쓰레기",
+        "국가유공자 차량"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 0
+        },
+        {
+          "date": "20260512",
+          "value": 24
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "몰수추징청구 기소전",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 88
+        },
+        {
+          "age_group": "40대",
+          "value": 22
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 88,
+        "dominant_ratio_in_known": 80.0,
+        "unknown_ratio": 0.0,
+        "known_total": 110,
+        "total": 110
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 88건이며, 확인된 연령대 중 80.0%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-압류_압수-5c2c9015b620",
+      "title": "압류 압수 관련 민원 이슈 - 성적조작 중심 [안정 관찰]",
+      "summary": "압류 압수 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 324건이고 징후 점수는 30.0점입니다. 주요 연관어는 성적조작, 구산동, 진관동 아파트입니다. 기간 내 추이 값은 82 → 55이며, 기간 전체 변화율은 -32.93%입니다. 전날 대비 변화율은 -37.5%, 최근 2일 평균 변화율은 -7.23%입니다.",
+      "forecast": "압류 압수 이슈는 현재 큰 급등 신호는 제한적입니다. 다만 추가 수집 데이터에 따라 상태가 바뀔 수 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "행정",
+        "과태료",
+        "압수",
+        "압류"
+      ],
+      "cluster_keywords": [
+        "압류 압수",
+        "성적조작",
+        "구산동",
+        "진관동 아파트",
+        "불법 과태료 처분",
+        "불법 감사",
+        "행정",
+        "과태료"
+      ],
+      "status": "stable",
+      "risk_level": "low",
+      "score": 30.0,
+      "complaint_count": 324,
+      "top_keyword": "압류 압수",
+      "related_keywords": [
+        "성적조작",
+        "구산동",
+        "진관동 아파트",
+        "불법 과태료 처분",
+        "불법 감사"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 82
+        },
+        {
+          "date": "20260429",
+          "value": 35
+        },
+        {
+          "date": "20260430",
+          "value": 44
+        },
+        {
+          "date": "20260501",
+          "value": 83
+        },
+        {
+          "date": "20260502",
+          "value": 125
+        },
+        {
+          "date": "20260503",
+          "value": 141
+        },
+        {
+          "date": "20260504",
+          "value": 112
+        },
+        {
+          "date": "20260505",
+          "value": 67
+        },
+        {
+          "date": "20260506",
+          "value": 81
+        },
+        {
+          "date": "20260507",
+          "value": 61
+        },
+        {
+          "date": "20260508",
+          "value": 76
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 117
+        },
+        {
+          "date": "20260511",
+          "value": 35
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "압류 압수",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1575
+        },
+        {
+          "age_group": "40대",
+          "value": 749
+        },
+        {
+          "age_group": "50대",
+          "value": 9
+        },
+        {
+          "age_group": "20대",
+          "value": 6
+        },
+        {
+          "age_group": "30대",
+          "value": 4
+        },
+        {
+          "age_group": "10대",
+          "value": 2
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1575,
+        "dominant_ratio_in_known": 67.16,
+        "unknown_ratio": 0.76,
+        "known_total": 2345,
+        "total": 2363
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1575건이며, 확인된 연령대 중 67.16%를 차지합니다. 연령 미상 비율은 전체의 0.76%입니다.",
+      "original_category": "행정/민원처리"
+    },
+    {
+      "issue_key": "dashboard-농협은행_통장-f158cb2d9794",
+      "title": "농협은행 통장 관련 민원 이슈 - 구산동 중심 [안정 관찰]",
+      "summary": "농협은행 통장 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 187건이고 징후 점수는 30.0점입니다. 주요 연관어는 구산동, 세종남부경찰서 경범죄처벌법위반, 내란범 백지은입니다. 기간 내 추이 값은 87 → 56이며, 기간 전체 변화율은 -35.63%입니다. 전날 대비 변화율은 -36.36%, 최근 2일 평균 변화율은 -5.17%입니다.",
+      "forecast": "농협은행 통장 이슈는 현재 큰 급등 신호는 제한적입니다. 다만 추가 수집 데이터에 따라 상태가 바뀔 수 있습니다.",
+      "category": "금융/소비자",
+      "category_tags": [
+        "은행",
+        "농협",
+        "농협은행",
+        "통장"
+      ],
+      "cluster_keywords": [
+        "농협은행 통장",
+        "구산동",
+        "세종남부경찰서 경범죄처벌법위반",
+        "내란범 백지은",
+        "입증자료",
+        "성적조작",
+        "자동차"
+      ],
+      "status": "stable",
+      "risk_level": "low",
+      "score": 30.0,
+      "complaint_count": 187,
+      "top_keyword": "농협은행 통장",
+      "related_keywords": [
+        "구산동",
+        "세종남부경찰서 경범죄처벌법위반",
+        "내란범 백지은",
+        "입증자료",
+        "성적조작"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 87
+        },
+        {
+          "date": "20260429",
+          "value": 35
+        },
+        {
+          "date": "20260430",
+          "value": 27
+        },
+        {
+          "date": "20260501",
+          "value": 83
+        },
+        {
+          "date": "20260502",
+          "value": 126
+        },
+        {
+          "date": "20260503",
+          "value": 141
+        },
+        {
+          "date": "20260504",
+          "value": 113
+        },
+        {
+          "date": "20260505",
+          "value": 65
+        },
+        {
+          "date": "20260506",
+          "value": 80
+        },
+        {
+          "date": "20260507",
+          "value": 60
+        },
+        {
+          "date": "20260508",
+          "value": 75
+        },
+        {
+          "date": "20260509",
+          "value": 20
+        },
+        {
+          "date": "20260510",
+          "value": 117
+        },
+        {
+          "date": "20260511",
+          "value": 34
+        },
+        {
+          "date": "20260512",
+          "value": 88
+        },
+        {
+          "date": "20260513",
+          "value": 56
+        }
+      ],
+      "age_searchword": "농협은행 통장",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 1215
+        },
+        {
+          "age_group": "40대",
+          "value": 597
+        },
+        {
+          "age_group": "50대",
+          "value": 12
+        },
+        {
+          "age_group": "20대",
+          "value": 5
+        },
+        {
+          "age_group": "30대",
+          "value": 5
+        },
+        {
+          "age_group": "70대",
+          "value": 2
+        },
+        {
+          "age_group": "80대",
+          "value": 1
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 1215,
+        "dominant_ratio_in_known": 66.14,
+        "unknown_ratio": 0.86,
+        "known_total": 1837,
+        "total": 1853
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 1215건이며, 확인된 연령대 중 66.14%를 차지합니다. 연령 미상 비율은 전체의 0.86%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-노래장_집단-26df035a28e2",
+      "title": "노래장 집단 관련 민원 이슈 - 고소고발112신고사 중심 [안정 관찰]",
+      "summary": "노래장 집단 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 55건이고 징후 점수는 28.0점입니다. 주요 연관어는 고소고발112신고사, 목욕탕, 공중 목욕탕 쓰레기입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 0.0%, 최근 2일 평균 변화율은 0.0%입니다.",
+      "forecast": "노래장 집단 이슈는 현재 큰 급등 신호는 제한적입니다. 다만 추가 수집 데이터에 따라 상태가 바뀔 수 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "경찰청",
+        "고소",
+        "고발",
+        "신고",
+        "공범"
+      ],
+      "cluster_keywords": [
+        "노래장 집단",
+        "고소고발112신고사",
+        "목욕탕",
+        "공중 목욕탕 쓰레기",
+        "노래방 무단투기",
+        "살인사주 내란죄 공범 추가",
+        "경찰청"
+      ],
+      "status": "stable",
+      "risk_level": "low",
+      "score": 28.0,
+      "complaint_count": 55,
+      "top_keyword": "노래장 집단",
+      "related_keywords": [
+        "고소고발112신고사",
+        "목욕탕",
+        "공중 목욕탕 쓰레기",
+        "노래방 무단투기",
+        "살인사주 내란죄 공범 추가"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 0
+        },
+        {
+          "date": "20260512",
+          "value": 0
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "노래장 집단",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 69
+        },
+        {
+          "age_group": "40대",
+          "value": 17
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 69,
+        "dominant_ratio_in_known": 80.23,
+        "unknown_ratio": 0.0,
+        "known_total": 86,
+        "total": 86
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 69건이며, 확인된 연령대 중 80.23%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "교통/자동차"
+    },
+    {
+      "issue_key": "dashboard-내란죄우두머리수괴_종물-71d707212a25",
+      "title": "내란죄우두머리수괴 종물 관련 민원 이슈 - 고소고발112신고사 중심 [안정 관찰]",
+      "summary": "내란죄우두머리수괴 종물 관련 민원/키워드 동향을 분석한 결과, 민원 건수는 19건이고 징후 점수는 28.0점입니다. 주요 연관어는 고소고발112신고사, 강아지 육아 휴직 둔갑, 목욕탕입니다. 기간 내 추이 값은 0 → 55이며, 기간 전체 변화율은 0.0%입니다. 전날 대비 변화율은 0.0%, 최근 2일 평균 변화율은 0.0%입니다.",
+      "forecast": "내란죄우두머리수괴 종물 이슈는 현재 큰 급등 신호는 제한적입니다. 다만 추가 수집 데이터에 따라 상태가 바뀔 수 있습니다.",
+      "category": "행정/민원처리",
+      "category_tags": [
+        "고소",
+        "고발",
+        "신고"
+      ],
+      "cluster_keywords": [
+        "내란죄우두머리수괴 종물",
+        "고소고발112신고사",
+        "강아지 육아 휴직 둔갑",
+        "목욕탕",
+        "공중 목욕탕 쓰레기",
+        "노래방 무단투기"
+      ],
+      "status": "stable",
+      "risk_level": "low",
+      "score": 28.0,
+      "complaint_count": 19,
+      "top_keyword": "내란죄우두머리수괴 종물",
+      "related_keywords": [
+        "고소고발112신고사",
+        "강아지 육아 휴직 둔갑",
+        "목욕탕",
+        "공중 목욕탕 쓰레기",
+        "노래방 무단투기"
+      ],
+      "keyword_trends": [
+        {
+          "date": "20260428",
+          "value": 0
+        },
+        {
+          "date": "20260429",
+          "value": 0
+        },
+        {
+          "date": "20260430",
+          "value": 0
+        },
+        {
+          "date": "20260501",
+          "value": 0
+        },
+        {
+          "date": "20260502",
+          "value": 0
+        },
+        {
+          "date": "20260503",
+          "value": 0
+        },
+        {
+          "date": "20260504",
+          "value": 0
+        },
+        {
+          "date": "20260505",
+          "value": 0
+        },
+        {
+          "date": "20260506",
+          "value": 0
+        },
+        {
+          "date": "20260507",
+          "value": 0
+        },
+        {
+          "date": "20260508",
+          "value": 0
+        },
+        {
+          "date": "20260509",
+          "value": 0
+        },
+        {
+          "date": "20260510",
+          "value": 0
+        },
+        {
+          "date": "20260511",
+          "value": 0
+        },
+        {
+          "date": "20260512",
+          "value": 0
+        },
+        {
+          "date": "20260513",
+          "value": 55
+        }
+      ],
+      "age_searchword": "내란죄우두머리수괴 종물",
+      "known_age_distribution": [
+        {
+          "age_group": "60대",
+          "value": 69
+        },
+        {
+          "age_group": "40대",
+          "value": 17
+        }
+      ],
+      "age_summary": {
+        "dominant_age_group": "60대",
+        "dominant_value": 69,
+        "dominant_ratio_in_known": 80.23,
+        "unknown_ratio": 0.0,
+        "known_total": 86,
+        "total": 86
+      },
+      "age_analysis_message": "연령 정보가 확인된 민원 기준으로 60대 비중이 가장 높습니다. 60대 민원은 69건이며, 확인된 연령대 중 80.23%를 차지합니다. 연령 미상 비율은 전체의 0.0%입니다.",
+      "original_category": "기타"
+    }
+  ]
+}

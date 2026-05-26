@@ -1,0 +1,32 @@
+[
+  {
+    "hits": 18293,
+    "label": "20250301",
+    "termQuery": "20250301d",
+    "prebRatio": "-3.2"
+  },
+  {
+    "hits": 16366,
+    "label": "20250302",
+    "termQuery": "20250302d",
+    "prebRatio": "-10.5"
+  },
+  {
+    "hits": 15758,
+    "label": "20250303",
+    "termQuery": "20250303d",
+    "prebRatio": "-3.7"
+  },
+  {
+    "hits": 14421,
+    "label": "20250304",
+    "termQuery": "20250304d",
+    "prebRatio": "-8.5"
+  },
+  {
+    "hits": 17643,
+    "label": "20250305",
+    "termQuery": "20250305d",
+    "prebRatio": "22.3"
+  }
+]

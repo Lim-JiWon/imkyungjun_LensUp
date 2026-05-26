@@ -1,0 +1,84 @@
+{
+  "name": "민원 발생 기관 순위",
+  "ok": true,
+  "status_code": 200,
+  "url": "https://apis.data.go.kr/1140100/minAnalsInfoView5/minMofacetInfo5",
+  "final_url": "https://apis.data.go.kr/1140100/minAnalsInfoView5/minMofacetInfo5?serviceKey=2c250****213df&topN=10&sortBy=VALUE&sortOrder=false&dateFrom=20260328&dateTo=20260513&target=pttn&dataType=json",
+  "params": {
+    "serviceKey": "2c250****213df",
+    "topN": 10,
+    "sortBy": "VALUE",
+    "sortOrder": "false",
+    "dateFrom": "20260328",
+    "dateTo": "20260513",
+    "target": "pttn",
+    "dataType": "json"
+  },
+  "content_type": "text/plain;charset=utf-8",
+  "raw_text_preview": "[{\"hits\":49689,\"label\":\"경기도 수원시\"},{\"hits\":44970,\"label\":\"경기도 성남시\"},{\"hits\":35018,\"label\":\"경기도 화성시\"},{\"hits\":28472,\"label\":\"경기도 용인시\"},{\"hits\":27051,\"label\":\"경기도 고양시\"},{\"hits\":25428,\"label\":\"경기도 안산시\"},{\"hits\":24360,\"label\":\"경기도 평택시\"},{\"hits\":23258,\"label\":\"경기도 부천시\"},{\"hits\":19979,\"label\":\"경기도 시흥시\"},{\"hits\":17832,\"label\":\"경기도 안양시\"}]",
+  "json": [
+    {
+      "hits": 49689,
+      "label": "경기도 수원시"
+    },
+    {
+      "hits": 44970,
+      "label": "경기도 성남시"
+    },
+    {
+      "hits": 35018,
+      "label": "경기도 화성시"
+    },
+    {
+      "hits": 28472,
+      "label": "경기도 용인시"
+    },
+    {
+      "hits": 27051,
+      "label": "경기도 고양시"
+    },
+    {
+      "hits": 25428,
+      "label": "경기도 안산시"
+    },
+    {
+      "hits": 24360,
+      "label": "경기도 평택시"
+    },
+    {
+      "hits": 23258,
+      "label": "경기도 부천시"
+    },
+    {
+      "hits": 19979,
+      "label": "경기도 시흥시"
+    },
+    {
+      "hits": 17832,
+      "label": "경기도 안양시"
+    }
+  ],
+  "items_count": 10,
+  "items_preview": [
+    {
+      "hits": 49689,
+      "label": "경기도 수원시"
+    },
+    {
+      "hits": 44970,
+      "label": "경기도 성남시"
+    },
+    {
+      "hits": 35018,
+      "label": "경기도 화성시"
+    },
+    {
+      "hits": 28472,
+      "label": "경기도 용인시"
+    },
+    {
+      "hits": 27051,
+      "label": "경기도 고양시"
+    }
+  ]
+}

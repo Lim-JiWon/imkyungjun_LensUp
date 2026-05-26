@@ -1,0 +1,1253 @@
+{
+  "date_from": "20260328",
+  "date_to": "20260513",
+  "final_keywords": [
+    "주정차",
+    "불법 주정차",
+    "불법 주정차 신고",
+    "주정차 신고",
+    "불법주차",
+    "서울",
+    "인도 불법",
+    "인도 불법 주정차 신고",
+    "장애인",
+    "경기도",
+    "횡단보도",
+    "횡단보도 불법 주정차 신고",
+    "과태료",
+    "소화전",
+    "기타 불법 주정차 신고",
+    "친환경차",
+    "불법주차 신고",
+    "신발장",
+    "경찰청",
+    "소비자",
+    "위원회",
+    "화장실",
+    "행안부",
+    "삼진주택",
+    "내란죄",
+    "태릉CC",
+    "전주혜",
+    "피해자",
+    "장애인 전용구역",
+    "건축물",
+    "공덕동상가",
+    "KDI",
+    "주차장",
+    "친환경차 충전구역",
+    "개인정보",
+    "충전구역 불법주차",
+    "충전구역 불법주차 신고",
+    "친환경차 충전구역 불법주차 신고",
+    "거울문",
+    "광주",
+    "거주자",
+    "버스정류소",
+    "소화전 불법 주정차 신고",
+    "장애인 전용구역 불법주차 신고",
+    "전용구역 불법주차"
+  ],
+  "merged_candidates": [
+    {
+      "label": "주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 2046.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차",
+          "value": "2046.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차",
+            "value": "2046.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1160.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차",
+          "value": "1160.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차",
+            "value": "1160.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 1128.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법 주정차 신고",
+          "value": "1128.0",
+          "rank": null,
+          "raw": {
+            "label": "불법 주정차 신고",
+            "value": "1128.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 812.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주정차 신고",
+          "value": "812.0",
+          "rank": null,
+          "raw": {
+            "label": "주정차 신고",
+            "value": "812.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 434.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차",
+          "value": "434.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차",
+            "value": "434.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "서울",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 304.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "서울",
+          "value": "304.0",
+          "rank": null,
+          "raw": {
+            "label": "서울",
+            "value": "304.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인도 불법",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 302.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인도 불법",
+          "value": "302.0",
+          "rank": null,
+          "raw": {
+            "label": "인도 불법",
+            "value": "302.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "인도 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 300.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "인도 불법 주정차 신고",
+          "value": "300.0",
+          "rank": null,
+          "raw": {
+            "label": "인도 불법 주정차 신고",
+            "value": "300.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "장애인",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 220.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "장애인",
+          "value": "220.0",
+          "rank": null,
+          "raw": {
+            "label": "장애인",
+            "value": "220.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "경기도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 218.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "경기도",
+          "value": "218.0",
+          "rank": null,
+          "raw": {
+            "label": "경기도",
+            "value": "218.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 202.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도",
+          "value": "202.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도",
+            "value": "202.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "횡단보도 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 190.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "횡단보도 불법 주정차 신고",
+          "value": "190.0",
+          "rank": null,
+          "raw": {
+            "label": "횡단보도 불법 주정차 신고",
+            "value": "190.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "과태료",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 178.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "과태료",
+          "value": "178.0",
+          "rank": null,
+          "raw": {
+            "label": "과태료",
+            "value": "178.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "소화전",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 176.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "소화전",
+          "value": "176.0",
+          "rank": null,
+          "raw": {
+            "label": "소화전",
+            "value": "176.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "기타 불법 주정차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 172.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "기타 불법 주정차 신고",
+          "value": "172.0",
+          "rank": null,
+          "raw": {
+            "label": "기타 불법 주정차 신고",
+            "value": "172.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "친환경차",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 170.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "친환경차",
+          "value": "170.0",
+          "rank": null,
+          "raw": {
+            "label": "친환경차",
+            "value": "170.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "불법주차 신고",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 158.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "불법주차 신고",
+          "value": "158.0",
+          "rank": null,
+          "raw": {
+            "label": "불법주차 신고",
+            "value": "158.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "신발장",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 150.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "신발장",
+          "value": "150.0",
+          "rank": null,
+          "raw": {
+            "label": "신발장",
+            "value": "150.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "경찰청",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 146.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "경찰청",
+          "value": "146.0",
+          "rank": null,
+          "raw": {
+            "label": "경찰청",
+            "value": "146.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "소비자",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 142.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "소비자",
+          "value": "142.0",
+          "rank": null,
+          "raw": {
+            "label": "소비자",
+            "value": "142.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "위원회",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 134.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "위원회",
+          "value": "134.0",
+          "rank": null,
+          "raw": {
+            "label": "위원회",
+            "value": "134.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "화장실",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 126.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "화장실",
+          "value": "126.0",
+          "rank": null,
+          "raw": {
+            "label": "화장실",
+            "value": "126.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "행안부",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 120.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "행안부",
+          "value": "120.0",
+          "rank": null,
+          "raw": {
+            "label": "행안부",
+            "value": "120.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "삼진주택",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 118.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "삼진주택",
+          "value": "118.0",
+          "rank": null,
+          "raw": {
+            "label": "삼진주택",
+            "value": "118.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "내란죄",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 108.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "내란죄",
+          "value": "108.0",
+          "rank": null,
+          "raw": {
+            "label": "내란죄",
+            "value": "108.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "태릉CC",
+      "total_score": 4.5,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 108.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "태릉CC",
+          "value": "108.0",
+          "rank": null,
+          "raw": {
+            "label": "태릉CC",
+            "value": "108.0"
+          },
+          "score": 4.5
+        }
+      ]
+    },
+    {
+      "label": "전주혜",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 96.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "전주혜",
+          "value": "96.0",
+          "rank": null,
+          "raw": {
+            "label": "전주혜",
+            "value": "96.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "피해자",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 96.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "피해자",
+          "value": "96.0",
+          "rank": null,
+          "raw": {
+            "label": "피해자",
+            "value": "96.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "장애인 전용구역",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 88.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "장애인 전용구역",
+          "value": "88.0",
+          "rank": null,
+          "raw": {
+            "label": "장애인 전용구역",
+            "value": "88.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "건축물",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 84.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "건축물",
+          "value": "84.0",
+          "rank": null,
+          "raw": {
+            "label": "건축물",
+            "value": "84.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "공덕동상가",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 84.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "공덕동상가",
+          "value": "84.0",
+          "rank": null,
+          "raw": {
+            "label": "공덕동상가",
+            "value": "84.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "KDI",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 82.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "KDI",
+          "value": "82.0",
+          "rank": null,
+          "raw": {
+            "label": "KDI",
+            "value": "82.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "주차장",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 82.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "주차장",
+          "value": "82.0",
+          "rank": null,
+          "raw": {
+            "label": "주차장",
+            "value": "82.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "친환경차 충전구역",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 82.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "친환경차 충전구역",
+          "value": "82.0",
+          "rank": null,
+          "raw": {
+            "label": "친환경차 충전구역",
+            "value": "82.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "개인정보",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 80.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "개인정보",
+          "value": "80.0",
+          "rank": null,
+          "raw": {
+            "label": "개인정보",
+            "value": "80.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "충전구역 불법주차",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 80.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "충전구역 불법주차",
+          "value": "80.0",
+          "rank": null,
+          "raw": {
+            "label": "충전구역 불법주차",
+            "value": "80.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "충전구역 불법주차 신고",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 80.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "충전구역 불법주차 신고",
+          "value": "80.0",
+          "rank": null,
+          "raw": {
+            "label": "충전구역 불법주차 신고",
+            "value": "80.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "친환경차 충전구역 불법주차 신고",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 80.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "친환경차 충전구역 불법주차 신고",
+          "value": "80.0",
+          "rank": null,
+          "raw": {
+            "label": "친환경차 충전구역 불법주차 신고",
+            "value": "80.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "거울문",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 78.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "거울문",
+          "value": "78.0",
+          "rank": null,
+          "raw": {
+            "label": "거울문",
+            "value": "78.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "광주",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 78.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "광주",
+          "value": "78.0",
+          "rank": null,
+          "raw": {
+            "label": "광주",
+            "value": "78.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "거주자",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 76.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "거주자",
+          "value": "76.0",
+          "rank": null,
+          "raw": {
+            "label": "거주자",
+            "value": "76.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "버스정류소",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 76.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "버스정류소",
+          "value": "76.0",
+          "rank": null,
+          "raw": {
+            "label": "버스정류소",
+            "value": "76.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "소화전 불법 주정차 신고",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 76.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "소화전 불법 주정차 신고",
+          "value": "76.0",
+          "rank": null,
+          "raw": {
+            "label": "소화전 불법 주정차 신고",
+            "value": "76.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "장애인 전용구역 불법주차 신고",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 76.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "장애인 전용구역 불법주차 신고",
+          "value": "76.0",
+          "rank": null,
+          "raw": {
+            "label": "장애인 전용구역 불법주차 신고",
+            "value": "76.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "전용구역 불법주차",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 76.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "전용구역 불법주차",
+          "value": "76.0",
+          "rank": null,
+          "raw": {
+            "label": "전용구역 불법주차",
+            "value": "76.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "갈현로",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 74.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "갈현로",
+          "value": "74.0",
+          "rank": null,
+          "raw": {
+            "label": "갈현로",
+            "value": "74.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "민법",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 74.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "민법",
+          "value": "74.0",
+          "rank": null,
+          "raw": {
+            "label": "민법",
+            "value": "74.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "살인사주",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 74.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "살인사주",
+          "value": "74.0",
+          "rank": null,
+          "raw": {
+            "label": "살인사주",
+            "value": "74.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "서울특별시경찰청",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 74.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "서울특별시경찰청",
+          "value": "74.0",
+          "rank": null,
+          "raw": {
+            "label": "서울특별시경찰청",
+            "value": "74.0"
+          },
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "label": "전용구역 불법주차 신고",
+      "total_score": 4.0,
+      "sources": [
+        "core_keywords"
+      ],
+      "best_rank": null,
+      "max_value": 74.0,
+      "raw_items": [
+        {
+          "dataset_type": "core_keywords",
+          "dataset_label": "핵심 키워드",
+          "entity_type": "keyword",
+          "label": "전용구역 불법주차 신고",
+          "value": "74.0",
+          "rank": null,
+          "raw": {
+            "label": "전용구역 불법주차 신고",
+            "value": "74.0"
+          },
+          "score": 4.0
+        }
+      ]
+    }
+  ]
+}

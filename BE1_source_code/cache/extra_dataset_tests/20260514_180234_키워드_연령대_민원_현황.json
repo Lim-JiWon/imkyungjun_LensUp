@@ -1,0 +1,79 @@
+{
+  "name": "키워드 연령대 민원 현황",
+  "ok": true,
+  "status_code": 200,
+  "url": "https://apis.data.go.kr/1140100/minAnalsInfoView5/minPttnStstAgeInfo5",
+  "final_url": "https://apis.data.go.kr/1140100/minAnalsInfoView5/minPttnStstAgeInfo5?serviceKey=2c250****213df&searchword=%EA%B3%B5%EC%9B%90&dateFrom=20260328&dateTo=20260513&resultCount=10&target=pttn&dataType=json",
+  "params": {
+    "serviceKey": "2c250****213df",
+    "searchword": "공원",
+    "dateFrom": "20260328",
+    "dateTo": "20260513",
+    "resultCount": 10,
+    "target": "pttn",
+    "dataType": "json"
+  },
+  "content_type": "text/plain;charset=utf-8",
+  "raw_text_preview": "[{\"hits\":18331,\"label\":\"NONE\"},{\"hits\":2455,\"label\":\"40\"},{\"hits\":1562,\"label\":\"50\"},{\"hits\":1508,\"label\":\"30\"},{\"hits\":878,\"label\":\"60\"},{\"hits\":366,\"label\":\"20\"},{\"hits\":310,\"label\":\"70\"},{\"hits\":51,\"label\":\"10\"},{\"hits\":13,\"label\":\"80\"}]",
+  "json": [
+    {
+      "hits": 18331,
+      "label": "NONE"
+    },
+    {
+      "hits": 2455,
+      "label": "40"
+    },
+    {
+      "hits": 1562,
+      "label": "50"
+    },
+    {
+      "hits": 1508,
+      "label": "30"
+    },
+    {
+      "hits": 878,
+      "label": "60"
+    },
+    {
+      "hits": 366,
+      "label": "20"
+    },
+    {
+      "hits": 310,
+      "label": "70"
+    },
+    {
+      "hits": 51,
+      "label": "10"
+    },
+    {
+      "hits": 13,
+      "label": "80"
+    }
+  ],
+  "items_count": 9,
+  "items_preview": [
+    {
+      "hits": 18331,
+      "label": "NONE"
+    },
+    {
+      "hits": 2455,
+      "label": "40"
+    },
+    {
+      "hits": 1562,
+      "label": "50"
+    },
+    {
+      "hits": 1508,
+      "label": "30"
+    },
+    {
+      "hits": 878,
+      "label": "60"
+    }
+  ]
+}
