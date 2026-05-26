@@ -824,7 +824,7 @@ function DemoLanding() {
 
             <p className="subtitle">
               급등 키워드, 지역·기관별 민원 흐름, 이슈 브리핑을 한 화면에서
-              보여주는 캡스톤 프로젝트 데모입니다.
+              보여주는 서비스 입니다.
             </p>
 
             <div className="pill-row">
@@ -986,29 +986,36 @@ function DemoLanding() {
                     </div>
                   </div>
 
-                  <div className="chart-box">
-                    {trendRows.length > 0 ? (
-                      trendRows.map((item, index) => {
-                        const height =
-                          item.value > 0
-                            ? Math.max((item.value / maxTrendValue) * 120, 24)
-                            : 12;
+                  <div className="chart-section" style={{ marginTop: "20px" }}>
+                    <div className="side-title side-title-with-tooltip">
+                      <span>최근 키워드 추이</span>
+                      <InfoTooltip text="기간 내 민원 언급량 변화에 따른 그래프입니다." />
+                    </div>
 
-                        return (
-                          <div
-                            key={`${item.label}-${index}`}
-                            className="bar"
-                            title={`${item.label}: ${item.value}`}
-                            style={{
-                              height: `${height}px`,
-                              animationDelay: `${index * 0.08}s`,
-                            }}
-                          />
-                        );
-                      })
-                    ) : (
-                      <div className="chart-empty">트렌드 데이터 없음</div>
-                    )}
+                    <div className="chart-box" style={{ marginTop: 0 }}>
+                      {trendRows.length > 0 ? (
+                        trendRows.map((item, index) => {
+                          const height =
+                            item.value > 0
+                              ? Math.max((item.value / maxTrendValue) * 120, 24)
+                              : 12;
+
+                          return (
+                            <div
+                              key={`${item.label}-${index}`}
+                              className="bar"
+                              title={`${item.label}: ${item.value}`}
+                              style={{
+                                height: `${height}px`,
+                                animationDelay: `${index * 0.08}s`,
+                              }}
+                            />
+                          );
+                        })
+                      ) : (
+                        <div className="chart-empty">트렌드 데이터 없음</div>
+                      )}
+                    </div>
                   </div>
                 </div>
 
@@ -1106,7 +1113,7 @@ function DemoLanding() {
               </h2>
 
               <p style={regionSectionStyles.desc}>
-                대한민국 GIS로 기반한 시, 도 행정구역 기반으로 지역별 민원 이슈
+                대한민국 GIS 기반 시·도 행정구역을 기준으로 지역별 민원 이슈
                 수를 지도 위에 표시합니다.
               </p>
             </div>
@@ -1197,13 +1204,13 @@ function DemoLanding() {
                     )}
                   </div>
 
-                  <div style={regionSectionStyles.issueList}>
-                    <h3 style={regionSectionStyles.sideTitle}>
-                      선택 지역 관련 이슈
-                    </h3>
+                  {selectedRegionIssues.length > 0 && (
+                    <div style={regionSectionStyles.issueList}>
+                      <h3 style={regionSectionStyles.sideTitle}>
+                        선택 지역 관련 이슈
+                      </h3>
 
-                    {selectedRegionIssues.length > 0 ? (
-                      selectedRegionIssues.map((issue, index) => (
+                      {selectedRegionIssues.map((issue, index) => (
                         <div
                           key={`${issue.id || issue.title || index}`}
                           style={regionSectionStyles.issueItem}
@@ -1220,20 +1227,9 @@ function DemoLanding() {
                             · 점수 {issue.score ?? "-"}
                           </div>
                         </div>
-                      ))
-                    ) : (
-                      <div style={regionSectionStyles.issueItem}>
-                        <p style={regionSectionStyles.issueTitle}>
-                          선택한 지역의 상세 이슈가 아직 없습니다.
-                        </p>
-
-                        <div style={regionSectionStyles.issueMeta}>
-                          지역 순위 데이터 기준으로는{" "}
-                          {selectedRegionCount || 0}건이 확인됩니다.
-                        </div>
-                      </div>
-                    )}
-                  </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             )}

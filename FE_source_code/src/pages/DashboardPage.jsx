@@ -57,13 +57,68 @@ function getIssueTitle(issue) {
   );
 }
 
+function normalizeStatusText(value) {
+  const rawStatus = String(value || "").trim();
+
+  if (!rawStatus) return "";
+
+  const lowerStatus = rawStatus.toLowerCase();
+
+  const statusMap = {
+    critical: "강한 징후",
+    severe: "강한 징후",
+    danger: "강한 징후",
+    urgent: "긴급 확인",
+    high: "높은 위험",
+    medium: "주의 필요",
+    moderate: "주의 필요",
+    watch: "관찰 필요",
+    warning: "주의 필요",
+    caution: "주의 필요",
+    low: "낮은 위험",
+    stable: "안정",
+    normal: "정상",
+    rising: "증가 추세",
+    increasing: "증가 추세",
+    up: "증가 추세",
+    decreasing: "감소 추세",
+    down: "감소 추세",
+    falling: "감소 추세",
+  };
+
+  if (statusMap[lowerStatus]) {
+    return statusMap[lowerStatus];
+  }
+
+  if (lowerStatus.includes("critical")) return "강한 징후";
+  if (lowerStatus.includes("severe")) return "강한 징후";
+  if (lowerStatus.includes("danger")) return "강한 징후";
+  if (lowerStatus.includes("urgent")) return "긴급 확인";
+  if (lowerStatus.includes("high")) return "높은 위험";
+  if (lowerStatus.includes("medium")) return "주의 필요";
+  if (lowerStatus.includes("moderate")) return "주의 필요";
+  if (lowerStatus.includes("watch")) return "관찰 필요";
+  if (lowerStatus.includes("warning")) return "주의 필요";
+  if (lowerStatus.includes("low")) return "낮은 위험";
+  if (lowerStatus.includes("stable")) return "안정";
+  if (lowerStatus.includes("normal")) return "정상";
+  if (lowerStatus.includes("rising")) return "증가 추세";
+  if (lowerStatus.includes("increasing")) return "증가 추세";
+  if (lowerStatus.includes("decreasing")) return "감소 추세";
+  if (lowerStatus.includes("falling")) return "감소 추세";
+
+  return rawStatus;
+}
+
 function getIssueStatus(issue) {
-  return (
+  const rawStatus =
     issue?.signal_status ||
     issue?.status ||
     issue?.trend_direction ||
-    "상태 확인 중"
-  );
+    issue?.risk_level ||
+    "";
+
+  return normalizeStatusText(rawStatus) || "상태 확인 중";
 }
 
 function getIssueSummary(issue) {
@@ -79,12 +134,18 @@ function getIssueSummary(issue) {
 function isStrongSignal(issue) {
   const score = getIssueScore(issue);
   const riskLevel = String(issue?.risk_level || "").toLowerCase();
-  const status = String(issue?.signal_status || issue?.status || "");
+  const status = String(
+    issue?.signal_status || issue?.status || issue?.trend_direction || ""
+  ).toLowerCase();
 
   return (
     score >= 80 ||
     riskLevel.includes("critical") ||
     riskLevel.includes("high") ||
+    status.includes("critical") ||
+    status.includes("high") ||
+    status.includes("severe") ||
+    status.includes("danger") ||
     status.includes("강한") ||
     status.includes("위험") ||
     status.includes("확산")
@@ -330,7 +391,9 @@ function DashboardPage() {
             <h1>
               민원 흐름을
               <br />
-              한 화면에서 쉽게 확인하세요
+              한 화면에서 쉽게
+              <br /> 
+              확인하세요
             </h1>
 
             <p>
@@ -484,13 +547,13 @@ function DashboardPage() {
           <aside className="dashboard-side-panel">
             <div className="dashboard-section-header small">
               <span>연동 상태</span>
-              <h2>백엔드 데이터 기준으로 자동 갱신됩니다</h2>
+              <h2>데이터 기준으로 자동 갱신됩니다</h2>
             </div>
 
             <div className="dashboard-sync-list">
               <div>
                 <span>API</span>
-                <strong>GET /dashboard</strong>
+                <strong>대시보드</strong>
               </div>
 
               <div>
@@ -512,7 +575,7 @@ function DashboardPage() {
             <div className="dashboard-mini-note">
               <strong>계산 기준</strong>
               <p>
-                강한 징후는 점수 80점 이상, risk_level이 critical/high,
+                강한 징후는 점수 80점 이상, 위험도 값이 강한 징후/높은 위험,
                 또는 상태값에 강한·위험·확산 문구가 포함된 이슈를 기준으로
                 계산합니다.
               </p>

@@ -40,6 +40,36 @@ a {
   color: #5b6473;
 }
 
+/* 로고 위치/크기 수정 */
+.nav-brand,
+.nav-inner > a:first-child {
+  position: absolute !important;
+  left: 8px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 16px;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.nav-brand:hover,
+.nav-inner > a:first-child:hover {
+  background: rgba(37, 99, 235, 0.08);
+  transform: translateY(-1px);
+}
+
+.nav-logo-img,
+.nav-inner > a:first-child img {
+  width: 46px !important;
+  height: 46px !important;
+  object-fit: contain;
+  display: block;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -548,7 +578,12 @@ h1 {
 .page-shell {
   min-height: calc(100vh - 76px);
   padding: 48px 20px 80px;
-  background: radial-gradient(circle at top, #e8f1ff 0%, #f8fbff 35%, #ffffff 100%);
+  background: radial-gradient(
+    circle at top,
+    #e8f1ff 0%,
+    #f8fbff 35%,
+    #ffffff 100%
+  );
 }
 
 .page-card {
@@ -641,11 +676,27 @@ h1 {
 
 @media (max-width: 860px) {
   .nav-inner {
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0 20px;
+    gap: 12px;
+  }
+
+  .nav-brand,
+  .nav-inner > a:first-child {
+    position: static !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 14px;
+  }
+
+  .nav-logo-img,
+  .nav-inner > a:first-child img {
+    width: 38px !important;
+    height: 38px !important;
   }
 
   .nav-menu {
+    flex: 1;
     gap: 20px;
     font-size: 14px;
     flex-wrap: wrap;
@@ -702,6 +753,19 @@ h1 {
 
   .nav-inner {
     gap: 12px 18px;
+    align-items: flex-start;
+  }
+
+  .nav-brand,
+  .nav-inner > a:first-child {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .nav-logo-img,
+  .nav-inner > a:first-child img {
+    width: 34px !important;
+    height: 34px !important;
   }
 
   .nav-menu {

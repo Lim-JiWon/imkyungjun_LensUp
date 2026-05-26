@@ -32,10 +32,10 @@ const features = [
   },
   {
     number: "05",
-    title: "민원 검색과 자동완성",
+    title: "민원 검색과 유사 키워드",
     description:
       "사용자가 입력한 검색어와 관련된 민원 이슈를 찾고, 유사 키워드까지 함께 추천합니다.",
-    detail: "검색어 별칭 · 연관어 · 자동완성 지원",
+    detail: "민원검색 · 연관어",
   },
   {
     number: "06",
@@ -59,7 +59,9 @@ export default function CoreFeaturesPage() {
         <h1>
           민원 데이터를 읽고,
           <br />
-          사회 이슈의 징후를 먼저 발견합니다.
+          사회 이슈의 징후를
+          <br />
+          먼저 발견합니다.
         </h1>
 
         <p>

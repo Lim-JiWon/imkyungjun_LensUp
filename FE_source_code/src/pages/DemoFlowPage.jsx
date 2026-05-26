@@ -85,7 +85,9 @@ function DemoFlowPage() {
             <h1>
               민원 데이터가
               <br />
-              화면에 표시되기까지
+              화면에 표시되기
+              <br />
+              까지
             </h1>
 
             <p>

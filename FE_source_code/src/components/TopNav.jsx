@@ -30,6 +30,32 @@ function TopNav() {
   return (
     <header className="navbar">
       <nav className="nav-inner">
+        <NavLink
+          to="/"
+          aria-label="메인 화면으로 이동"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "50px",
+            height: "50px",
+            borderRadius: "14px",
+            textDecoration: "none",
+            flexShrink: 0,
+          }}
+        >
+          <img
+            src="/minwon-logo.png"
+            alt="민원AI 로고"
+            style={{
+              width: "46px",
+              height: "46px",
+              objectFit: "contain",
+              display: "block",
+            }}
+          />
+        </NavLink>
+
         <div className="nav-menu">
           {menus.map((menu) => (
             <NavLink

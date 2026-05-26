@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/TopicComplaintPage.css";
 
@@ -53,23 +54,107 @@ function normalizeCategoryData(data) {
   return [];
 }
 
-function getStatusLabel(status) {
-  if (status === "warning") return "위험 징후";
-  if (status === "growing") return "확산 중";
-  if (status === "watch") return "주의 관찰";
-  if (status === "stable") return "안정";
-  return status || "상태 미정";
+function getIssueId(issue) {
+  const directId =
+    issue?.id ??
+    issue?.issue_id ??
+    issue?.issueId ??
+    issue?.dashboard_id ??
+    issue?.dashboardId ??
+    null;
+
+  if (directId !== null && directId !== undefined && directId !== "") {
+    return directId;
+  }
+
+  const detailApi = issue?.detail_api || issue?.detailApi;
+
+  if (detailApi) {
+    try {
+      const path = detailApi.startsWith("http")
+        ? new URL(detailApi).pathname
+        : detailApi;
+
+      const parts = path.split("/").filter(Boolean);
+      return parts[parts.length - 1] || null;
+    } catch {
+      return null;
+    }
+  }
+
+  return null;
+}
+
+function getStatusLabel(issue) {
+  const statusValue = String(issue?.signal_status || issue?.status || "")
+    .toLowerCase()
+    .trim();
+
+  if (statusValue === "critical") return "강한 징후";
+  if (statusValue === "growing") return "증가 추세";
+  if (statusValue === "watch") return "관찰 필요";
+  if (statusValue === "stable") return "안정";
+  if (statusValue === "warning") return "주의";
+  if (statusValue === "alert") return "경고";
+  if (statusValue === "normal") return "정상";
+  if (statusValue === "high") return "강한 징후";
+  if (statusValue === "medium") return "관찰 필요";
+  if (statusValue === "low") return "안정";
+
+  const riskValue = String(issue?.risk_level || "")
+    .toLowerCase()
+    .trim();
+
+  if (riskValue === "critical") return "강한 징후";
+  if (riskValue === "high") return "강한 징후";
+  if (riskValue === "medium") return "관찰 필요";
+  if (riskValue === "watch") return "관찰 필요";
+  if (riskValue === "low") return "안정";
+
+  const score = Number(issue?.score);
+
+  if (!Number.isNaN(score)) {
+    if (score >= 80) return "강한 징후";
+    if (score >= 60) return "증가 추세";
+    if (score >= 40) return "관찰 필요";
+    return "안정";
+  }
+
+  return "관찰 필요";
 }
 
 function getRiskLabel(riskLevel) {
-  if (riskLevel === "critical") return "매우 높음";
-  if (riskLevel === "high") return "높음";
-  if (riskLevel === "medium") return "보통";
-  if (riskLevel === "low") return "낮음";
+  const value = String(riskLevel || "").toLowerCase().trim();
+
+  if (value === "critical") return "매우 높음";
+  if (value === "high") return "높음";
+  if (value === "medium") return "보통";
+  if (value === "low") return "낮음";
+  if (value === "watch") return "관찰 필요";
+
   return riskLevel || "미정";
 }
 
+function getKeywordText(keyword) {
+  if (typeof keyword === "string") return keyword;
+
+  if (keyword && typeof keyword === "object") {
+    return (
+      keyword.keyword ||
+      keyword.name ||
+      keyword.label ||
+      keyword.text ||
+      keyword.title ||
+      ""
+    );
+  }
+
+  return "";
+}
+
 function TopicComplaintPage() {
+  const navigate = useNavigate();
+
   const [categoryGroups, setCategoryGroups] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("전체");
   const [searchText, setSearchText] = useState("");
@@ -128,7 +213,7 @@ function TopicComplaintPage() {
         const summary = issue.summary || "";
         const topKeyword = issue.top_keyword || "";
         const keywords = Array.isArray(issue.keywords)
-          ? issue.keywords.join(" ")
+          ? issue.keywords.map(getKeywordText).join(" ")
           : "";
 
         return `${title} ${summary} ${topKeyword} ${keywords}`
@@ -139,6 +224,24 @@ function TopicComplaintPage() {
 
     return result;
   }, [allIssues, selectedCategory, searchText]);
+
+  const handleIssueClick = (issue) => {
+    const issueId = getIssueId(issue);
+
+    if (!issueId) {
+      alert("이 이슈는 상세 페이지로 이동할 수 있는 ID가 없습니다.");
+      return;
+    }
+
+    navigate(`/issues/${issueId}`);
+  };
+
+  const handleIssueKeyDown = (event, issue) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      handleIssueClick(issue);
+    }
+  };
 
   return (
     <main className="topic-page">
@@ -198,7 +301,9 @@ function TopicComplaintPage() {
           </div>
 
           {isLoading && (
-            <div className="topic-state-box">주제별 민원 데이터를 불러오는 중입니다.</div>
+            <div className="topic-state-box">
+              주제별 민원 데이터를 불러오는 중입니다.
+            </div>
           )}
 
           {!isLoading && errorMessage && (
@@ -213,50 +318,68 @@ function TopicComplaintPage() {
 
           {!isLoading && !errorMessage && filteredIssues.length > 0 && (
             <div className="topic-card-grid">
-              {filteredIssues.map((issue, index) => (
-                <article
-                  key={issue.id || issue.issue_key || index}
-                  className="topic-issue-card"
-                >
-                  <div className="topic-card-top">
-                    <span className="topic-chip">{issue.category}</span>
-                    <span className="topic-score">
-                      {issue.score !== undefined && issue.score !== null
-                        ? `${issue.score}점`
-                        : "점수 없음"}
-                    </span>
-                  </div>
+              {filteredIssues.map((issue, index) => {
+                const keywordList = (
+                  issue.keywords ||
+                  issue.category_tags ||
+                  issue.cluster_keywords ||
+                  []
+                )
+                  .map(getKeywordText)
+                  .filter(Boolean)
+                  .slice(0, 5);
 
-                  <h3>{issue.title || "제목 없음"}</h3>
-
-                  <p className="topic-summary">
-                    {issue.summary || "요약 정보가 없습니다."}
-                  </p>
-
-                  <div className="topic-meta-row">
-                    <div>
-                      <span>징후 상태</span>
-                      <strong>{getStatusLabel(issue.status)}</strong>
+                return (
+                  <article
+                    key={issue.id || issue.issue_key || index}
+                    className="topic-issue-card"
+                    role="button"
+                    tabIndex={0}
+                    title="이슈 상세 페이지로 이동"
+                    onClick={() => handleIssueClick(issue)}
+                    onKeyDown={(event) => handleIssueKeyDown(event, issue)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    <div className="topic-card-top">
+                      <span className="topic-chip">{issue.category}</span>
+                      <span className="topic-score">
+                        {issue.score !== undefined && issue.score !== null
+                          ? `${Math.round(Number(issue.score))}점`
+                          : "점수 없음"}
+                      </span>
                     </div>
-                    <div>
-                      <span>위험도</span>
-                      <strong>{getRiskLabel(issue.risk_level)}</strong>
-                    </div>
-                    <div>
-                      <span>민원 수</span>
-                      <strong>{issue.complaint_count ?? 0}건</strong>
-                    </div>
-                  </div>
 
-                  <div className="topic-keywords">
-                    {(issue.keywords || issue.category_tags || [])
-                      .slice(0, 5)
-                      .map((keyword) => (
+                    <h3>{issue.title || "제목 없음"}</h3>
+
+                    <p className="topic-summary">
+                      {issue.summary || "요약 정보가 없습니다."}
+                    </p>
+
+                    <div className="topic-meta-row">
+                      <div>
+                        <span>징후 상태</span>
+                        <strong>{getStatusLabel(issue)}</strong>
+                      </div>
+
+                      <div>
+                        <span>위험도</span>
+                        <strong>{getRiskLabel(issue.risk_level)}</strong>
+                      </div>
+
+                      <div>
+                        <span>민원 수</span>
+                        <strong>{issue.complaint_count ?? 0}건</strong>
+                      </div>
+                    </div>
+
+                    <div className="topic-keywords">
+                      {keywordList.map((keyword) => (
                         <span key={keyword}>#{keyword}</span>
                       ))}
-                  </div>
-                </article>
-              ))}
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           )}
         </section>

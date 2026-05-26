@@ -27,6 +27,56 @@ function FloatingChatBot() {
     bodyRef.current.scrollTop = bodyRef.current.scrollHeight;
   }, [messages, isOpen]);
 
+  const getTopicId = (topic) => {
+    const directId =
+      topic?.id ??
+      topic?.issue_id ??
+      topic?.issueId ??
+      topic?.dashboard_id ??
+      topic?.dashboardId ??
+      null;
+
+    if (directId) return directId;
+
+    const detailApi = topic?.detailApi || topic?.detail_api;
+
+    if (detailApi) {
+      try {
+        const path = detailApi.startsWith("http")
+          ? new URL(detailApi).pathname
+          : detailApi;
+
+        const parts = path.split("/").filter(Boolean);
+        return parts[parts.length - 1] || null;
+      } catch {
+        return null;
+      }
+    }
+
+    return null;
+  };
+
+  const normalizeTopic = (topic) => {
+    return {
+      ...topic,
+      id: getTopicId(topic),
+      title:
+        topic?.title ||
+        topic?.issue_title ||
+        topic?.issueTitle ||
+        "제목 없음",
+      summary: topic?.summary || topic?.description || "",
+      topKeyword:
+        topic?.topKeyword ||
+        topic?.top_keyword ||
+        topic?.keyword ||
+        topic?.matched_keyword ||
+        "",
+      riskLevel: topic?.riskLevel || topic?.risk_level || "",
+      score: topic?.score ?? topic?.match_score ?? null,
+    };
+  };
+
   const handleSend = async () => {
     const userInput = input.trim();
 
@@ -54,11 +104,13 @@ function FloatingChatBot() {
     try {
       const botResponse = await askChatBot(userInput);
 
-      const topics = Array.isArray(botResponse.topics)
+      const rawTopics = Array.isArray(botResponse.topics)
         ? botResponse.topics
         : Array.isArray(botResponse.results)
         ? botResponse.results
         : [];
+
+      const topics = rawTopics.map(normalizeTopic);
 
       const aiMessage = {
         role: "ai",
@@ -97,7 +149,9 @@ function FloatingChatBot() {
   };
 
   const handleTopicClick = (topic) => {
-    if (!topic?.id) {
+    const topicId = getTopicId(topic);
+
+    if (!topicId) {
       setMessages((prev) => [
         ...prev,
         {
@@ -110,7 +164,7 @@ function FloatingChatBot() {
     }
 
     setIsOpen(false);
-    navigate(`/dashboard/${topic.id}`);
+    navigate(`/issues/${topicId}`);
   };
 
   function getRiskText(riskLevel) {
@@ -123,6 +177,16 @@ function FloatingChatBot() {
     if (value === "watch") return "관찰 필요";
 
     return riskLevel || "";
+  }
+
+  function getScoreText(score) {
+    if (score === null || score === undefined || score === "") return null;
+
+    const numberScore = Number(score);
+
+    if (Number.isNaN(numberScore)) return null;
+
+    return Math.round(numberScore);
   }
 
   return (
@@ -172,99 +236,103 @@ function FloatingChatBot() {
                         marginTop: "10px",
                       }}
                     >
-                      {message.topics.slice(0, 3).map((topic, topicIndex) => (
-                        <button
-                          key={`${topic.title}-${topicIndex}`}
-                          type="button"
-                          onClick={() => handleTopicClick(topic)}
-                          style={{
-                            width: "100%",
-                            textAlign: "left",
-                            border: "1px solid rgba(37, 99, 235, 0.16)",
-                            background: "#ffffff",
-                            borderRadius: "16px",
-                            padding: "12px 14px",
-                            cursor: "pointer",
-                            boxShadow: "0 8px 20px rgba(15, 23, 42, 0.06)",
-                          }}
-                        >
-                          <div
+                      {message.topics.slice(0, 3).map((topic, topicIndex) => {
+                        const scoreText = getScoreText(topic.score);
+
+                        return (
+                          <button
+                            key={`${topic.id || topic.title}-${topicIndex}`}
+                            type="button"
+                            onClick={() => handleTopicClick(topic)}
                             style={{
-                              fontSize: "13px",
-                              fontWeight: 800,
-                              color: "#2563eb",
-                              marginBottom: "6px",
+                              width: "100%",
+                              textAlign: "left",
+                              border: "1px solid rgba(37, 99, 235, 0.16)",
+                              background: "#ffffff",
+                              borderRadius: "16px",
+                              padding: "12px 14px",
+                              cursor: "pointer",
+                              boxShadow: "0 8px 20px rgba(15, 23, 42, 0.06)",
                             }}
                           >
-                            {topic.topKeyword
-                              ? `#${topic.topKeyword}`
-                              : `추천 주제 ${topicIndex + 1}`}
-                          </div>
-
-                          <div
-                            style={{
-                              fontSize: "14px",
-                              fontWeight: 800,
-                              color: "#111827",
-                              lineHeight: 1.4,
-                              marginBottom: "6px",
-                            }}
-                          >
-                            {topic.title}
-                          </div>
-
-                          <div
-                            style={{
-                              fontSize: "13px",
-                              color: "#64748b",
-                              lineHeight: 1.45,
-                            }}
-                          >
-                            {topic.summary}
-                          </div>
-
-                          {(topic.riskLevel || topic.score !== null) && (
                             <div
                               style={{
-                                display: "flex",
-                                gap: "8px",
-                                flexWrap: "wrap",
-                                marginTop: "10px",
+                                fontSize: "13px",
+                                fontWeight: 800,
+                                color: "#2563eb",
+                                marginBottom: "6px",
                               }}
                             >
-                              {topic.riskLevel && (
-                                <span
-                                  style={{
-                                    padding: "5px 8px",
-                                    borderRadius: "999px",
-                                    background: "#eff6ff",
-                                    color: "#2563eb",
-                                    fontSize: "12px",
-                                    fontWeight: 700,
-                                  }}
-                                >
-                                  위험도 {getRiskText(topic.riskLevel)}
-                                </span>
-                              )}
-
-                              {topic.score !== null && (
-                                <span
-                                  style={{
-                                    padding: "5px 8px",
-                                    borderRadius: "999px",
-                                    background: "#f8fafc",
-                                    color: "#334155",
-                                    fontSize: "12px",
-                                    fontWeight: 700,
-                                  }}
-                                >
-                                  점수 {Math.round(Number(topic.score))}
-                                </span>
-                              )}
+                              {topic.topKeyword
+                                ? `#${topic.topKeyword}`
+                                : `추천 주제 ${topicIndex + 1}`}
                             </div>
-                          )}
-                        </button>
-                      ))}
+
+                            <div
+                              style={{
+                                fontSize: "14px",
+                                fontWeight: 800,
+                                color: "#111827",
+                                lineHeight: 1.4,
+                                marginBottom: "6px",
+                              }}
+                            >
+                              {topic.title}
+                            </div>
+
+                            <div
+                              style={{
+                                fontSize: "13px",
+                                color: "#64748b",
+                                lineHeight: 1.45,
+                              }}
+                            >
+                              {topic.summary}
+                            </div>
+
+                            {(topic.riskLevel || scoreText !== null) && (
+                              <div
+                                style={{
+                                  display: "flex",
+                                  gap: "8px",
+                                  flexWrap: "wrap",
+                                  marginTop: "10px",
+                                }}
+                              >
+                                {topic.riskLevel && (
+                                  <span
+                                    style={{
+                                      padding: "5px 8px",
+                                      borderRadius: "999px",
+                                      background: "#eff6ff",
+                                      color: "#2563eb",
+                                      fontSize: "12px",
+                                      fontWeight: 700,
+                                    }}
+                                  >
+                                    위험도 {getRiskText(topic.riskLevel)}
+                                  </span>
+                                )}
+
+                                {scoreText !== null && (
+                                  <span
+                                    style={{
+                                      padding: "5px 8px",
+                                      borderRadius: "999px",
+                                      background: "#f8fafc",
+                                      color: "#334155",
+                                      fontSize: "12px",
+                                      fontWeight: 700,
+                                    }}
+                                  >
+                                    점수 {scoreText}
+                                  </span>
+                                )}
+                              </div>
+                            )}
+                          </button>
+                        );
+                      })}
                     </div>
                   )}
               </div>
